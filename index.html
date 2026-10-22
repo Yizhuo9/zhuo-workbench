@@ -1320,6 +1320,34 @@ function extractArray(src,name){
   }
   return null;
 }
+function loadRemoteContent(){
+  function cacheKey(name){return 'zhuo_'+name.toLowerCase()+'_cache';}
+  function tryCache(name){
+    try{var c=JSON.parse(localStorage.getItem(cacheKey(name))||'null');if(c&&c.data&&c.data.length)return c.data;}catch(e){}
+    return null;
+  }
+  function fetchArr(file,setter){
+    return fetch(file,{cache:'no-store'}).then(function(r){return r.ok?r.json():Promise.reject(new Error('net'));})
+      .then(function(arr){if(arr&&arr.length){setter(arr);return arr.length;}return 0;})
+      ['catch'](function(){
+        var name=file==='./news.json'?'NEWS':'ENG';
+        var c=tryCache(name);
+        if(c){setter(c);return c.length;}
+        return 0;
+      });
+  }
+  var p1=fetchArr('./news.json',function(a){NEWS=a;});
+  var p2=fetchArr('./eng.json',function(a){ENG=a;});
+  Promise.all([p1,p2]).then(function(res){
+    if(res[0]||res[1]){
+      renderNews();renderEnglish();
+      try{
+        localStorage.setItem(cacheKey('NEWS'),JSON.stringify({data:NEWS,ts:Date.now()}));
+        localStorage.setItem(cacheKey('ENG'),JSON.stringify({data:ENG,ts:Date.now()}));
+      }catch(e){}
+    }
+  });
+}
 function ptrSet(v,text){
   var el=$('#ptr');
   el.textContent=text;
@@ -1332,18 +1360,28 @@ function pullRefresh(done){
     setTimeout(function(){ptrSet(0,'');done&&done();},1400);
     return;
   }
-  var url=location.href.split('#')[0].split('?')[0]+'?t='+Date.now();
   el.textContent='↻ 正在获取最新内容…';
-  fetch(url,{cache:'no-store'}).then(function(r){return r.ok?r.text():Promise.reject(new Error('net'));})
-    .then(function(txt){
-      var n=extractArray(txt,'NEWS'),m=extractArray(txt,'ENG'),changed=0;
-      if(n&&n.length&&JSON.stringify(n)!==JSON.stringify(NEWS)){NEWS=n;changed=n.length;}
-      if(m&&m.length&&JSON.stringify(m)!==JSON.stringify(ENG)){ENG=m;changed=changed||m.length;}
-      renderNews();renderEnglish();
-      el.textContent=changed?('↻ 已更新 · 新闻 '+NEWS.length+' 条 / 英语 '+ENG.length+' 段'):'↻ 已经是最新内容了';
-      setTimeout(function(){ptrSet(0,'');done&&done();},1200);
+  fetch('./news.json',{cache:'no-store'}).then(function(r){return r.ok?r.json():Promise.reject(new Error('net'));})
+    .then(function(n){
+      if(n&&n.length)NEWS=n;
+      return fetch('./eng.json',{cache:'no-store'}).then(function(r){return r.ok?r.json():Promise.reject(new Error('net'));})
+        .then(function(m){
+          if(m&&m.length)ENG=m;
+          renderNews();renderEnglish();
+          try{
+            localStorage.setItem('zhuo_news_cache',JSON.stringify({data:NEWS,ts:Date.now()}));
+            localStorage.setItem('zhuo_eng_cache',JSON.stringify({data:ENG,ts:Date.now()}));
+          }catch(e){}
+          el.textContent='↻ 已更新 · 新闻 '+NEWS.length+' 条 / 英语 '+ENG.length+' 段';
+          setTimeout(function(){ptrSet(0,'');done&&done();},1200);
+        });
     })['catch'](function(){
-      el.textContent='↻ 网络不通，内容与上次一致';
+      var cn=null,ce=null;
+      try{cn=JSON.parse(localStorage.getItem('zhuo_news_cache')||'null');ce=JSON.parse(localStorage.getItem('zhuo_eng_cache')||'null');}catch(e){}
+      if(cn&&cn.data&&cn.data.length)NEWS=cn.data;
+      if(ce&&ce.data&&ce.data.length)ENG=ce.data;
+      renderNews();renderEnglish();
+      el.textContent='↻ 网络不通，已用离线缓存';
       setTimeout(function(){ptrSet(0,'');done&&done();},1300);
     });
 }
@@ -1570,6 +1608,7 @@ function boot(){
   tick();setInterval(tick,1000);
   initAll();
   go((DB.ui&&DB.ui.page)||'home');
+  loadRemoteContent();
 }
 document.addEventListener('DOMContentLoaded',boot);
 })();
