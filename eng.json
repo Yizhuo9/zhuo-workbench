@@ -1,176 +1,86 @@
 [
- {
-  "id": "e1",
-  "title": "Wall Street Slides as Alphabet's AI Cash Burn Spooks Investors",
-  "src": "Reuters · 全球市场",
-  "en": "US stocks fell on Thursday as investors reassessed the cost of Big Tech's artificial intelligence spending spree. The Nasdaq Composite dropped 1.66% to 26,108, the S&P 500 lost 0.63% and the Dow slipped 0.59%. Alphabet was the heaviest drag, sliding 13.2% after quarterly revenue missed estimates and free cash flow turned negative at 9.07 billion dollars, wiping roughly 479 billion dollars off its market value. Communication services slumped 6.6%, the worst of eleven sectors. Small caps, by contrast, gained 0.8%, a sign that investors still see value outside the AI trade. Roughly 81% of S&P 500 companies reporting so far have beaten forecasts.",
-  "zh": "周四美股下跌，投资者重新评估大型科技公司人工智能巨额投入的成本。纳斯达克综合指数跌1.66%至26108点，标普500指数跌0.63%，道指跌0.59%。Alphabet跌幅最大，下挫13.2%，此前其季度营收不及预期，自由现金流转为负90.7亿美元，市值蒸发约4790亿美元。通信服务板块重挫6.6%，在十一个板块中表现最差。相比之下，小盘股上涨0.8%，显示投资者仍认为AI交易之外存在机会。目前已公布业绩的标普500公司中约81%超出预期。",
-  "vocab": [
-   [
-    "spending spree",
-    "n. 大手笔支出、疯狂采购"
-   ],
-   [
-    "drag",
-    "n. 拖累因素"
-   ],
-   [
-    "wipe off",
-    "phr. 抹去、蒸发"
-   ],
-   [
-    "small caps",
-    "n. 小盘股"
-   ],
-   [
-    "beat forecasts",
-    "phr. 超出预期"
-   ]
-  ]
- },
- {
-  "id": "e2",
-  "title": "Fed Holds Rates as Inflation Runs Hot Again",
-  "src": "Reuters · 全球央行",
-  "en": "The Federal Reserve left its benchmark rate in a range of 3.75% to 4% on Wednesday, a widely expected pause that was far from unanimous. The vote was 10 to 2, with Governor Lisa Cook and Cleveland Fed President Beth Hammack preferring a quarter-point increase. Policymakers called price pressures elevated and said they would gather more information before their next move. Data a day later showed why: September headline PCE inflation rose 3.6% from a year earlier, the fastest since May, while core PCE climbed 3.1%. Third-quarter GDP grew at a 3.4% annualised pace. Traders now price more than an 81% chance of a December hike.",
-  "zh": "美联储周三将基准利率维持在3.75%至4%区间，这一被广泛预期的暂停远非一致通过。投票结果为10比2，理事莉萨·库克与克利夫兰联储行长贝丝·哈玛克主张加息25个基点。决策者称价格压力偏高，并表示将在下次行动前收集更多信息。次日公布的数据说明了原因：9月整体PCE通胀同比上涨3.6%，为5月以来最快，核心PCE上涨3.1%。三季度GDP按年率计算增长3.4%。交易员目前认为12月加息概率超过81%。",
-  "vocab": [
-   [
-    "benchmark rate",
-    "n. 基准利率"
-   ],
-   [
-    "pause",
-    "n. 暂停（加息或降息）"
-   ],
-   [
-    "unanimous",
-    "adj. 一致同意的"
-   ],
-   [
-    "headline inflation",
-    "n. 整体通胀（未经剔除）"
-   ],
-   [
-    "price in",
-    "phr. 计入价格、反映预期"
-   ]
-  ]
- },
- {
-  "id": "e3",
-  "title": "Spain Mourns 69 Dead After Its Worst Rail Disaster in a Decade",
-  "src": "The Guardian · 国际",
-  "en": "Spain began three days of mourning on Thursday for the 69 people killed when two high-speed trains collided near the town of Urda, south of Madrid. A train operated by the state-owned Renfe struck the rear of a privately run Iryo service that had stopped on the same line from Madrid to Andalucia, knocking carriages down an embankment. About 540 people were on board. Officials said 110 were taken to hospital and 50 were still being treated. Transport Minister Oscar Puente said the LZB signalling system failed around 8.30am because of a computer fault, halting trains along some 63 kilometres of track, and that a control centre then wrongly ordered them to resume.",
-  "zh": "西班牙周四开始为期三天的哀悼，悼念在马德里以南乌尔达镇附近两列高铁相撞事故中遇难的69人。一列由国有西班牙国家铁路公司运营的列车追尾了停在马德里至安达卢西亚同一线路上的私营伊尔约公司列车，导致车厢冲下路堤。车上约有540人。官员称110人被送往医院，其中50人仍在接受治疗。交通大臣奥斯卡·普恩特表示，LZB信号系统因电脑故障于上午8时30分左右失效，导致约63公里路段上的列车停驶，随后一个调度中心错误地下令恢复运行。",
-  "vocab": [
-   [
-    "mourning",
-    "n. 哀悼、服丧期"
-   ],
-   [
-    "collide",
-    "v. 相撞"
-   ],
-   [
-    "embankment",
-    "n. 路堤、堤岸"
-   ],
-   [
-    "signalling system",
-    "n. 信号系统"
-   ],
-   [
-    "halt",
-    "v. 使停止、中断"
-   ]
-  ]
- },
- {
-  "id": "e4",
-  "title": "UN Assembly Votes 130 to 17 to End the Cuba Embargo",
-  "src": "CGTN · 国际",
-  "en": "The UN General Assembly adopted a resolution on Wednesday calling for an end to the decades-old US economic embargo on Cuba, by 130 votes to 17 with 25 abstentions. It was the 34th consecutive year the assembly has passed such a text. The resolution expresses concern about laws with extraterritorial effects, including the 1996 Helms-Burton Act, and urges states that apply them to repeal or invalidate them. Support slipped from last year, when the vote was 165 to 7 with 12 abstentions, and Germany, Italy and Latvia abstained for the first time. Cuban Foreign Minister Bruno Rodriguez called the result a new victory and said Cuba is not a threat, the embargo is.",
-  "zh": "联合国大会周三通过决议，以130票赞成、17票反对、25票弃权呼吁终止美国对古巴实施数十年的经济封锁。这是联大连续第34年通过此类文件。决议对具有域外效力的法律表示关切，包括1996年的《赫尔姆斯-伯顿法》，并敦促实施此类法律的国家予以撤销或废止。支持率较去年下滑，当时为165票赞成、7票反对、12票弃权，德国、意大利和拉脱维亚首次投下弃权票。古巴外长布鲁诺·罗德里格斯称这一结果是新的胜利，并表示古巴不是威胁，封锁才是。",
-  "vocab": [
-   [
-    "embargo",
-    "n. 禁运、封锁"
-   ],
-   [
-    "abstention",
-    "n. 弃权"
-   ],
-   [
-    "extraterritorial",
-    "adj. 具有域外效力的"
-   ],
-   [
-    "repeal",
-    "v. 撤销、废止"
-   ],
-   [
-    "invalidate",
-    "v. 使无效"
-   ]
-  ]
- },
- {
-  "id": "e5",
-  "title": "Samsung Posts a Record Quarter as AI Chips Tighten Their Grip",
-  "src": "Yonhap · 科技财经",
-  "en": "Samsung Electronics reported third-quarter operating profit of 107.4 trillion won, up 783% from a year earlier, becoming the first technology company to clear 100 trillion won in a single quarter. Revenue reached 195.25 trillion won, a record, and net profit rose 514.6% to 75.13 trillion won. The semiconductor division generated 106.5 trillion won of operating profit on 147.1 trillion won of sales, helped by strong demand for HBM4 memory and server solid-state drives, while the devices division posted a loss of 0.8 trillion won. The company plans capital spending of about 84.4 trillion won this year. Even so, shares fell more than 5% because profit narrowly missed estimates.",
-  "zh": "三星电子公布第三季度营业利润107.4万亿韩元，同比增长783%，成为首家单季营业利润突破100万亿韩元的科技企业。营收达195.25万亿韩元，创历史新高；净利润增长514.6%至75.13万亿韩元。半导体部门在147.1万亿韩元销售额上实现营业利润106.5万亿韩元，得益于HBM4存储与服务器固态硬盘的强劲需求；整机部门则亏损0.8万亿韩元。公司今年计划资本支出约84.4万亿韩元。即便如此，因利润略低于预期，其股价仍下跌超过5%。",
-  "vocab": [
-   [
-    "operating profit",
-    "n. 营业利润"
-   ],
-   [
-    "clear",
-    "v. 突破、超过（某个数值）"
-   ],
-   [
-    "solid-state drive",
-    "n. 固态硬盘"
-   ],
-   [
-    "capital spending",
-    "n. 资本支出"
-   ],
-   [
-    "narrowly miss",
-    "phr. 略微低于（预期）"
-   ]
-  ]
- },
- {
-  "id": "e6",
-  "title": "Apple Puts a Touchscreen on the Mac for the First Time",
-  "src": "Apple · 科技",
-  "en": "Apple has unveiled its first MacBook Pro with a touchscreen, ending a product philosophy it had defended for nearly two decades. The 14-inch and 16-inch models use a tandem OLED display Apple calls PROLED XDR, with peak brightness of 2,000 nits and a 120Hz refresh rate, and they bring the Dynamic Island to the Mac for the first time. They run on M5 Pro or M5 Max chips, support up to 128GB of unified memory and 16TB of storage, and Apple says the top model can run language models with hundreds of billions of parameters on the device itself. Battery life reaches 24 hours. Prices start at 22,999 yuan in China, with sales from November 6.",
-  "zh": "苹果发布首款配备触控屏的MacBook Pro，终结了其坚持近二十年的产品理念。14英寸与16英寸机型采用苹果称为PROLED XDR的双层串联OLED显示屏，峰值亮度2000尼特，刷新率120Hz，并首次将灵动岛引入Mac。新机搭载M5 Pro或M5 Max芯片，最高支持128GB统一内存与16TB存储，苹果称顶配机型可在设备本地运行参数规模达数千亿的大语言模型。续航最长可达24小时。中国大陆起售价22999元，11月6日开售。",
-  "vocab": [
-   [
-    "unveil",
-    "v. 发布、揭幕"
-   ],
-   [
-    "tandem OLED",
-    "n. 双层串联OLED"
-   ],
-   [
-    "refresh rate",
-    "n. 刷新率"
-   ],
-   [
-    "unified memory",
-    "n. 统一内存"
-   ],
-   [
-    "parameters",
-    "n. 参数（模型参数量）"
-   ]
-  ]
- }
+  {
+    "id": "e1",
+    "title": "Intel Suffers Worst Day Since 1974 as Weak Outlook Triggers Chip Rout",
+    "src": "Reuters · 全球科技",
+    "en": "Intel shares suffered their steepest one-day fall since 1974 on Friday, tumbling 28.58% after the chipmaker issued a far weaker-than-expected fourth-quarter outlook. Third-quarter revenue rose 21% to 16.51 billion dollars and adjusted profit came in at 52 cents a share, beating forecasts of 40 cents. But Intel projected fourth-quarter revenue of 15 billion to 16 billion dollars against analysts' average estimate of 17.07 billion, and adjusted profit of 25 cents versus 43 cents expected. Chief financial officer David Zinsner said personal-computer shipments could fall about 12% this year and that the company does not expect positive cash flow in 2026. The selloff dragged the Philadelphia Semiconductor Index down 7.2%, its biggest drop since June.",
+    "zh": "周五英特尔股价创下1974年以来最大单日跌幅，暴跌28.58%，原因是这家芯片制造商给出的四季度业绩指引远逊预期。三季度营收增长21%至165.1亿美元，调整后每股收益52美分，高于市场预期的40美分。但英特尔预计四季度营收为150亿至160亿美元，低于分析师平均预期的170.7亿美元；调整后每股收益预计25美分，而市场预期为43美分。首席财务官大卫·津斯纳表示，今年个人电脑出货量可能下降约12%，公司预计2026年不会产生正向现金流。这轮抛售拖累费城半导体指数下跌7.2%，为6月以来最大跌幅。",
+    "vocab": [
+      ["outlook", "n. 前景；（业绩）展望"],
+      ["tumble", "v. 暴跌；急剧下滑"],
+      ["guidance", "n. （公司发布的）业绩指引"],
+      ["shipment", "n. 出货量；装运"],
+      ["selloff", "n. 抛售；集中卖出"]
+    ]
+  },
+  {
+    "id": "e2",
+    "title": "Bank of Japan Holds at 1.25%, Declares Inflation Has Reached 2% Goal",
+    "src": "Nikkei · 全球央行",
+    "en": "The Bank of Japan held its policy rate at 1.25% on Friday in an eight-to-one vote, but signalled a hawkish shift by declaring for the first time that underlying inflation has broadly reached its 2% price-stability target. It is the first such assessment since the target was set in 2013. Policymakers warned that they must pay special attention to the risk of inflation overshooting. The board also decided to accelerate sales of exchange-traded funds, raising the annual pace to about 860 billion yen from January and cutting the time needed to unload the holdings to roughly 43 years from about 112. Governor Kazuo Ueda said the bank will keep raising rates and adjusting the degree of monetary easing.",
+    "zh": "日本央行周五以8比1的投票结果将政策利率维持在1.25%不变，但释放鹰派信号——首次宣布基础通胀已大体达到2%的物价稳定目标。这是该行2013年设定该目标以来首次作出这一评估。政策制定者警告，必须特别关注通胀超调的风险。董事会还决定加快出售交易所交易基金，自明年1月起将年度出售规模提高至约8600亿日元，完成全部持仓出售所需时间由此前约112年缩短至约43年。行长植田和男表示，央行将继续上调利率并调整货币宽松的程度。",
+    "vocab": [
+      ["underlying", "adj. 基础的；潜在的"],
+      ["hawkish", "adj. 鹰派的；倾向收紧政策的"],
+      ["overshoot", "v. 超出；超调"],
+      ["unload", "v. 抛售；卸下（持仓）"],
+      ["easing", "n. 宽松；放松"]
+    ]
+  },
+  {
+    "id": "e3",
+    "title": "Hackers Drain $6.3 Billion From Binance in Largest Crypto Theft on Record",
+    "src": "Reuters · 数字资产",
+    "en": "Binance, the world's largest cryptocurrency exchange, said hackers drained about 6.3 billion dollars of digital assets in what is believed to be the biggest crypto theft on record. The company described a complex attack and said it had frozen roughly 3 billion dollars of the affected funds with help from blockchain partners. An initial probe pointed to a compromised engineer's laptop, but a later investigation found additional points of breach. Blockchain firm TRM Labs said with high confidence that TraderTraitor, North Korea's elite hacking unit, was behind the raid, noting that an attacker moved about 6.36 billion dollars across ten blockchains, most of it within twenty minutes. Binance suspended withdrawals and pledged to cover all losses.",
+    "zh": "全球最大加密货币交易所币安表示，黑客盗走约63亿美元数字资产，这可能是有史以来规模最大的加密货币盗窃案。币安称这是一次“复杂攻击”，并表示已在区块链合作伙伴协助下冻结约30亿美元受影响资金。初步调查指向一名工程师的笔记本电脑被入侵，但后续调查发现了更多入侵点。区块链分析公司TRM Labs表示，高度确信朝鲜精锐黑客组织TraderTraitor策划了此次袭击，并指出攻击者跨10条区块链转移了约63.6亿美元，其中大部分在20分钟内完成。币安已暂停提现，并承诺承担全部损失。",
+    "vocab": [
+      ["drain", "v. 抽干；耗尽"],
+      ["breach", "n. 突破口；安全入侵"],
+      ["compromised", "adj. 被攻陷的；遭入侵的"],
+      ["pledge", "v. 承诺；保证"],
+      ["raid", "n. 突袭；盗窃行动"]
+    ]
+  },
+  {
+    "id": "e4",
+    "title": "Euro Zone Growth Beats Forecasts While German Inflation Cools to 2.8%",
+    "src": "Reuters · 欧洲经济",
+    "en": "The euro zone economy grew faster than expected in the third quarter, with preliminary data showing gross domestic product up 0.4% on the quarter and 1.3% on the year, both beating forecasts. The wider European Union expanded 0.5% on the quarter. Performance was mixed: Germany and Spain grew, Italy was flat, and France unexpectedly contracted 0.1%. Separately, German inflation cooled to 2.8% in October from 3.3% in September as energy price rises slowed. European Central Bank officials warned that inflation risks remain tilted to the upside, and a fresh ECB survey suggested euro area inflation may not return to the bank's 2% target until 2028.",
+    "zh": "欧元区经济第三季度增速快于预期，初步数据显示国内生产总值环比增长0.4%、同比增长1.3%，均超出市场预期。整个欧盟环比增长0.5%。各成员国表现不一：德国和西班牙实现增长，意大利持平，法国则意外萎缩0.1%。另外，受能源价格涨幅放缓影响，德国10月通胀率由9月的3.3%回落至2.8%。欧洲央行多位官员警告，通胀风险仍偏向上行；该行最新调查显示，欧元区通胀率可能要到2028年才会回到央行2%的目标水平。",
+    "vocab": [
+      ["preliminary", "adj. 初步的；预估的"],
+      ["contract", "v. 收缩；萎缩"],
+      ["cool", "v. 降温；回落"],
+      ["tilted", "adj. 偏向的；倾斜的"],
+      ["survey", "n. 调查；问卷"]
+    ]
+  },
+  {
+    "id": "e5",
+    "title": "Trump Weighs Renewed Strikes on Iran Days After US Midterm Vote",
+    "src": "Associated Press · 地缘局势",
+    "en": "President Donald Trump is preparing to resume military strikes on Iran as soon as November 4, the day after congressional midterm elections, three senior Gulf Arab officials said. Washington has told Gulf allies to get ready for a short, intense campaign aimed either at forcing Tehran back into a nuclear agreement or degrading its nuclear programme. Gulf governments are lobbying for de-escalation, fearing retaliation against their territory and energy infrastructure. The United States is sending a third aircraft carrier strike group, led by the USS Theodore Roosevelt, to the region with about 9,000 sailors and Marines aboard. Trump said the war would end very soon but insisted Iran must never obtain a nuclear weapon.",
+    "zh": "三名海湾国家高级官员称，特朗普总统准备最早于11月4日——即美国国会中期选举次日——恢复对伊朗的军事打击。华盛顿已告知海湾盟友做好准备，将发动一场短促而密集的军事行动，目的要么是迫使德黑兰重返核协议，要么是削弱其核计划。海湾国家政府正游说美方降级局势，担心本国领土和能源设施遭到报复。美国正向该地区派遣第三个航母打击群，由“西奥多·罗斯福”号率领，舰上约有9000名水兵和海军陆战队员。特朗普表示战争将很快结束，但坚称伊朗绝不能拥有核武器。",
+    "vocab": [
+      ["resume", "v. 恢复；重新开始"],
+      ["degrade", "v. 削弱；降级"],
+      ["retaliation", "n. 报复；反击"],
+      ["lobby", "v. 游说；施加影响"],
+      ["carrier", "n. 航空母舰；运输工具"]
+    ]
+  },
+  {
+    "id": "e6",
+    "title": "Amazon Cloud Growth Hits 39% but AI Spending Pushes Cash Flow Negative",
+    "src": "Financial Times · 科技财报",
+    "en": "Amazon reported third-quarter revenue of 201.94 billion dollars, up 12%, as its cloud unit accelerated for a sixth straight quarter. Amazon Web Services revenue rose 39% to 45.98 billion dollars, beating analysts' estimate of 38.2%, and the company said it expects growth above 40% in both 2027 and 2028. But the artificial intelligence infrastructure buildout came at a steep cost: purchases of property and equipment reached 77.26 billion dollars in the quarter, pushing free cash flow over the trailing twelve months to negative 42.4 billion dollars. Capital spending guidance for 2026 was held at 220 billion dollars. Chief executive Andy Jassy called AI a once-in-a-lifetime opportunity.",
+    "zh": "亚马逊公布三季度营收2019.44亿美元，同比增长12%，其云业务连续第六个季度加速增长。亚马逊云服务（AWS）营收增长39%至459.84亿美元，高于分析师38.2%的预期；公司称预计2027年和2028年增速都将超过40%。但人工智能基础设施的扩建代价高昂：当季购置物业设备支出达772.6亿美元，使过去12个月的自由现金流降至负424亿美元。2026年资本开支指引维持在2200亿美元不变。首席执行官安迪·贾西称人工智能是“一生一次的机会”。",
+    "vocab": [
+      ["accelerate", "v. 加速；增速"],
+      ["buildout", "n. 建设；扩建"],
+      ["steep", "adj. 高昂的；陡峭的"],
+      ["trailing", "adj. 滚动的（trailing twelve months 过去12个月）"],
+      ["guidance", "n. （公司发布的）业绩指引"]
+    ]
+  }
 ]
