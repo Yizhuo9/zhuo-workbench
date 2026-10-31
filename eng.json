@@ -1,86 +1,86 @@
 [
   {
     "id": "e1",
-    "title": "Intel Suffers Worst Day Since 1974 as Weak Outlook Triggers Chip Rout",
-    "src": "Reuters · 全球科技",
-    "en": "Intel shares suffered their steepest one-day fall since 1974 on Friday, tumbling 28.58% after the chipmaker issued a far weaker-than-expected fourth-quarter outlook. Third-quarter revenue rose 21% to 16.51 billion dollars and adjusted profit came in at 52 cents a share, beating forecasts of 40 cents. But Intel projected fourth-quarter revenue of 15 billion to 16 billion dollars against analysts' average estimate of 17.07 billion, and adjusted profit of 25 cents versus 43 cents expected. Chief financial officer David Zinsner said personal-computer shipments could fall about 12% this year and that the company does not expect positive cash flow in 2026. The selloff dragged the Philadelphia Semiconductor Index down 7.2%, its biggest drop since June.",
-    "zh": "周五英特尔股价创下1974年以来最大单日跌幅，暴跌28.58%，原因是这家芯片制造商给出的四季度业绩指引远逊预期。三季度营收增长21%至165.1亿美元，调整后每股收益52美分，高于市场预期的40美分。但英特尔预计四季度营收为150亿至160亿美元，低于分析师平均预期的170.7亿美元；调整后每股收益预计25美分，而市场预期为43美分。首席财务官大卫·津斯纳表示，今年个人电脑出货量可能下降约12%，公司预计2026年不会产生正向现金流。这轮抛售拖累费城半导体指数下跌7.2%，为6月以来最大跌幅。",
+    "title": "Big Tech Buybacks Stall as AI Spending Devours Cash",
+    "src": "Reuters · 全球市场",
+    "en": "Five of America's largest technology groups have all but stopped repurchasing their own shares as artificial intelligence capital spending swallows their cash. Microsoft, Alphabet, Amazon, Meta and Oracle returned just 9.3% of operating cash flow to shareholders through dividends and buybacks in the first three quarters of this year, the lowest share in at least fifteen years and down sharply from 27.4% a year earlier. The retreat removes a pillar that long supported rich technology valuations, leaving earnings-per-share growth to stand on its own. Rating agencies are taking note: S&P Global cut its outlook on Meta to negative, pointing to uncertainty around capital spending and free operating cash flow.",
+    "zh": "随着人工智能资本开支吞噬现金，美国五家最大科技集团已基本停止回购自家股票。今年前三季度，微软、Alphabet、亚马逊、Meta和甲骨文以股息和回购形式返还给股东的资金仅占其经营现金流的9.3%，为至少15年来最低水平，远低于去年同期的27.4%。这一退潮抽走了长期支撑科技股高估值的支柱，使每股收益增长不得不独自站住脚。评级机构已开始关注：标普全球将Meta的评级展望下调至负面，理由是其资本开支和自由经营现金流面临较大不确定性。",
     "vocab": [
-      ["outlook", "n. 前景；（业绩）展望"],
-      ["tumble", "v. 暴跌；急剧下滑"],
-      ["guidance", "n. （公司发布的）业绩指引"],
-      ["shipment", "n. 出货量；装运"],
-      ["selloff", "n. 抛售；集中卖出"]
+      ["repurchase", "v. 回购（股票）"],
+      ["swallow", "v. 吞噬；耗尽"],
+      ["pillar", "n. 支柱；核心支撑"],
+      ["retreat", "n. 退潮；退出"],
+      ["outlook", "n. （评级）展望"]
     ]
   },
   {
     "id": "e2",
-    "title": "Bank of Japan Holds at 1.25%, Declares Inflation Has Reached 2% Goal",
-    "src": "Nikkei · 全球央行",
-    "en": "The Bank of Japan held its policy rate at 1.25% on Friday in an eight-to-one vote, but signalled a hawkish shift by declaring for the first time that underlying inflation has broadly reached its 2% price-stability target. It is the first such assessment since the target was set in 2013. Policymakers warned that they must pay special attention to the risk of inflation overshooting. The board also decided to accelerate sales of exchange-traded funds, raising the annual pace to about 860 billion yen from January and cutting the time needed to unload the holdings to roughly 43 years from about 112. Governor Kazuo Ueda said the bank will keep raising rates and adjusting the degree of monetary easing.",
-    "zh": "日本央行周五以8比1的投票结果将政策利率维持在1.25%不变，但释放鹰派信号——首次宣布基础通胀已大体达到2%的物价稳定目标。这是该行2013年设定该目标以来首次作出这一评估。政策制定者警告，必须特别关注通胀超调的风险。董事会还决定加快出售交易所交易基金，自明年1月起将年度出售规模提高至约8600亿日元，完成全部持仓出售所需时间由此前约112年缩短至约43年。行长植田和男表示，央行将继续上调利率并调整货币宽松的程度。",
+    "title": "Hyperscalers Pledge Over Three Trillion Dollars for AI Infrastructure",
+    "src": "Bloomberg · AI基建",
+    "en": "Alphabet, Meta, Microsoft, Amazon and Oracle have pledged more than three trillion dollars for artificial intelligence infrastructure over coming years, according to their filings. Alphabet disclosed contractual commitments above one trillion dollars, nearly eight times the level a year earlier, spanning equipment, energy and leases. Meta's future pledges exceed eight hundred billion dollars, with almost half tied to data-centre leases that have not yet begun and are payable over terms of up to thirty years. Across the five companies, lease-payment commitments total roughly 1.3 trillion dollars and other purchase commitments about 1.9 trillion dollars. Oracle became the first large technology group pushed into negative free cash flow by data-centre spending.",
+    "zh": "根据各家公司的监管披露文件，Alphabet、Meta、微软、亚马逊和甲骨文承诺未来数年为人工智能基础设施投入超过3万亿美元。Alphabet披露的合同承诺总额超过1万亿美元，接近一年前的八倍，涵盖技术设备、能源和租赁。Meta的未来支出承诺超过8000亿美元，其中近一半对应尚未生效、最长分30年支付的数据中心租约。五家公司未来的租赁付款承诺合计约1.3万亿美元，其他采购承诺约1.9万亿美元。甲骨文成为首家因数据中心投入而被推入自由现金流为负的大型科技公司。",
     "vocab": [
-      ["underlying", "adj. 基础的；潜在的"],
-      ["hawkish", "adj. 鹰派的；倾向收紧政策的"],
-      ["overshoot", "v. 超出；超调"],
-      ["unload", "v. 抛售；卸下（持仓）"],
-      ["easing", "n. 宽松；放松"]
+      ["pledge", "v./n. 承诺；保证"],
+      ["commitment", "n. 承诺付款；合同义务"],
+      ["lease", "n. 租约；租赁"],
+      ["payable", "adj. 应付的；到期需支付的"],
+      ["filings", "n. 监管披露文件"]
     ]
   },
   {
     "id": "e3",
-    "title": "Hackers Drain $6.3 Billion From Binance in Largest Crypto Theft on Record",
-    "src": "Reuters · 数字资产",
-    "en": "Binance, the world's largest cryptocurrency exchange, said hackers drained about 6.3 billion dollars of digital assets in what is believed to be the biggest crypto theft on record. The company described a complex attack and said it had frozen roughly 3 billion dollars of the affected funds with help from blockchain partners. An initial probe pointed to a compromised engineer's laptop, but a later investigation found additional points of breach. Blockchain firm TRM Labs said with high confidence that TraderTraitor, North Korea's elite hacking unit, was behind the raid, noting that an attacker moved about 6.36 billion dollars across ten blockchains, most of it within twenty minutes. Binance suspended withdrawals and pledged to cover all losses.",
-    "zh": "全球最大加密货币交易所币安表示，黑客盗走约63亿美元数字资产，这可能是有史以来规模最大的加密货币盗窃案。币安称这是一次“复杂攻击”，并表示已在区块链合作伙伴协助下冻结约30亿美元受影响资金。初步调查指向一名工程师的笔记本电脑被入侵，但后续调查发现了更多入侵点。区块链分析公司TRM Labs表示，高度确信朝鲜精锐黑客组织TraderTraitor策划了此次袭击，并指出攻击者跨10条区块链转移了约63.6亿美元，其中大部分在20分钟内完成。币安已暂停提现，并承诺承担全部损失。",
+    "title": "Fed Holds Rates but Hawks Dissent, Lifting December Odds",
+    "src": "财经早餐 · 美联储观察",
+    "en": "The Federal Reserve held its policy rate at 3.75% to 4.00% at its October meeting, yet two officials dissented in favour of a quarter-point increase, and markets quickly priced in further tightening. Dallas Fed president Lorie Logan said she still saw a need for at least two more increases totalling fifty basis points, while St. Louis Fed president Alberto Musalem argued that inflation remained high and broad enough to require prompt additional action. Futures pricing put the odds of a quarter-point rise in December at about 72%. For investors the signal mattered less for the decision itself than for how far the likely end point has now moved beyond earlier expectations.",
+    "zh": "美联储在10月议息会议上将政策利率维持在3.75%至4.00%区间，但有两位官员投反对票、主张加息25个基点，市场随即进一步计入收紧预期。达拉斯联储主席洛根表示，她仍认为至少需要再加息两次、累计50个基点；圣路易斯联储行长穆萨莱姆则主张，通胀高企且波及面广，有必要尽快采取进一步行动。期货市场定价显示，12月加息25个基点的概率约为72%。对投资者而言，关键信号不在于本次决定本身，而在于利率终点已比先前预期推后了多少。",
     "vocab": [
-      ["drain", "v. 抽干；耗尽"],
-      ["breach", "n. 突破口；安全入侵"],
-      ["compromised", "adj. 被攻陷的；遭入侵的"],
-      ["pledge", "v. 承诺；保证"],
-      ["raid", "n. 突袭；盗窃行动"]
+      ["dissent", "v. 投反对票；持异议"],
+      ["tightening", "n. 紧缩；收紧政策"],
+      ["basis point", "n. 基点（1个基点=0.01%）"],
+      ["odds", "n. 概率；可能性"],
+      ["end point", "n. 终点（此处指利率终点）"]
     ]
   },
   {
     "id": "e4",
-    "title": "Euro Zone Growth Beats Forecasts While German Inflation Cools to 2.8%",
-    "src": "Reuters · 欧洲经济",
-    "en": "The euro zone economy grew faster than expected in the third quarter, with preliminary data showing gross domestic product up 0.4% on the quarter and 1.3% on the year, both beating forecasts. The wider European Union expanded 0.5% on the quarter. Performance was mixed: Germany and Spain grew, Italy was flat, and France unexpectedly contracted 0.1%. Separately, German inflation cooled to 2.8% in October from 3.3% in September as energy price rises slowed. European Central Bank officials warned that inflation risks remain tilted to the upside, and a fresh ECB survey suggested euro area inflation may not return to the bank's 2% target until 2028.",
-    "zh": "欧元区经济第三季度增速快于预期，初步数据显示国内生产总值环比增长0.4%、同比增长1.3%，均超出市场预期。整个欧盟环比增长0.5%。各成员国表现不一：德国和西班牙实现增长，意大利持平，法国则意外萎缩0.1%。另外，受能源价格涨幅放缓影响，德国10月通胀率由9月的3.3%回落至2.8%。欧洲央行多位官员警告，通胀风险仍偏向上行；该行最新调查显示，欧元区通胀率可能要到2028年才会回到央行2%的目标水平。",
+    "title": "Anthropic Files for IPO as Blackstone Flags Junk Rating Risk",
+    "src": "财联社 · IPO观察",
+    "en": "Anthropic has filed its registration statement for a Nasdaq listing, giving investors a first detailed look at the OpenAI rival's finances. The documents show revenue of 16.3 billion dollars in the first half of 2026, cash on hand of 112 billion dollars and an expected annualised recurring revenue run rate of about 100 billion dollars for the full year. Class F shares leave its seven founders holding 50.1% of voting power. Blackstone, however, has told investors in a 63-billion-dollar chip financing deal that the company is unlikely to win an investment-grade rating immediately after listing and may instead sit in the higher rungs of the junk tier.",
+    "zh": "Anthropic已向纳斯达克提交上市注册声明，投资者首次得以详细审视这家OpenAI竞争对手的财务状况。文件显示，公司2026年上半年营收163亿美元，账面现金1120亿美元，预计全年年度经常性收入运行率约为1000亿美元。通过发行F类股票，七位创始人持有50.1%的投票权。不过黑石在630亿美元芯片融资交易中告知投资者，该公司上市后短期内难以获得投资级评级，可能落入垃圾级中相对较高的一档。",
     "vocab": [
-      ["preliminary", "adj. 初步的；预估的"],
-      ["contract", "v. 收缩；萎缩"],
-      ["cool", "v. 降温；回落"],
-      ["tilted", "adj. 偏向的；倾斜的"],
-      ["survey", "n. 调查；问卷"]
+      ["rival", "n. 竞争对手"],
+      ["run rate", "n. 运行率（按当期推算的年化水平）"],
+      ["voting power", "n. 投票权"],
+      ["investment-grade", "adj. 投资级的"],
+      ["rung", "n. 层级；档位"]
     ]
   },
   {
     "id": "e5",
-    "title": "Trump Weighs Renewed Strikes on Iran Days After US Midterm Vote",
-    "src": "Associated Press · 地缘局势",
-    "en": "President Donald Trump is preparing to resume military strikes on Iran as soon as November 4, the day after congressional midterm elections, three senior Gulf Arab officials said. Washington has told Gulf allies to get ready for a short, intense campaign aimed either at forcing Tehran back into a nuclear agreement or degrading its nuclear programme. Gulf governments are lobbying for de-escalation, fearing retaliation against their territory and energy infrastructure. The United States is sending a third aircraft carrier strike group, led by the USS Theodore Roosevelt, to the region with about 9,000 sailors and Marines aboard. Trump said the war would end very soon but insisted Iran must never obtain a nuclear weapon.",
-    "zh": "三名海湾国家高级官员称，特朗普总统准备最早于11月4日——即美国国会中期选举次日——恢复对伊朗的军事打击。华盛顿已告知海湾盟友做好准备，将发动一场短促而密集的军事行动，目的要么是迫使德黑兰重返核协议，要么是削弱其核计划。海湾国家政府正游说美方降级局势，担心本国领土和能源设施遭到报复。美国正向该地区派遣第三个航母打击群，由“西奥多·罗斯福”号率领，舰上约有9000名水兵和海军陆战队员。特朗普表示战争将很快结束，但坚称伊朗绝不能拥有核武器。",
+    "title": "Apple Brings Alibaba's Qwen to Apple Intelligence in China",
+    "src": "IT之家 · 科技动态",
+    "en": "Apple said Apple Intelligence is finally coming to China through a partnership with Alibaba, the first time a Chinese large language model has been embedded natively in the iPhone maker's system features. Qwen will power capabilities inside Siri, Writing Tools and Visual Intelligence, letting users call directly on its text and image understanding as well as content generation. Apple will begin testing the features in a developer beta from November 4, with a release for Chinese users expected in December alongside iOS 27.3. The company said requests and generated responses will not be used by Alibaba to train its models, and that users may sign in with Apple or a Qwen account.",
+    "zh": "苹果宣布与阿里巴巴合作，Apple智能终于将在中国上线，这是中国大模型首次原生嵌入这家iPhone制造商的系统级功能。千问将为Siri、写作工具和视觉智能中的能力提供支持，用户可直接调用其文本与图像理解以及内容生成能力。苹果将于11月4日起在开发者测试版中开放这些功能，并预计随iOS 27.3于12月正式面向中国用户推出。苹果表示，用户请求和生成的回复都不会被阿里巴巴用于训练其模型，用户可通过Apple账户或千问账户登录。",
     "vocab": [
-      ["resume", "v. 恢复；重新开始"],
-      ["degrade", "v. 削弱；降级"],
-      ["retaliation", "n. 报复；反击"],
-      ["lobby", "v. 游说；施加影响"],
-      ["carrier", "n. 航空母舰；运输工具"]
+      ["embed", "v. 嵌入；内置"],
+      ["natively", "adv. 原生地；在原生层面"],
+      ["beta", "n. 测试版"],
+      ["rollout", "n. 上线；逐步推出"],
+      ["alongside", "prep. 与……同时；伴随"]
     ]
   },
   {
     "id": "e6",
-    "title": "Amazon Cloud Growth Hits 39% but AI Spending Pushes Cash Flow Negative",
-    "src": "Financial Times · 科技财报",
-    "en": "Amazon reported third-quarter revenue of 201.94 billion dollars, up 12%, as its cloud unit accelerated for a sixth straight quarter. Amazon Web Services revenue rose 39% to 45.98 billion dollars, beating analysts' estimate of 38.2%, and the company said it expects growth above 40% in both 2027 and 2028. But the artificial intelligence infrastructure buildout came at a steep cost: purchases of property and equipment reached 77.26 billion dollars in the quarter, pushing free cash flow over the trailing twelve months to negative 42.4 billion dollars. Capital spending guidance for 2026 was held at 220 billion dollars. Chief executive Andy Jassy called AI a once-in-a-lifetime opportunity.",
-    "zh": "亚马逊公布三季度营收2019.44亿美元，同比增长12%，其云业务连续第六个季度加速增长。亚马逊云服务（AWS）营收增长39%至459.84亿美元，高于分析师38.2%的预期；公司称预计2027年和2028年增速都将超过40%。但人工智能基础设施的扩建代价高昂：当季购置物业设备支出达772.6亿美元，使过去12个月的自由现金流降至负424亿美元。2026年资本开支指引维持在2200亿美元不变。首席执行官安迪·贾西称人工智能是“一生一次的机会”。",
+    "title": "Oil Rises a Fourth Month as Iran Risk Keeps Premium Intact",
+    "src": "Reuters · 能源市场",
+    "en": "Oil climbed for a fourth consecutive month as tensions with Iran kept a risk premium embedded in prices. December Brent settled up 2.4% at 117.64 dollars a barrel, while West Texas Intermediate rose 2.1% to 104.12 dollars. Iran's Revolutionary Guards said a fourth tanker struck a mine and caught fire in the Strait of Hormuz, and United States commercial crude inventories unexpectedly fell by 1.9 million barrels to 410.6 million. Qatari mediators held more than twelve hours of talks in Tehran, seeking reciprocal steps that could bring Washington and Tehran back to direct negotiations over the nuclear programme. Secretary of State Marco Rubio said no decision on military action had been taken.",
+    "zh": "受伊朗紧张局势推高价格中的风险溢价影响，油价连续第四个月上涨。12月交割的布伦特原油期货结算价上涨2.4%，至每桶117.64美元；西得克萨斯中质原油上涨2.1%，至104.12美元。伊朗伊斯兰革命卫队称，第四艘油轮在霍尔木兹海峡触雷起火；美国商业原油库存意外下降190万桶，至4.106亿桶。卡塔尔调解人员在德黑兰举行了超过12小时的会谈，寻求一系列对等措施，推动华盛顿与德黑兰重返就伊朗核项目的直接谈判。美国国务卿鲁比奥表示，尚未就军事行动作出决定。",
     "vocab": [
-      ["accelerate", "v. 加速；增速"],
-      ["buildout", "n. 建设；扩建"],
-      ["steep", "adj. 高昂的；陡峭的"],
-      ["trailing", "adj. 滚动的（trailing twelve months 过去12个月）"],
-      ["guidance", "n. （公司发布的）业绩指引"]
+      ["premium", "n. 溢价；额外报价"],
+      ["settle", "v. 收于；结算"],
+      ["tanker", "n. 油轮"],
+      ["mine", "n. 水雷"],
+      ["reciprocal", "adj. 对等的；互惠的"]
     ]
   }
 ]
