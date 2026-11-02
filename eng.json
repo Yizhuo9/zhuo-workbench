@@ -1,8 +1,176 @@
 [
-  {"id":"e1","title":"Iran Offers a \"Two-Day Plan\" to Reopen the Strait of Hormuz","src":"Reuters · World","en":"Iranian negotiators were in Doha on Sunday for a third consecutive day of talks with Qatari mediators aimed at ending the eight-month war with the United States and Israel. Foreign Minister Abbas Araqchi said Tehran had agreed to a \"two-day plan\": on the first day Washington would carry out a series of measures, and on the second the Strait of Hormuz would reopen and shipping would return to normal. He said Iran was prepared for \"both defence and diplomacy\". Secretary of State Marco Rubio said President Donald Trump had not yet decided whether to launch new strikes, but would prefer a diplomatic path. The US midterm elections on November 3 could shift the calculations on both sides.","zh":"伊朗谈判代表周日连续第三天在卡塔尔首都多哈与卡塔尔调解方会谈，寻求结束已持续八个月的对美以战争。伊朗外长阿拉格齐表示，德黑兰已同意一项“两天计划”：第一天美方将采取一系列措施，第二天霍尔木兹海峡将重新开放、航运恢复正常。他说伊朗已做好“防御与外交”两手准备。美国国务卿鲁比奥表示，特朗普总统尚未决定是否发动新的打击，但更倾向于外交途径。11月3日的美国中期选举可能改变双方的盘算。","vocab":[["mediators","n. 调解人，中间人"],["consecutive","adj. 连续的，接连的"],["reopen","v. 重新开放"],["diplomacy","n. 外交；外交手段"],["strikes","n. 打击，空袭"]]},
-  {"id":"e2","title":"OPEC+ Producers Hold December Output Steady","src":"Reuters · Energy","en":"Seven major OPEC+ producers reaffirmed on Sunday that they will keep December crude output unchanged, extending the quota level agreed for September. Saudi Arabia, Russia, Iraq, Kuwait, Kazakhstan, Algeria and Oman met online to review the oil market. The group had raised production month by month from April to September before pausing in October. A statement gave no reason for the decision, but sources say members are still struggling with export disruptions caused by the Middle East conflict and are unlikely to adjust policy again before next year. Producers must finish capacity assessments in the fourth quarter before setting 2027 baselines. Brent crude has traded above $110 a barrel for much of late October.","zh":"七个“欧佩克+”主要产油国周日重申，12月将维持原油产量不变，延续9月确定的配额水平。沙特阿拉伯、俄罗斯、伊拉克、科威特、哈萨克斯坦、阿尔及利亚和阿曼的代表举行线上会议，研判石油市场形势。该集团曾在4月至9月逐月增产，10月起暂停。声明未说明理由，但消息人士称，成员国仍在应对中东冲突造成的出口中断，明年之前不太可能再次调整政策。各产油国须在第四季度完成产能评估，才能确定2027年配额基准。10月下旬布伦特原油多数时间在每桶110美元上方运行。","vocab":[["reaffirmed","v. 重申，再次确认"],["quota","n. 配额，限额"],["disruptions","n. 中断，扰乱"],["baselines","n. 基准，基线"],["assessments","n. 评估，评定"]]},
-  {"id":"e3","title":"Two Fed Officials Argue for Further Rate Hikes","src":"Newsquawk · Markets","en":"Two Federal Reserve officials used Friday to argue for further tightening. Dallas Fed President Lorie Logan, a 2026 voter, said the central bank needs at least two more quarter-point hikes, though a pause after 50 basis points of tightening would make sense to gauge the need for more. She said gradual adjustments lower the risk of a sharp deterioration and give households and businesses time to adapt, adding that it was unacceptable for inflation to stay above the 2% target. St. Louis Fed President Alberto Musalem, a 2028 voter, said rates would need to rise again \"soon\", warning that earlier action reduces the risk of broader economic damage. Futures markets now price a December hike at roughly 70%.","zh":"两位美联储官员上周五主张进一步收紧政策。达拉斯联储主席洛根（2026年票委）表示，美联储至少还需加息两次、每次25个基点，不过在累计加息50个基点后暂停一次以评估是否需要更多行动是合理的。她说，渐进调整可降低经济急剧恶化的风险，也让家庭和企业有时间适应，并强调通胀不回到2%目标不可接受。圣路易斯联储主席穆萨莱姆（2028年票委）称利率需要“很快”再次上调，并警告越早行动越能缩小经济受损范围。期货市场目前对12月加息的定价约为70%。","vocab":[["tightening","n. 收紧（货币政策）"],["quarter-point","n. 25个基点"],["gauge","v. 评估，判断"],["deterioration","n. 恶化，退化"],["price","v. 定价，计入价格"]]},
-  {"id":"e4","title":"OpenAI Trims Fundraising Target to About $20 Billion","src":"Financial Times · Tech","en":"OpenAI has cut the target for its current fundraising round by $10 billion to about $20 billion, according to the Financial Times, as a selloff in AI stocks and rival Anthropic's looming listing complicate efforts to lock in investor commitments. The reduced target comes with a lower valuation of $1.25 trillion, down from $1.4 trillion a month ago, when the company was seeking $30 billion. The two firms are chasing overlapping institutional investors, and Anthropic's initial public offering could divert capital that might otherwise have gone to OpenAI. The shift underscores how quickly sentiment in the artificial intelligence sector has turned after a year of record private valuations.","zh":"据英国《金融时报》报道，OpenAI已将本轮融资目标下调100亿美元至约200亿美元，原因是AI股票遭抛售、竞争对手Anthropic即将上市，令其争取投资者承诺变得更加困难。随目标下调，公司估值从一个月前的1.4万亿美元降至1.25万亿美元，当时其融资目标为300亿美元。两家公司争夺的机构投资者存在重叠，Anthropic的首次公开募股可能分流原本投向OpenAI的资金。这一变化凸显，在经历了一年创纪录的私募估值后，人工智能板块情绪转变得多么迅速。","vocab":[["selloff","n. （证券）抛售"],["looming","adj. 迫近的，即将发生的"],["valuation","n. 估值"],["overlapping","adj. 重叠的"],["divert","v. 转移，分流"]]},
-  {"id":"e5","title":"Anthropic Files for Nasdaq Listing at Up to $2 Trillion Valuation","src":"Reuters · Business","en":"Anthropic has filed publicly with the US Securities and Exchange Commission for a Nasdaq listing under the ticker ANT, with people familiar with the matter saying the debut could come in mid-November. Investors have discussed a valuation of roughly $1.5 trillion, below the $2 trillion once floated, while the company hopes to raise as much as $100 billion in what would be the largest IPO on record. Revenue reached $16.29 billion in the first half of 2026, up from $4.6 billion for all of 2025, and the company posted $974 million of operating profit in the second quarter. It has committed to more than $800 billion in computing contracts across Nvidia, AMD, Google TPU and Amazon Trainium chips.","zh":"Anthropic已向美国证券交易委员会公开递交招股书，拟以代码ANT在纳斯达克上市，知情人士称最快可能于11月中旬挂牌。投资者讨论的估值约为1.5万亿美元，低于此前传出的2万亿美元；公司拟募资最高1000亿美元，将成为史上最大规模IPO。2026年上半年营收达162.9亿美元，而2025年全年为46亿美元；二季度实现营业利润9.74亿美元。公司已在英伟达、AMD、谷歌TPU和亚马逊Trainium等芯片上签下总额超过8000亿美元的算力合同。","vocab":[["ticker","n. 股票代码"],["debut","n. 首次亮相，上市"],["floated","v. 提出（数字、方案）"],["posted","v. 公布，报告（业绩）"],["committed","v. 承诺投入"]]},
-  {"id":"e6","title":"Cost-of-Living Protests Sweep European Cities","src":"Xinhua · Society","en":"Protests over the cost of living swept across Europe on Saturday, with hundreds of thousands of people taking to the streets in France, Germany, Italy, Portugal, Spain and the Netherlands. France deployed about 70,000 police and gendarmes and closed more than 40 metro stations in Paris; the interior ministry said around 320,000 people joined demonstrations nationwide and 422 were arrested. In Germany organisers said about 120,000 people turned out in 34 cities, with water cannon used in some areas. Italian unions put turnout at 1.5 million, while the interior ministry counted about 255,000. Demonstrators demanded action on housing, education, health spending and military budgets.","zh":"周六，围绕生活成本问题的抗议席卷欧洲，法国、德国、意大利、葡萄牙、西班牙和荷兰数十万人走上街头。法国部署约7万名警察和宪兵，并关闭巴黎40多个地铁站；内政部称全国约32万人参加示威，422人被捕。德国组织方称34座城市约12万人参与，部分地区动用高压水炮。意大利工会称参与人数达150万，内政部统计约25.5万。示威者要求政府在住房、教育、医疗投入和军费等问题上采取行动。","vocab":[["swept","v. 席卷（sweep 的过去式）"],["gendarmes","n. 宪兵"],["turnout","n. 参与人数，投票率"],["water cannon","n. 高压水枪，水炮"],["budgets","n. 预算"]]}
+ {
+  "id": "e1",
+  "title": "Oil Posts Biggest Drop in Three Months as US and Iran Signal Openness to Talks",
+  "src": "Reuters / 新华财经 · Markets",
+  "en": "Oil prices posted their biggest drop in three months on Monday after Washington and Tehran both signalled openness to negotiations, easing fears that the conflict would keep disrupting Middle East energy supplies. Brent crude for January settlement fell 7.6 percent to 104.77 dollars a barrel, while December West Texas Intermediate slipped 7.4 percent to 96.46 dollars. Iranian President Masoud Pezeshkian said the Supreme Leader had granted the government a measure of authority to pursue talks, and the foreign ministry said the plan could start within two days if Washington met Tehran's demands. US President Donald Trump said he was in no hurry to decide on resuming strikes. European benchmark gas futures briefly fell nearly 11 percent.",
+  "zh": "周一，油价创下三个月来最大跌幅，此前华盛顿与德黑兰均释放出对谈判持开放态度的信号，缓解了外界对冲突持续扰乱中东能源供应的担忧。1月交货的布伦特原油期货结算价下跌7.6%，至每桶104.77美元；12月交货的西得州中质原油下跌7.4%，至每桶96.46美元。伊朗总统佩泽希齐扬表示，最高领袖已授予政府一定程度的谈判权限，外交部称若美方满足伊方诉求，方案最快可在两天内启动。美国总统特朗普表示，他并不急于决定是否恢复军事打击。欧洲基准天然气期货一度下跌近11%。",
+  "vocab": [
+   [
+    "crude",
+    "n. 原油"
+   ],
+   [
+    "barrel",
+    "n. 桶（原油计量单位）"
+   ],
+   [
+    "settlement",
+    "n. （期货）结算价"
+   ],
+   [
+    "futures",
+    "n. 期货"
+   ],
+   [
+    "disrupt",
+    "v. 扰乱、中断"
+   ]
+  ]
+ },
+ {
+  "id": "e2",
+  "title": "Anthropic's Revenue Soars Twelvefold, but Losses Swell Ahead of IPO",
+  "src": "SEC Filing / 华尔街见闻 · Business",
+  "en": "Anthropic, the maker of the Claude chatbot, disclosed that third-quarter revenue reached roughly 17 billion dollars, about twelve times the figure a year earlier, in an updated filing ahead of its planned initial public offering. The same filing showed a net loss of 23.3 billion dollars, nearly double the 12.1 billion dollars booked a year ago, including about 21.9 billion dollars of non-cash charges. Operating expenses rose to 17.5 billion dollars. The company also reported about 895 billion dollars of contracted commitments for computing capacity and infrastructure as of September 30, underscoring how aggressively AI developers are committing to capital spending even as investors question whether the returns will justify it.",
+  "zh": "聊天机器人Claude的开发方Anthropic在上市前更新的文件中披露，第三季度营收达到约170亿美元，约为上年同期的12倍。同一份文件显示，净亏损为233亿美元，接近上年同期121亿美元的两倍，其中含约219亿美元非现金计提；运营支出增至175亿美元。截至9月30日，公司已就算力与基础设施签订约8950亿美元的承诺支出。这凸显出即便投资者质疑回报能否匹配，AI开发商仍在以极为激进的姿态投入资本开支。",
+  "vocab": [
+   [
+    "revenue",
+    "n. 营收"
+   ],
+   [
+    "filing",
+    "n. （提交监管机构的）申报文件"
+   ],
+   [
+    "net loss",
+    "n. 净亏损"
+   ],
+   [
+    "non-cash charge",
+    "n. 非现金计提"
+   ],
+   [
+    "commitment",
+    "n. 承诺（支出）"
+   ]
+  ]
+ },
+ {
+  "id": "e3",
+  "title": "Apple Beats Revenue Forecasts but Greater China and Services Disappoint",
+  "src": "Company Report / 财联社 · Earnings",
+  "en": "Apple reported revenue of 114.48 billion dollars for its fiscal fourth quarter, up 12 percent from a year earlier and above the 113.47 billion dollars analysts had expected, in the first results since John Ternus became chief executive. Net income was 30.71 billion dollars, or 2.10 dollars a share, with gross margin at 47.9 percent. iPhone revenue rose 17.5 percent to 57.58 billion dollars and services set a record of 31.57 billion dollars. Greater China revenue grew 21 percent to 17.54 billion dollars but missed forecasts of 18.75 billion dollars, and the company guided to 7 to 10 percent revenue growth in the holiday quarter, sending the shares down more than 4 percent after hours.",
+  "zh": "苹果公布第四财季营收1144.8亿美元，同比增长12%，高于分析师预期的1134.7亿美元，这也是约翰·特努斯出任首席执行官以来的首份财报。净利润307.1亿美元，每股收益2.10美元，毛利率47.9%。iPhone营收增长17.5%至575.8亿美元，服务业务创下315.7亿美元的历史新高。大中华区营收增长21%至175.4亿美元，但低于187.5亿美元的市场预期。公司指引假日季营收增长7%至10%，财报公布后股价盘后一度跌超4%。",
+  "vocab": [
+   [
+    "fiscal",
+    "adj. 财年的、财政的"
+   ],
+   [
+    "gross margin",
+    "n. 毛利率"
+   ],
+   [
+    "forecast",
+    "n. 预测值"
+   ],
+   [
+    "after hours",
+    "adv. 盘后（交易时段）"
+   ],
+   [
+    "miss",
+    "v. 未达（市场预期）"
+   ]
+  ]
+ },
+ {
+  "id": "e4",
+  "title": "Americans Vote in Midterms Seen as a Referendum on Trump",
+  "src": "Reuters / 中国新闻网 · Politics",
+  "en": "Americans vote on Tuesday in midterm elections that will decide all 435 seats in the House of Representatives, 35 of the 100 Senate seats and 36 governorships, serving as a referendum on President Donald Trump's second term. Polls suggest Democrats are well placed to take the House, while control of the Senate remains too close to call, with swing states such as Maine, North Carolina, Georgia and Michigan likely to decide it. Inflation, immigration and the cost of living dominate voter concerns: roughly 85 percent of voters rate the economy as a top issue. More than 40 million people had already cast ballots early, according to the University of Florida's election tracker.",
+  "zh": "美国选民于周二在中期选举中投票，此次选举将决定众议院全部435个席位、参议院100席中的35席以及36个州长职位，被视为对特朗普总统第二个任期的全民公投。民调显示民主党夺取众议院的形势较为有利，而参议院归属胜负难料，缅因州、北卡罗来纳州、佐治亚州和密歇根州等摇摆州或将决定最终结果。通胀、移民与生活成本主导选民关切，约85%的选民将经济列为最重要议题之一。据佛罗里达大学选举追踪数据，已有超过4000万人提前投票。",
+  "vocab": [
+   [
+    "midterm elections",
+    "n. 中期选举"
+   ],
+   [
+    "referendum",
+    "n. 全民公投、民意检验"
+   ],
+   [
+    "governorship",
+    "n. 州长职位"
+   ],
+   [
+    "swing state",
+    "n. 摇摆州"
+   ],
+   [
+    "ballot",
+    "n. 选票"
+   ]
+  ]
+ },
+ {
+  "id": "e5",
+  "title": "Marvell to Buy Lumentum in 115 Billion Dollar All-Stock Deal",
+  "src": "Marvell / 每日经济新闻 · Technology",
+  "en": "Marvell Technology agreed to buy Lumentum Holdings in an all-stock deal that implies an enterprise value of about 115 billion dollars, the largest acquisition in the global technology industry by equity value outside the SpaceX-xAI combination. Lumentum shareholders will receive 4.5 Marvell shares for each share held, a premium of roughly 23.9 percent to the unaffected closing price on October 28. Marvell holders will own about 67 percent of the combined company, which is targeting the 550 billion dollar AI interconnect market. Lumentum's first-quarter revenue jumped 136.5 percent to 1.263 billion dollars and it has secured more than 5 billion dollars of purchase commitments. The deal is expected to close in the first half of 2028.",
+  "zh": "迈威尔科技同意以全股票交易收购Lumentum控股，交易隐含企业价值约1150亿美元，若不计SpaceX与xAI的合并，按股权价值计算是全球科技行业史上最大并购。Lumentum股东每持1股可换得4.5股迈威尔股票，较10月28日未受影响的收盘价溢价约23.9%。迈威尔股东将持有合并后公司约67%股权，新公司瞄准规模5500亿美元的AI互联市场。Lumentum第一财季营收同比飙升136.5%至12.63亿美元，并已获得超50亿美元采购承诺。交易预计2028年上半年完成。",
+  "vocab": [
+   [
+    "all-stock deal",
+    "n. 全股票交易"
+   ],
+   [
+    "enterprise value",
+    "n. 企业价值"
+   ],
+   [
+    "premium",
+    "n. 溢价"
+   ],
+   [
+    "closing price",
+    "n. 收盘价"
+   ],
+   [
+    "interconnect",
+    "n. 互连（技术）"
+   ]
+  ]
+ },
+ {
+  "id": "e6",
+  "title": "Britain Unveils Biggest Immigration Overhaul Since Brexit",
+  "src": "Reuters / 中国新闻网 · World",
+  "en": "Britain on Monday unveiled the biggest overhaul of its immigration system since Brexit, doubling to ten years the standard period most legal migrants must wait before applying for permanent residency, or indefinite leave to remain. Home Secretary Shabana Mahmood set out a tiered framework: high earners above 125,000 pounds a year can qualify in three years, care workers meeting language, conduct and insurance conditions keep the five-year route, while people arriving illegally across the Channel by small boat could wait up to thirty years. The government said net migration after Brexit had driven the change, but business groups warned the stricter rules would widen staffing gaps in the service sector.",
+  "zh": "英国周一公布了脱欧以来最大规模的移民制度改革，将大多数合法移民在申请永久居留权（即无限期居留）之前的标准等候期从五年延长一倍至十年。内政大臣谢巴娜·马哈茂德公布了分级框架：年薪高于12.5万英镑的高收入者三年即可达标；满足语言、品行与国民保险缴纳等条件的护理从业者保留五年通道；而乘小船非法穿越英吉利海峡入境者最长可能等待三十年。政府称脱欧后净移民人数上升是改革原因，但商界团体警告更严规则将扩大服务业用工缺口。",
+  "vocab": [
+   [
+    "overhaul",
+    "n. 全面改革"
+   ],
+   [
+    "permanent residency",
+    "n. 永久居留权"
+   ],
+   [
+    "tiered",
+    "adj. 分级的、分档的"
+   ],
+   [
+    "high earner",
+    "n. 高收入者"
+   ],
+   [
+    "staffing gap",
+    "n. 用工缺口"
+   ]
+  ]
+ }
 ]
