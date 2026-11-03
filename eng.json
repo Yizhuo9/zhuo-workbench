@@ -1,175 +1,175 @@
 [
  {
   "id": "e1",
-  "title": "Oil Posts Biggest Drop in Three Months as US and Iran Signal Openness to Talks",
-  "src": "Reuters / 新华财经 · Markets",
-  "en": "Oil prices posted their biggest drop in three months on Monday after Washington and Tehran both signalled openness to negotiations, easing fears that the conflict would keep disrupting Middle East energy supplies. Brent crude for January settlement fell 7.6 percent to 104.77 dollars a barrel, while December West Texas Intermediate slipped 7.4 percent to 96.46 dollars. Iranian President Masoud Pezeshkian said the Supreme Leader had granted the government a measure of authority to pursue talks, and the foreign ministry said the plan could start within two days if Washington met Tehran's demands. US President Donald Trump said he was in no hurry to decide on resuming strikes. European benchmark gas futures briefly fell nearly 11 percent.",
-  "zh": "周一，油价创下三个月来最大跌幅，此前华盛顿与德黑兰均释放出对谈判持开放态度的信号，缓解了外界对冲突持续扰乱中东能源供应的担忧。1月交货的布伦特原油期货结算价下跌7.6%，至每桶104.77美元；12月交货的西得州中质原油下跌7.4%，至每桶96.46美元。伊朗总统佩泽希齐扬表示，最高领袖已授予政府一定程度的谈判权限，外交部称若美方满足伊方诉求，方案最快可在两天内启动。美国总统特朗普表示，他并不急于决定是否恢复军事打击。欧洲基准天然气期货一度下跌近11%。",
+  "title": "Americans Vote in Midterms That Will Shape Trump's Agenda",
+  "src": "Reuters / 央视新闻 · World",
+  "en": "Americans headed to the polls on Tuesday in midterm elections that will decide control of Congress. All 435 seats in the House of Representatives and 35 of the 100 Senate seats are up for grabs. Opinion polls suggest Democrats are favored to win the House, while the Senate outcome remains uncertain. The results will shape the legislative agenda for the remaining two years of President Donald Trump's term, covering everything from tariffs to tax policy. Investors are watching closely, and markets this week are also awaiting Friday's October jobs report for fresh clues on the economy.",
+  "zh": "美国民众周二前往投票站，参加将决定国会控制权的中期选举。众议院全部435个席位和参议院100个席位中的35席都将展开角逐。民调显示民主党有望赢得众议院，而参议院结果仍存不确定性。选举结果将影响特朗普总统任期后两年的立法议程，涉及从关税到税收政策的方方面面。投资者正密切关注，本周市场还在等待周五公布的10月就业报告，以获取经济形势的新线索。",
   "vocab": [
    [
-    "crude",
-    "n. 原油"
+    "poll",
+    "n. 民意调查；投票点"
    ],
    [
-    "barrel",
-    "n. 桶（原油计量单位）"
+    "seat",
+    "n.（议会中的）席位"
    ],
    [
-    "settlement",
-    "n. （期货）结算价"
+    "up for grabs",
+    "短语 可供争夺的"
    ],
    [
-    "futures",
-    "n. 期货"
+    "outcome",
+    "n. 结果；结局"
    ],
    [
-    "disrupt",
-    "v. 扰乱、中断"
+    "clue",
+    "n. 线索；提示"
    ]
   ]
  },
  {
   "id": "e2",
-  "title": "Anthropic's Revenue Soars Twelvefold, but Losses Swell Ahead of IPO",
-  "src": "SEC Filing / 华尔街见闻 · Business",
-  "en": "Anthropic, the maker of the Claude chatbot, disclosed that third-quarter revenue reached roughly 17 billion dollars, about twelve times the figure a year earlier, in an updated filing ahead of its planned initial public offering. The same filing showed a net loss of 23.3 billion dollars, nearly double the 12.1 billion dollars booked a year ago, including about 21.9 billion dollars of non-cash charges. Operating expenses rose to 17.5 billion dollars. The company also reported about 895 billion dollars of contracted commitments for computing capacity and infrastructure as of September 30, underscoring how aggressively AI developers are committing to capital spending even as investors question whether the returns will justify it.",
-  "zh": "聊天机器人Claude的开发方Anthropic在上市前更新的文件中披露，第三季度营收达到约170亿美元，约为上年同期的12倍。同一份文件显示，净亏损为233亿美元，接近上年同期121亿美元的两倍，其中含约219亿美元非现金计提；运营支出增至175亿美元。截至9月30日，公司已就算力与基础设施签订约8950亿美元的承诺支出。这凸显出即便投资者质疑回报能否匹配，AI开发商仍在以极为激进的姿态投入资本开支。",
+  "title": "US Strikes Iran's Qeshm Island as Mediators Race to Salvage Talks",
+  "src": "Reuters / 中国新闻网 · World",
+  "en": "Multiple explosions were heard on Iran's Qeshm Island overnight, and US officials described the strike as a limited, defensive operation aimed at missile systems near the Strait of Hormuz. Iran's Revolutionary Guards said they had captured two American MQM-170 reconnaissance drones, bringing the total to four. Tehran insists that Washington must first address seven conditions before it will reopen the strait to shipping. Qatar, which is mediating between the two sides, said it expects responses from both within 36 hours to a new proposal aimed at ending the conflict, though significant differences remain to be bridged.",
+  "zh": "伊朗格什姆岛夜间传出多次爆炸声，美国官员称此次打击是一次有限的防御性行动，目标是霍尔木兹海峡附近的导弹系统。伊朗革命卫队表示俘获了两架美军MQM-170侦察无人机，使俘获该型无人机总数达到4架。德黑兰坚持，美方必须先回应七项条件，才会重新向航运开放该海峡。担任斡旋方的卡塔尔表示，预计36小时内将收到双方对一份旨在结束冲突的新提案的回应，但仍有重大分歧有待弥合。",
   "vocab": [
    [
-    "revenue",
-    "n. 营收"
+    "explosion",
+    "n. 爆炸"
    ],
    [
-    "filing",
-    "n. （提交监管机构的）申报文件"
+    "reconnaissance",
+    "n. 侦察"
    ],
    [
-    "net loss",
-    "n. 净亏损"
+    "drone",
+    "n. 无人机"
    ],
    [
-    "non-cash charge",
-    "n. 非现金计提"
+    "mediate",
+    "v. 斡旋；调解"
    ],
    [
-    "commitment",
-    "n. 承诺（支出）"
+    "bridge",
+    "v. 弥合（分歧）"
    ]
   ]
  },
  {
   "id": "e3",
-  "title": "Apple Beats Revenue Forecasts but Greater China and Services Disappoint",
-  "src": "Company Report / 财联社 · Earnings",
-  "en": "Apple reported revenue of 114.48 billion dollars for its fiscal fourth quarter, up 12 percent from a year earlier and above the 113.47 billion dollars analysts had expected, in the first results since John Ternus became chief executive. Net income was 30.71 billion dollars, or 2.10 dollars a share, with gross margin at 47.9 percent. iPhone revenue rose 17.5 percent to 57.58 billion dollars and services set a record of 31.57 billion dollars. Greater China revenue grew 21 percent to 17.54 billion dollars but missed forecasts of 18.75 billion dollars, and the company guided to 7 to 10 percent revenue growth in the holiday quarter, sending the shares down more than 4 percent after hours.",
-  "zh": "苹果公布第四财季营收1144.8亿美元，同比增长12%，高于分析师预期的1134.7亿美元，这也是约翰·特努斯出任首席执行官以来的首份财报。净利润307.1亿美元，每股收益2.10美元，毛利率47.9%。iPhone营收增长17.5%至575.8亿美元，服务业务创下315.7亿美元的历史新高。大中华区营收增长21%至175.4亿美元，但低于187.5亿美元的市场预期。公司指引假日季营收增长7%至10%，财报公布后股价盘后一度跌超4%。",
+  "title": "AMD Shares Surge as Data Center Revenue Nearly Doubles",
+  "src": "CNBC / 新浪财经 · Business",
+  "en": "AMD reported third-quarter revenue of 13.38 billion dollars, up 45 percent from a year earlier and ahead of expectations, while adjusted earnings reached 2.09 dollars a share. Data center revenue jumped 97 percent to 8.55 billion dollars, driven by demand for its AI processors, and now accounts for 64 percent of total sales. The company guided fourth-quarter revenue to about 17 billion dollars, well above analyst estimates of roughly 16.3 billion. Chief Executive Lisa Su said data center demand should accelerate further as new systems ramp up. The chipmaker's shares rose more than 9 percent in extended trading.",
+  "zh": "AMD公布第三季度营收133.8亿美元，同比增长45%，超出市场预期；调整后每股收益达2.09美元。受AI处理器需求推动，数据中心业务收入跃升97%，至85.5亿美元，目前占总营收的64%。公司指引第四季度营收约170亿美元，远高于分析师约163亿美元的预期。首席执行官苏姿丰表示，随着新系统产能爬坡，数据中心需求将进一步加速。这家芯片制造商的股价盘后上涨超过9%。",
   "vocab": [
    [
-    "fiscal",
-    "adj. 财年的、财政的"
+    "adjusted",
+    "adj. 调整后的"
    ],
    [
-    "gross margin",
-    "n. 毛利率"
+    "account for",
+    "短语 占（比例）"
    ],
    [
-    "forecast",
-    "n. 预测值"
+    "guide",
+    "v.（公司）给出业绩指引"
    ],
    [
-    "after hours",
-    "adv. 盘后（交易时段）"
+    "ramp up",
+    "短语 提升产能；爬坡"
    ],
    [
-    "miss",
-    "v. 未达（市场预期）"
+    "extended trading",
+    "短语 盘后交易"
    ]
   ]
  },
  {
   "id": "e4",
-  "title": "Americans Vote in Midterms Seen as a Referendum on Trump",
-  "src": "Reuters / 中国新闻网 · Politics",
-  "en": "Americans vote on Tuesday in midterm elections that will decide all 435 seats in the House of Representatives, 35 of the 100 Senate seats and 36 governorships, serving as a referendum on President Donald Trump's second term. Polls suggest Democrats are well placed to take the House, while control of the Senate remains too close to call, with swing states such as Maine, North Carolina, Georgia and Michigan likely to decide it. Inflation, immigration and the cost of living dominate voter concerns: roughly 85 percent of voters rate the economy as a top issue. More than 40 million people had already cast ballots early, according to the University of Florida's election tracker.",
-  "zh": "美国选民于周二在中期选举中投票，此次选举将决定众议院全部435个席位、参议院100席中的35席以及36个州长职位，被视为对特朗普总统第二个任期的全民公投。民调显示民主党夺取众议院的形势较为有利，而参议院归属胜负难料，缅因州、北卡罗来纳州、佐治亚州和密歇根州等摇摆州或将决定最终结果。通胀、移民与生活成本主导选民关切，约85%的选民将经济列为最重要议题之一。据佛罗里达大学选举追踪数据，已有超过4000万人提前投票。",
+  "title": "Australia Lifts Rates to 4.85%, Highest Level Since 2008",
+  "src": "Bloomberg / 华尔街见闻 · Markets",
+  "en": "The Reserve Bank of Australia lifted its cash rate by 25 basis points to 4.85 percent, the highest level since 2008 and the fifth increase this year, making it one of the most aggressive central banks among advanced economies. Six board members voted for the hike while three preferred to hold, a sharper split than at September's meeting. Annual inflation was 4.3 percent in September, and the bank expects it to stay above 3 percent over the coming year, returning to the top of its target range only by late 2027. Policymakers also noted that AI-related investment is lifting technology goods prices.",
+  "zh": "澳大利亚储备银行将现金利率上调25个基点至4.85%，为2008年以来最高水平，也是今年第五次加息，使其成为发达经济体中立场最强硬的央行之一。六名理事会成员投票支持加息，三名主张维持不变，分歧较9月会议明显加大。9月年度通胀率为4.3%，该行预计未来一年通胀将持续高于3%，到2027年底才能回落至目标区间上沿。政策制定者还指出，与人工智能相关的投资正在推高科技类商品价格。",
   "vocab": [
    [
-    "midterm elections",
-    "n. 中期选举"
+    "lift",
+    "v. 上调；解除（限制）"
    ],
    [
-    "referendum",
-    "n. 全民公投、民意检验"
+    "basis point",
+    "n. 基点（0.01%）"
    ],
    [
-    "governorship",
-    "n. 州长职位"
+    "hike",
+    "n. 加息；提高"
    ],
    [
-    "swing state",
-    "n. 摇摆州"
+    "split",
+    "n. 分歧；（意见）分裂"
    ],
    [
-    "ballot",
-    "n. 选票"
+    "inflation",
+    "n. 通货膨胀"
    ]
   ]
  },
  {
   "id": "e5",
-  "title": "Marvell to Buy Lumentum in 115 Billion Dollar All-Stock Deal",
-  "src": "Marvell / 每日经济新闻 · Technology",
-  "en": "Marvell Technology agreed to buy Lumentum Holdings in an all-stock deal that implies an enterprise value of about 115 billion dollars, the largest acquisition in the global technology industry by equity value outside the SpaceX-xAI combination. Lumentum shareholders will receive 4.5 Marvell shares for each share held, a premium of roughly 23.9 percent to the unaffected closing price on October 28. Marvell holders will own about 67 percent of the combined company, which is targeting the 550 billion dollar AI interconnect market. Lumentum's first-quarter revenue jumped 136.5 percent to 1.263 billion dollars and it has secured more than 5 billion dollars of purchase commitments. The deal is expected to close in the first half of 2028.",
-  "zh": "迈威尔科技同意以全股票交易收购Lumentum控股，交易隐含企业价值约1150亿美元，若不计SpaceX与xAI的合并，按股权价值计算是全球科技行业史上最大并购。Lumentum股东每持1股可换得4.5股迈威尔股票，较10月28日未受影响的收盘价溢价约23.9%。迈威尔股东将持有合并后公司约67%股权，新公司瞄准规模5500亿美元的AI互联市场。Lumentum第一财季营收同比飙升136.5%至12.63亿美元，并已获得超50亿美元采购承诺。交易预计2028年上半年完成。",
+  "title": "El Nino Reaches Record Strength, Chinese Forecasters Say",
+  "src": "CGTN / 中国气象局 · Climate",
+  "en": "China's meteorological authorities said a super El Nino event formed over the equatorial central-eastern Pacific in September and developed into the strongest event since monitoring records began in October. It is expected to peak in late autumn or early winter and will significantly influence China's climate this winter and next spring. Forecasters predict overall warmer-than-normal temperatures across the country this winter, but slightly more frequent cold waves, with sharp temperature swings. Risks include heavy snow and strong cooling in northern regions, and periods of low-temperature rain, snow and freezing conditions in the south, the forecasters warned.",
+  "zh": "中国气象部门表示，9月赤道中东太平洋形成一次超强厄尔尼诺事件，10月已发展为有监测记录以来最强的一次。预计它将在秋末冬初达到峰值，并对中国今年冬季和明年春季的气候产生显著影响。预报人员预计，今冬全国气温总体偏高，但寒潮频次略偏多，气温冷暖起伏大。预报人员警告，风险包括北方地区的强降雪和剧烈降温，以及南方阶段性低温雨雪冰冻天气。",
   "vocab": [
    [
-    "all-stock deal",
-    "n. 全股票交易"
+    "equatorial",
+    "adj. 赤道的"
    ],
    [
-    "enterprise value",
-    "n. 企业价值"
+    "peak",
+    "v. 达到峰值"
    ],
    [
-    "premium",
-    "n. 溢价"
+    "frequent",
+    "adj. 频繁的"
    ],
    [
-    "closing price",
-    "n. 收盘价"
+    "swing",
+    "n.（气温等）波动；摆动"
    ],
    [
-    "interconnect",
-    "n. 互连（技术）"
+    "freezing",
+    "adj. 冰冻的；严寒的"
    ]
   ]
  },
  {
   "id": "e6",
-  "title": "Britain Unveils Biggest Immigration Overhaul Since Brexit",
-  "src": "Reuters / 中国新闻网 · World",
-  "en": "Britain on Monday unveiled the biggest overhaul of its immigration system since Brexit, doubling to ten years the standard period most legal migrants must wait before applying for permanent residency, or indefinite leave to remain. Home Secretary Shabana Mahmood set out a tiered framework: high earners above 125,000 pounds a year can qualify in three years, care workers meeting language, conduct and insurance conditions keep the five-year route, while people arriving illegally across the Channel by small boat could wait up to thirty years. The government said net migration after Brexit had driven the change, but business groups warned the stricter rules would widen staffing gaps in the service sector.",
-  "zh": "英国周一公布了脱欧以来最大规模的移民制度改革，将大多数合法移民在申请永久居留权（即无限期居留）之前的标准等候期从五年延长一倍至十年。内政大臣谢巴娜·马哈茂德公布了分级框架：年薪高于12.5万英镑的高收入者三年即可达标；满足语言、品行与国民保险缴纳等条件的护理从业者保留五年通道；而乘小船非法穿越英吉利海峡入境者最长可能等待三十年。政府称脱欧后净移民人数上升是改革原因，但商界团体警告更严规则将扩大服务业用工缺口。",
+  "title": "Trump Says Deal Reached to End 4 Billion Dollars in Annual Aid to Israel",
+  "src": "AP / 央视新闻 · World",
+  "en": "US President Donald Trump said that he had reached an agreement with Israeli Prime Minister Benjamin Netanyahu to halt roughly 4 billion dollars in annual military aid to Israel. The announcement marks a striking shift in one of Washington's most consequential security relationships. Tensions between the two leaders have grown over strategy toward Iran and the wider region, with Netanyahu reported to have urged Trump to resume strikes on Iran after the midterm elections, while Trump has leaned toward negotiations with Tehran. The timing of the announcement, coming on the eve of the midterm elections, drew wide attention.",
+  "zh": "美国总统唐纳德·特朗普表示，他已与以色列总理本雅明·内塔尼亚胡达成协议，将停止向以色列提供每年约40亿美元的军事援助。这一宣布标志着华盛顿最重要的安全关系之一发生显著转变。两位领导人在对伊朗及更广泛地区的战略问题上分歧日增，据报道内塔尼亚胡曾敦促特朗普在中期选举后恢复对伊朗的打击，而特朗普更倾向于与德黑兰谈判。这一声明选在中期选举前夕发布，引起广泛关注。",
   "vocab": [
    [
-    "overhaul",
-    "n. 全面改革"
+    "halt",
+    "v. 停止；中止"
    ],
    [
-    "permanent residency",
-    "n. 永久居留权"
+    "consequential",
+    "adj. 重要的；产生重大影响的"
    ],
    [
-    "tiered",
-    "adj. 分级的、分档的"
+    "urge",
+    "v. 敦促；力劝"
    ],
    [
-    "high earner",
-    "n. 高收入者"
+    "lean toward",
+    "短语 倾向于"
    ],
    [
-    "staffing gap",
-    "n. 用工缺口"
+    "on the eve of",
+    "短语 在……前夕"
    ]
   ]
  }
