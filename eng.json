@@ -1,175 +1,175 @@
 [
  {
   "id": "e1",
-  "title": "Americans Vote in Midterms That Will Shape Trump's Agenda",
-  "src": "Reuters / 央视新闻 · World",
-  "en": "Americans headed to the polls on Tuesday in midterm elections that will decide control of Congress. All 435 seats in the House of Representatives and 35 of the 100 Senate seats are up for grabs. Opinion polls suggest Democrats are favored to win the House, while the Senate outcome remains uncertain. The results will shape the legislative agenda for the remaining two years of President Donald Trump's term, covering everything from tariffs to tax policy. Investors are watching closely, and markets this week are also awaiting Friday's October jobs report for fresh clues on the economy.",
-  "zh": "美国民众周二前往投票站，参加将决定国会控制权的中期选举。众议院全部435个席位和参议院100个席位中的35席都将展开角逐。民调显示民主党有望赢得众议院，而参议院结果仍存不确定性。选举结果将影响特朗普总统任期后两年的立法议程，涉及从关税到税收政策的方方面面。投资者正密切关注，本周市场还在等待周五公布的10月就业报告，以获取经济形势的新线索。",
+  "title": "Democrats Sweep Midterms as Trump Accepts Result; Dow Surges 3%",
+  "src": "Wall Street CN · Markets",
+  "en": "US stocks rallied sharply on Wednesday after the Democratic Party swept both chambers of Congress in the midterm elections, an outcome that eased fears of a prolonged political crisis. The Dow Jones Industrial Average jumped 3.03 percent to 53,356.12, its biggest one-day gain in eighteen months, while the S&P 500 rose 1.58 percent and the Nasdaq added 1.44 percent. President Trump said he would accept the result and was willing to work with Democrats, further calming investors. Big tech climbed, with Microsoft up more than 6 percent and Amazon up 6.1 percent, though AI-related chip and data-center stocks fell on expectations of tighter regulation.",
+  "zh": "美国中期选举后股市大涨：民主党横扫国会参众两院，缓解了市场对政治危机的担忧。道琼斯指数大涨3.03%报53356.12点，创18个月来最大单日涨幅；标普500涨1.58%，纳指涨1.44%。特朗普表态接受选举结果并愿与民主党合作，进一步安抚了投资者。大型科技股走高，微软涨超6%、亚马逊涨6.1%，但市场预期监管趋严，AI芯片与数据中心相关股票下跌。",
   "vocab": [
    [
-    "poll",
-    "n. 民意调查；投票点"
+    "sweep",
+    "v. 席卷；横扫；全胜"
    ],
    [
-    "seat",
-    "n.（议会中的）席位"
-   ],
-   [
-    "up for grabs",
-    "短语 可供争夺的"
+    "chamber",
+    "n. （议会的）议院"
    ],
    [
     "outcome",
     "n. 结果；结局"
    ],
    [
-    "clue",
-    "n. 线索；提示"
+    "rally",
+    "v. （价格）反弹；回升"
+   ],
+   [
+    "regulation",
+    "n. 监管；法规"
    ]
   ]
  },
  {
   "id": "e2",
-  "title": "US Strikes Iran's Qeshm Island as Mediators Race to Salvage Talks",
-  "src": "Reuters / 中国新闻网 · World",
-  "en": "Multiple explosions were heard on Iran's Qeshm Island overnight, and US officials described the strike as a limited, defensive operation aimed at missile systems near the Strait of Hormuz. Iran's Revolutionary Guards said they had captured two American MQM-170 reconnaissance drones, bringing the total to four. Tehran insists that Washington must first address seven conditions before it will reopen the strait to shipping. Qatar, which is mediating between the two sides, said it expects responses from both within 36 hours to a new proposal aimed at ending the conflict, though significant differences remain to be bridged.",
-  "zh": "伊朗格什姆岛夜间传出多次爆炸声，美国官员称此次打击是一次有限的防御性行动，目标是霍尔木兹海峡附近的导弹系统。伊朗革命卫队表示俘获了两架美军MQM-170侦察无人机，使俘获该型无人机总数达到4架。德黑兰坚持，美方必须先回应七项条件，才会重新向航运开放该海峡。担任斡旋方的卡塔尔表示，预计36小时内将收到双方对一份旨在结束冲突的新提案的回应，但仍有重大分歧有待弥合。",
+  "title": "Oil Plunges as Markets Bet on Faster End to US-Iran Conflict",
+  "src": "CNA / Reuters · Energy",
+  "en": "Crude prices collapsed on Wednesday as traders bet that the Democrats' midterm victory will push Washington toward a diplomatic end to its conflict with Iran. US WTI crude for December delivery fell 8.3 percent to settle at 88.12 dollars a barrel, while Brent crude dropped 8.7 percent to 94.62 dollars, both hitting two-month lows. Vice President JD Vance publicly blamed the war for the Republican defeat, reinforcing expectations of de-escalation. Options markets turned decisively bearish, with volumes of December WTI puts about 1.6 times those of calls. Analysts noted the global oil market had already flipped into surplus in September and October as Middle East production recovered.",
+  "zh": "原油价格周三暴跌，交易员押注民主党中期选举获胜将促使华盛顿通过外交途径结束与伊朗的冲突。纽约12月WTI原油期货收跌8.3%报每桶88.12美元，布伦特原油跌8.7%报94.62美元，双双创两个月新低。副总统万斯公开将共和党败选归咎于这场战争，强化了局势降温预期。期权市场明显转空，12月WTI看跌期权成交量约为看涨期权的1.6倍。分析人士指出，随着中东产量恢复，9、10月全球油市已转为供应过剩。",
   "vocab": [
    [
-    "explosion",
-    "n. 爆炸"
+    "plunge",
+    "v. 暴跌；骤降"
    ],
    [
-    "reconnaissance",
-    "n. 侦察"
+    "diplomatic",
+    "adj. 外交的"
    ],
    [
-    "drone",
-    "n. 无人机"
+    "de-escalation",
+    "n. 降级；缓和"
    ],
    [
-    "mediate",
-    "v. 斡旋；调解"
+    "bearish",
+    "adj. 看跌的；（行情）疲软的"
    ],
    [
-    "bridge",
-    "v. 弥合（分歧）"
+    "surplus",
+    "n. 过剩；盈余"
    ]
   ]
  },
  {
   "id": "e3",
-  "title": "AMD Shares Surge as Data Center Revenue Nearly Doubles",
-  "src": "CNBC / 新浪财经 · Business",
-  "en": "AMD reported third-quarter revenue of 13.38 billion dollars, up 45 percent from a year earlier and ahead of expectations, while adjusted earnings reached 2.09 dollars a share. Data center revenue jumped 97 percent to 8.55 billion dollars, driven by demand for its AI processors, and now accounts for 64 percent of total sales. The company guided fourth-quarter revenue to about 17 billion dollars, well above analyst estimates of roughly 16.3 billion. Chief Executive Lisa Su said data center demand should accelerate further as new systems ramp up. The chipmaker's shares rose more than 9 percent in extended trading.",
-  "zh": "AMD公布第三季度营收133.8亿美元，同比增长45%，超出市场预期；调整后每股收益达2.09美元。受AI处理器需求推动，数据中心业务收入跃升97%，至85.5亿美元，目前占总营收的64%。公司指引第四季度营收约170亿美元，远高于分析师约163亿美元的预期。首席执行官苏姿丰表示，随着新系统产能爬坡，数据中心需求将进一步加速。这家芯片制造商的股价盘后上涨超过9%。",
+  "title": "Eurozone Inflation Climbs to 4.0% on Soaring Energy Costs",
+  "src": "Xinhua · Economy",
+  "en": "Eurozone inflation rose to 4.0 percent in October from 3.8 percent in September, Eurostat's flash estimate showed, hitting a three-year high as energy prices surged 20.8 percent year on year. Services inflation picked up to 3.3 percent, while core inflation, which excludes energy, food, alcohol and tobacco, held steady at 2.5 percent. Among major economies, Italy's rate jumped to 5.6 percent and France's rose to 3.8 percent, while Germany eased to 2.8 percent. Bundesbank President Joachim Nagel said the European Central Bank will very likely need to raise interest rates in December.",
+  "zh": "欧盟统计局初步数据显示，受能源价格同比大涨20.8%推动，欧元区10月通胀率从9月的3.8%升至4.0%，创三年新高。服务通胀升至3.3%，剔除能源、食品、烟酒的核心通胀率维持在2.5%。主要经济体中，意大利升至5.6%，法国升至3.8%，德国回落至2.8%。德国央行行长约阿希姆·纳格尔表示，欧洲央行12月很可能需要加息。",
   "vocab": [
    [
-    "adjusted",
-    "adj. 调整后的"
+    "flash estimate",
+    "初步估计值；快估"
    ],
    [
-    "account for",
-    "短语 占（比例）"
+    "surge",
+    "v. 急剧上涨；激增"
    ],
    [
-    "guide",
-    "v.（公司）给出业绩指引"
+    "exclude",
+    "v. 剔除；不包括"
    ],
    [
-    "ramp up",
-    "短语 提升产能；爬坡"
+    "core inflation",
+    "核心通胀"
    ],
    [
-    "extended trading",
-    "短语 盘后交易"
+    "ease",
+    "v. （数值）回落；放缓"
    ]
   ]
  },
  {
   "id": "e4",
-  "title": "Australia Lifts Rates to 4.85%, Highest Level Since 2008",
-  "src": "Bloomberg / 华尔街见闻 · Markets",
-  "en": "The Reserve Bank of Australia lifted its cash rate by 25 basis points to 4.85 percent, the highest level since 2008 and the fifth increase this year, making it one of the most aggressive central banks among advanced economies. Six board members voted for the hike while three preferred to hold, a sharper split than at September's meeting. Annual inflation was 4.3 percent in September, and the bank expects it to stay above 3 percent over the coming year, returning to the top of its target range only by late 2027. Policymakers also noted that AI-related investment is lifting technology goods prices.",
-  "zh": "澳大利亚储备银行将现金利率上调25个基点至4.85%，为2008年以来最高水平，也是今年第五次加息，使其成为发达经济体中立场最强硬的央行之一。六名理事会成员投票支持加息，三名主张维持不变，分歧较9月会议明显加大。9月年度通胀率为4.3%，该行预计未来一年通胀将持续高于3%，到2027年底才能回落至目标区间上沿。政策制定者还指出，与人工智能相关的投资正在推高科技类商品价格。",
+  "title": "Qualcomm Beats Estimates, Bets Big on Datacenter with Amazon Deal",
+  "src": "Wall Street CN · Tech Earnings",
+  "en": "Qualcomm reported better-than-expected fiscal fourth-quarter results, with non-GAAP revenue of 10.44 billion dollars and adjusted earnings of 2.17 dollars per share, though its profit guidance disappointed and shares fell more than 7 percent after hours. Handset chip revenue tumbled 26 percent from the previous quarter as semiconductor costs rose across the board. The brighter story was diversification: automotive chip revenue surged 89 percent to a record 1.99 billion dollars, and the datacenter business turned commercial through a multi-generation custom-chip agreement with Amazon covering AI inference workloads. Qualcomm expects datacenter revenue to reach an annualized 7 billion dollars by the end of fiscal 2027.",
+  "zh": "高通第四财季业绩超预期：非GAAP营收104.4亿美元、调整后每股收益2.17美元，但盈利指引不及预期，盘后股价一度跌超7%。受半导体成本全面上涨拖累，手机芯片收入环比骤降26%。多元化业务成为亮点：汽车芯片收入同比大增89%至创纪录的19.9亿美元；数据中心业务通过与亚马逊签署多代定制芯片协议正式商业化，聚焦AI推理负载。高通预计到2027财年末数据中心收入将达年化70亿美元。",
   "vocab": [
    [
-    "lift",
-    "v. 上调；解除（限制）"
+    "better-than-expected",
+    "adj. 超预期的"
    ],
    [
-    "basis point",
-    "n. 基点（0.01%）"
+    "tumble",
+    "v. 骤降；暴跌"
    ],
    [
-    "hike",
-    "n. 加息；提高"
+    "across the board",
+    "全面地；各行各业"
    ],
    [
-    "split",
-    "n. 分歧；（意见）分裂"
+    "diversification",
+    "n. 多元化"
    ],
    [
-    "inflation",
-    "n. 通货膨胀"
+    "annualized",
+    "adj. 年化的"
    ]
   ]
  },
  {
   "id": "e5",
-  "title": "El Nino Reaches Record Strength, Chinese Forecasters Say",
-  "src": "CGTN / 中国气象局 · Climate",
-  "en": "China's meteorological authorities said a super El Nino event formed over the equatorial central-eastern Pacific in September and developed into the strongest event since monitoring records began in October. It is expected to peak in late autumn or early winter and will significantly influence China's climate this winter and next spring. Forecasters predict overall warmer-than-normal temperatures across the country this winter, but slightly more frequent cold waves, with sharp temperature swings. Risks include heavy snow and strong cooling in northern regions, and periods of low-temperature rain, snow and freezing conditions in the south, the forecasters warned.",
-  "zh": "中国气象部门表示，9月赤道中东太平洋形成一次超强厄尔尼诺事件，10月已发展为有监测记录以来最强的一次。预计它将在秋末冬初达到峰值，并对中国今年冬季和明年春季的气候产生显著影响。预报人员预计，今冬全国气温总体偏高，但寒潮频次略偏多，气温冷暖起伏大。预报人员警告，风险包括北方地区的强降雪和剧烈降温，以及南方阶段性低温雨雪冰冻天气。",
+  "title": "Apple Trims Internal AI Budgets as Usage Costs Soar",
+  "src": "Bloomberg / IT Home · Tech",
+  "en": "Apple is cutting the daily budgets that some engineers can spend on AI tools as it tries to rein in fast-rising costs, Bloomberg reported. Last month the company lowered the cap for some engineers from 300 dollars to 200 dollars a day, a 33 percent cut, and plans to push some teams down to 100 dollars. Non-engineering teams, currently at 100 dollars, could fall to as little as 25 dollars, though staff with greater needs can apply for exemptions. The budgets cover tokens consumed by models from Anthropic, OpenAI and Google. The shift mirrors an industry-wide move from experimentation to cost accounting, as Microsoft and Tesla also tighten internal AI spending.",
+  "zh": "据彭博社报道，为遏制快速上升的成本，苹果正在削减部分工程师每天可使用的AI工具预算。上个月，苹果将部分工程师的日限额从300美元下调至200美元，降幅33%，并计划将部分团队进一步降至100美元；目前为100美元的非工程团队可能低至25美元，确有更高需求的员工可申请豁免。预算覆盖Anthropic、OpenAI和谷歌模型的词元消耗。这一转变折射出全行业从大规模试验转向成本核算，微软和特斯拉同样在收紧内部AI支出。",
   "vocab": [
    [
-    "equatorial",
-    "adj. 赤道的"
+    "rein in",
+    "phr. 控制；约束"
    ],
    [
-    "peak",
-    "v. 达到峰值"
+    "cap",
+    "n. 上限；限额"
    ],
    [
-    "frequent",
-    "adj. 频繁的"
+    "exemption",
+    "n. 豁免；免除"
    ],
    [
-    "swing",
-    "n.（气温等）波动；摆动"
+    "token",
+    "n. 词元（AI计量单位）"
    ],
    [
-    "freezing",
-    "adj. 冰冻的；严寒的"
+    "mirror",
+    "v. 反映；折射"
    ]
   ]
  },
  {
   "id": "e6",
-  "title": "Trump Says Deal Reached to End 4 Billion Dollars in Annual Aid to Israel",
-  "src": "AP / 央视新闻 · World",
-  "en": "US President Donald Trump said that he had reached an agreement with Israeli Prime Minister Benjamin Netanyahu to halt roughly 4 billion dollars in annual military aid to Israel. The announcement marks a striking shift in one of Washington's most consequential security relationships. Tensions between the two leaders have grown over strategy toward Iran and the wider region, with Netanyahu reported to have urged Trump to resume strikes on Iran after the midterm elections, while Trump has leaned toward negotiations with Tehran. The timing of the announcement, coming on the eve of the midterm elections, drew wide attention.",
-  "zh": "美国总统唐纳德·特朗普表示，他已与以色列总理本雅明·内塔尼亚胡达成协议，将停止向以色列提供每年约40亿美元的军事援助。这一宣布标志着华盛顿最重要的安全关系之一发生显著转变。两位领导人在对伊朗及更广泛地区的战略问题上分歧日增，据报道内塔尼亚胡曾敦促特朗普在中期选举后恢复对伊朗的打击，而特朗普更倾向于与德黑兰谈判。这一声明选在中期选举前夕发布，引起广泛关注。",
+  "title": "OpenAI's Security Model Finds 948 Privilege-Escalation Bugs in Linux Kernel",
+  "src": "IT Home · AI Security",
+  "en": "OpenAI said that an automated system built around a new cybersecurity model had uncovered 948 exploitable privilege-escalation vulnerabilities in the Linux kernel. The system first screened about 2.8 million lines of code, roughly 7 percent of the kernel, and generated 2,308 candidate vulnerabilities within 12 hours at an API cost of 316,500 dollars. After 30 hours of dynamic testing in isolated virtual machines, 1,724 of the candidates, about 74.7 percent, were successfully reproduced, and the pipeline finally produced 948 distinct local privilege-escalation exploits that could let low-privileged users gain root access. OpenAI published root-cause analyses, proof-of-concept programs and candidate patches for security researchers to review.",
+  "zh": "OpenAI表示，其围绕新一代网络安全模型搭建的自动化系统在Linux内核中发现了948个可利用的权限提升漏洞。该系统先筛选了约280万行代码（约占内核总量7%），12小时内生成2308个候选漏洞，API调用成本达31.65万美元。经过30小时在隔离虚拟机中的动态测试，1724个候选漏洞（约74.7%）成功复现，最终产出948个不同的本地提权漏洞利用，可使低权限用户获得root权限。OpenAI已公布根因分析、概念验证程序和候选补丁供安全研究人员审核。",
   "vocab": [
    [
-    "halt",
-    "v. 停止；中止"
+    "exploitable",
+    "adj. 可利用的"
    ],
    [
-    "consequential",
-    "adj. 重要的；产生重大影响的"
+    "privilege escalation",
+    "权限提升"
    ],
    [
-    "urge",
-    "v. 敦促；力劝"
+    "candidate",
+    "n. 候选（目标）；备选"
    ],
    [
-    "lean toward",
-    "短语 倾向于"
+    "reproduce",
+    "v. 复现；重现"
    ],
    [
-    "on the eve of",
-    "短语 在……前夕"
+    "patch",
+    "n. 补丁"
    ]
   ]
  }
