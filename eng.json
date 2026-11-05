@@ -1,175 +1,175 @@
 [
  {
   "id": "e1",
-  "title": "Democrats Sweep Midterms as Trump Accepts Result; Dow Surges 3%",
-  "src": "Wall Street CN · Markets",
-  "en": "US stocks rallied sharply on Wednesday after the Democratic Party swept both chambers of Congress in the midterm elections, an outcome that eased fears of a prolonged political crisis. The Dow Jones Industrial Average jumped 3.03 percent to 53,356.12, its biggest one-day gain in eighteen months, while the S&P 500 rose 1.58 percent and the Nasdaq added 1.44 percent. President Trump said he would accept the result and was willing to work with Democrats, further calming investors. Big tech climbed, with Microsoft up more than 6 percent and Amazon up 6.1 percent, though AI-related chip and data-center stocks fell on expectations of tighter regulation.",
-  "zh": "美国中期选举后股市大涨：民主党横扫国会参众两院，缓解了市场对政治危机的担忧。道琼斯指数大涨3.03%报53356.12点，创18个月来最大单日涨幅；标普500涨1.58%，纳指涨1.44%。特朗普表态接受选举结果并愿与民主党合作，进一步安抚了投资者。大型科技股走高，微软涨超6%、亚马逊涨6.1%，但市场预期监管趋严，AI芯片与数据中心相关股票下跌。",
+  "title": "Nasdaq posts biggest daily drop in 19 months on AI regulation fears",
+  "src": "Reuters · World Business",
+  "en": "The Nasdaq Composite fell 5.52% on Nov. 5, its biggest one-day drop in 19 months, confirming a technical correction, as chipmakers sank on fears of tougher AI regulation after Democrats won control of the US Congress. Nvidia dropped over 9%, while the Philadelphia SE Semiconductor index plunged over 12%. The rout wiped out US$3 trillion in stock market value from S&P 500 companies. The S&P 500 fell 4.36% to end at 7,353.73 points, while the Dow Jones Industrial Average lost 3.44% to 51,523.06 points. Analysts said newly elected members of Congress and governors are looking to slow the pace of AI infrastructure development, raising concerns for a growth story that has depended on rapid data-center buildout.",
+  "zh": "纳斯达克综合指数11月5日下跌5.52%，创19个月来最大单日跌幅，确认进入技术性回调，芯片股因担忧民主党赢得美国国会控制权后出台更严格的AI监管而大跌。英伟达跌超9%，费城半导体指数暴跌逾12%，标普500公司市值蒸发约3万亿美元。标普500指数下跌4.36%收于7353.73点，道琼斯工业平均指数下跌3.44%报51523.06点。分析师表示，新当选的国会议员和州长希望放缓AI基础设施的开发步伐，而AI的增长故事一直依赖数据中心的快速建设，这引发了市场担忧。",
   "vocab": [
    [
-    "sweep",
-    "v. 席卷；横扫；全胜"
+    "rout",
+    "n. 惨败；暴跌"
    ],
    [
-    "chamber",
-    "n. （议会的）议院"
+    "plunge",
+    "v. 骤降，暴跌"
    ],
    [
-    "outcome",
-    "n. 结果；结局"
+    "correction",
+    "n. （股市）回调"
    ],
    [
-    "rally",
-    "v. （价格）反弹；回升"
+    "wipe out",
+    "phr. 使消失，蒸发"
    ],
    [
-    "regulation",
-    "n. 监管；法规"
+    "buildout",
+    "n. 建设与扩张"
    ]
   ]
  },
  {
   "id": "e2",
-  "title": "Oil Plunges as Markets Bet on Faster End to US-Iran Conflict",
-  "src": "CNA / Reuters · Energy",
-  "en": "Crude prices collapsed on Wednesday as traders bet that the Democrats' midterm victory will push Washington toward a diplomatic end to its conflict with Iran. US WTI crude for December delivery fell 8.3 percent to settle at 88.12 dollars a barrel, while Brent crude dropped 8.7 percent to 94.62 dollars, both hitting two-month lows. Vice President JD Vance publicly blamed the war for the Republican defeat, reinforcing expectations of de-escalation. Options markets turned decisively bearish, with volumes of December WTI puts about 1.6 times those of calls. Analysts noted the global oil market had already flipped into surplus in September and October as Middle East production recovered.",
-  "zh": "原油价格周三暴跌，交易员押注民主党中期选举获胜将促使华盛顿通过外交途径结束与伊朗的冲突。纽约12月WTI原油期货收跌8.3%报每桶88.12美元，布伦特原油跌8.7%报94.62美元，双双创两个月新低。副总统万斯公开将共和党败选归咎于这场战争，强化了局势降温预期。期权市场明显转空，12月WTI看跌期权成交量约为看涨期权的1.6倍。分析人士指出，随着中东产量恢复，9、10月全球油市已转为供应过剩。",
+  "title": "Bank of England raises interest rate to 4 pct amid inflation pressures",
+  "src": "Xinhua · World Economy",
+  "en": "The Bank of England on Thursday raised its benchmark interest rate by 0.25 percentage points to 4 percent, its first increase in more than three years, as the conflict in the Middle East drives up energy prices and fuels inflation. The Monetary Policy Committee voted 8-1 in favor of the increase, with one member calling for a larger rise to 4.25 percent. Inflation has risen to 3.5 percent and is expected to reach about 5 percent by mid-2027. \"There is now enough inflationary pressure in the pipeline caused by the rise in energy prices that an increase in bank rate is warranted,\" Governor Andrew Bailey said, warning that unless the conflict in the Middle East is resolved, this may not be the last increase.",
+  "zh": "英国央行11月5日（周四）将基准利率上调0.25个百分点至4%，为三年多来首次加息，原因在于中东冲突推高能源价格并加剧通胀。货币政策委员会以8票对1票赞成加息，一名委员主张更大幅度加息至4.25%。英国通胀已升至3.5%，预计到2027年年中将升至约5%。行长安德鲁·贝利表示：“能源价格上涨已在传导链条中形成足够的通胀压力，上调银行利率是合理的。”他警告说，除非中东冲突得到解决，否则这可能不是最后一次加息。",
   "vocab": [
    [
-    "plunge",
-    "v. 暴跌；骤降"
+    "benchmark",
+    "adj. 基准的"
    ],
    [
-    "diplomatic",
-    "adj. 外交的"
+    "inflationary",
+    "adj. 通货膨胀的"
    ],
    [
-    "de-escalation",
-    "n. 降级；缓和"
+    "warrant",
+    "v. 使成为必要，值得"
    ],
    [
-    "bearish",
-    "adj. 看跌的；（行情）疲软的"
+    "in favor of",
+    "phr. 赞成，支持"
    ],
    [
-    "surplus",
-    "n. 过剩；盈余"
+    "pipeline",
+    "n. 管道；（喻）酝酿之中"
    ]
   ]
  },
  {
   "id": "e3",
-  "title": "Eurozone Inflation Climbs to 4.0% on Soaring Energy Costs",
-  "src": "Xinhua · Economy",
-  "en": "Eurozone inflation rose to 4.0 percent in October from 3.8 percent in September, Eurostat's flash estimate showed, hitting a three-year high as energy prices surged 20.8 percent year on year. Services inflation picked up to 3.3 percent, while core inflation, which excludes energy, food, alcohol and tobacco, held steady at 2.5 percent. Among major economies, Italy's rate jumped to 5.6 percent and France's rose to 3.8 percent, while Germany eased to 2.8 percent. Bundesbank President Joachim Nagel said the European Central Bank will very likely need to raise interest rates in December.",
-  "zh": "欧盟统计局初步数据显示，受能源价格同比大涨20.8%推动，欧元区10月通胀率从9月的3.8%升至4.0%，创三年新高。服务通胀升至3.3%，剔除能源、食品、烟酒的核心通胀率维持在2.5%。主要经济体中，意大利升至5.6%，法国升至3.8%，德国回落至2.8%。德国央行行长约阿希姆·纳格尔表示，欧洲央行12月很可能需要加息。",
+  "title": "Google to invest $17 billion in first Wyoming data center",
+  "src": "Reuters · Technology",
+  "en": "Alphabet's Google said on Thursday it will invest $17 billion to build its first data center in Wyoming, pushing ahead with a major AI infrastructure investment as political resistance to data center expansion grows after the US midterm elections. The facility will be built in Laramie County in partnership with Tallgrass Energy, Black Hills Energy, American Electric Power and Related Digital. The project will be powered in part by a planned 702-megawatt fuel-cell development equipped with carbon capture and storage technology, with fuel cells supplied by Bloom Energy. Of the 41 data center-related ballot measures voted on this week, all but one went against data centers, according to Ballotpedia.",
+  "zh": "Alphabet旗下谷歌11月5日（周四）表示，将投资170亿美元在怀俄明州建设其首个数据中心，在美国中期选举后数据中心扩张遭遇越来越多政治抵制之际，继续推进重大AI基础设施投资。该设施将建在拉勒米县，与Tallgrass Energy、Black Hills Energy、美国电力公司和Related Digital合作。项目将部分由一个规划中的702兆瓦燃料电池装置供电，并配备碳捕集与封存技术，燃料电池由Bloom Energy供应。据Ballotpedia统计，本周投票的41项与数据中心相关的公投议题中，除一项外全部反对数据中心。",
   "vocab": [
    [
-    "flash estimate",
-    "初步估计值；快估"
+    "push ahead with",
+    "phr. 推进，继续进行"
    ],
    [
-    "surge",
-    "v. 急剧上涨；激增"
+    "resistance",
+    "n. 抵制，反对"
    ],
    [
-    "exclude",
-    "v. 剔除；不包括"
+    "fuel cell",
+    "n. 燃料电池"
    ],
    [
-    "core inflation",
-    "核心通胀"
+    "carbon capture",
+    "n. 碳捕集"
    ],
    [
-    "ease",
-    "v. （数值）回落；放缓"
+    "ballot measure",
+    "n. 公投议题"
    ]
   ]
  },
  {
   "id": "e4",
-  "title": "Qualcomm Beats Estimates, Bets Big on Datacenter with Amazon Deal",
-  "src": "Wall Street CN · Tech Earnings",
-  "en": "Qualcomm reported better-than-expected fiscal fourth-quarter results, with non-GAAP revenue of 10.44 billion dollars and adjusted earnings of 2.17 dollars per share, though its profit guidance disappointed and shares fell more than 7 percent after hours. Handset chip revenue tumbled 26 percent from the previous quarter as semiconductor costs rose across the board. The brighter story was diversification: automotive chip revenue surged 89 percent to a record 1.99 billion dollars, and the datacenter business turned commercial through a multi-generation custom-chip agreement with Amazon covering AI inference workloads. Qualcomm expects datacenter revenue to reach an annualized 7 billion dollars by the end of fiscal 2027.",
-  "zh": "高通第四财季业绩超预期：非GAAP营收104.4亿美元、调整后每股收益2.17美元，但盈利指引不及预期，盘后股价一度跌超7%。受半导体成本全面上涨拖累，手机芯片收入环比骤降26%。多元化业务成为亮点：汽车芯片收入同比大增89%至创纪录的19.9亿美元；数据中心业务通过与亚马逊签署多代定制芯片协议正式商业化，聚焦AI推理负载。高通预计到2027财年末数据中心收入将达年化70亿美元。",
+  "title": "Cristiano Ronaldo retires from Portugal national team after 23 years",
+  "src": "SPA / CGTN · Sports",
+  "en": "Portuguese star Cristiano Ronaldo announced his retirement from international football on Thursday at the age of 41, ending a career with the national team spanning more than 23 years. \"Today, my journey with the Portugal national team comes to an end. The time has come for me to return the number 7 shirt to the national team and bring an end to a career that began in August 2003 and changed my life forever,\" Ronaldo said. The Al-Nassr striker made 234 appearances for Portugal and scored 146 goals, both all-time records for men's international football. At the 2026 World Cup, he became the first player to score in six different editions of the tournament.",
+  "zh": "葡萄牙球星克里斯蒂亚诺·罗纳尔多11月5日（周四）宣布从国家队退役，时年41岁，结束了超过23年的国家队生涯。C罗说：“今天，我与葡萄牙国家队的旅程走到终点。是时候把7号球衣归还给国家队了，为这段始于2003年8月、彻底改变了我人生的生涯画上句号。”这位利雅得胜利前锋代表葡萄牙出场234次、打进146球，这两项均为男足国际比赛的历史纪录。在2026年世界杯上，他成为首位在六届世界杯上都有进球的球员。",
   "vocab": [
    [
-    "better-than-expected",
-    "adj. 超预期的"
+    "striker",
+    "n. 前锋"
    ],
    [
-    "tumble",
-    "v. 骤降；暴跌"
+    "appearance",
+    "n. 出场（次数）"
    ],
    [
-    "across the board",
-    "全面地；各行各业"
+    "edition",
+    "n. 届，版本"
    ],
    [
-    "diversification",
-    "n. 多元化"
+    "all-time",
+    "adj. 空前的，创纪录的"
    ],
    [
-    "annualized",
-    "adj. 年化的"
+    "come to an end",
+    "phr. 结束，告终"
    ]
   ]
  },
  {
   "id": "e5",
-  "title": "Apple Trims Internal AI Budgets as Usage Costs Soar",
-  "src": "Bloomberg / IT Home · Tech",
-  "en": "Apple is cutting the daily budgets that some engineers can spend on AI tools as it tries to rein in fast-rising costs, Bloomberg reported. Last month the company lowered the cap for some engineers from 300 dollars to 200 dollars a day, a 33 percent cut, and plans to push some teams down to 100 dollars. Non-engineering teams, currently at 100 dollars, could fall to as little as 25 dollars, though staff with greater needs can apply for exemptions. The budgets cover tokens consumed by models from Anthropic, OpenAI and Google. The shift mirrors an industry-wide move from experimentation to cost accounting, as Microsoft and Tesla also tighten internal AI spending.",
-  "zh": "据彭博社报道，为遏制快速上升的成本，苹果正在削减部分工程师每天可使用的AI工具预算。上个月，苹果将部分工程师的日限额从300美元下调至200美元，降幅33%，并计划将部分团队进一步降至100美元；目前为100美元的非工程团队可能低至25美元，确有更高需求的员工可申请豁免。预算覆盖Anthropic、OpenAI和谷歌模型的词元消耗。这一转变折射出全行业从大规模试验转向成本核算，微软和特斯拉同样在收紧内部AI支出。",
+  "title": "9th China International Import Expo opens in Shanghai",
+  "src": "Xinhua · China Economy",
+  "en": "The ninth edition of the China International Import Expo (CIIE), the world's first national-level exhibition dedicated to imports, opened on Thursday in Shanghai. Chinese Vice Premier Ding Xuexiang delivered a keynote speech at the opening ceremony. Running from Nov. 5 to 10, this year's CIIE has attracted 4,142 overseas exhibitors, including more than 300 Fortune Global 500 companies and industry leaders. Over 480 exhibits are set to make their global, Asian or China debuts at the 2026 event, the highest number in its history, with total exhibition area exceeding 440,000 square meters. U.S. exhibitors occupy more than 50,000 square meters, leading for the eighth consecutive year.",
+  "zh": "第九届中国国际进口博览会——全球首个以进口为主题的国家级展会——11月5日（周四）在上海开幕，国务院副总理丁薛祥出席开幕式并发表主旨讲话。本届进博会于11月5日至10日举行，吸引4142家境外参展商，其中包括300余家《财富》世界500强和行业龙头企业。超480件展品将在本届展会上完成全球首发、亚洲首展或中国首秀，为历届之最；展览总面积超过44万平方米。美国参展商展览面积超过5万平方米，连续第八年位居各国首位。",
   "vocab": [
    [
-    "rein in",
-    "phr. 控制；约束"
+    "dedicated to",
+    "phr. 专注于，以……为主题"
    ],
    [
-    "cap",
-    "n. 上限；限额"
+    "keynote",
+    "n. 主旨，基调"
    ],
    [
-    "exemption",
-    "n. 豁免；免除"
+    "exhibitor",
+    "n. 参展商"
    ],
    [
-    "token",
-    "n. 词元（AI计量单位）"
+    "debut",
+    "n. 首次亮相"
    ],
    [
-    "mirror",
-    "v. 反映；折射"
+    "consecutive",
+    "adj. 连续的"
    ]
   ]
  },
  {
   "id": "e6",
-  "title": "OpenAI's Security Model Finds 948 Privilege-Escalation Bugs in Linux Kernel",
-  "src": "IT Home · AI Security",
-  "en": "OpenAI said that an automated system built around a new cybersecurity model had uncovered 948 exploitable privilege-escalation vulnerabilities in the Linux kernel. The system first screened about 2.8 million lines of code, roughly 7 percent of the kernel, and generated 2,308 candidate vulnerabilities within 12 hours at an API cost of 316,500 dollars. After 30 hours of dynamic testing in isolated virtual machines, 1,724 of the candidates, about 74.7 percent, were successfully reproduced, and the pipeline finally produced 948 distinct local privilege-escalation exploits that could let low-privileged users gain root access. OpenAI published root-cause analyses, proof-of-concept programs and candidate patches for security researchers to review.",
-  "zh": "OpenAI表示，其围绕新一代网络安全模型搭建的自动化系统在Linux内核中发现了948个可利用的权限提升漏洞。该系统先筛选了约280万行代码（约占内核总量7%），12小时内生成2308个候选漏洞，API调用成本达31.65万美元。经过30小时在隔离虚拟机中的动态测试，1724个候选漏洞（约74.7%）成功复现，最终产出948个不同的本地提权漏洞利用，可使低权限用户获得root权限。OpenAI已公布根因分析、概念验证程序和候选补丁供安全研究人员审核。",
+  "title": "Eiffel Tower closed amid nationwide strikes in France",
+  "src": "Xinhua / Le Monde · Europe",
+  "en": "The Eiffel Tower was closed to visitors on Thursday due to a nationwide strike in France, as demonstrations took place across the country over wages, the cost of living and public services. The Interior Ministry estimated that 600,000 people participated in the protests, while labor unions claimed a figure of 1.6 million. Nearly 10 percent of employees in the French state civil service took part in the strike over salaries and purchasing power. According to the Ministry of National Education, 15.81 percent of teachers were on strike, and nearly 33 percent of higher education institutions were disrupted. Interior Minister Laurent Nunez had announced that 70,000 police officers and security forces would be deployed across the country.",
+  "zh": "受全国性罢工影响，埃菲尔铁塔11月5日（周四）暂停对游客开放，法国各地就薪资、生活成本和公共服务问题举行示威游行。法国内政部估计约60万人参加了抗议活动，而工会方面称人数达160万。近10%的法国国家公务员因薪资和购买力问题参加罢工。教育部数据显示，15.81%的教师参与罢课，近33%的高校教学活动受到干扰。内政部长洛朗·努内兹此前宣布，将在全国部署7万名警察和安保力量。",
   "vocab": [
    [
-    "exploitable",
-    "adj. 可利用的"
+    "demonstration",
+    "n. 示威游行"
    ],
    [
-    "privilege escalation",
-    "权限提升"
+    "purchasing power",
+    "n. 购买力"
    ],
    [
-    "candidate",
-    "n. 候选（目标）；备选"
+    "disrupt",
+    "v. 扰乱，中断"
    ],
    [
-    "reproduce",
-    "v. 复现；重现"
+    "deploy",
+    "v. 部署"
    ],
    [
-    "patch",
-    "n. 补丁"
+    "civil service",
+    "n. 政府行政部门，公务系统"
    ]
   ]
  }
