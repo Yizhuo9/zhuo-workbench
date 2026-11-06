@@ -139,8 +139,8 @@ input[type=date]::-webkit-calendar-picker-indicator,input[type=month]::-webkit-c
 .bd-player.show{display:block;opacity:1;transform:translateX(-50%) translateY(0)}
 .bd-player-head{display:flex;justify-content:space-between;align-items:center;padding:9px 14px;font-size:13px;font-weight:700;color:#F06FA6;background:linear-gradient(135deg,#FFE7F0,#FBD0E0)}
 .bd-close{font-size:15px;color:#F06FA6;cursor:pointer;padding:0 4px;line-height:1}
-.bd-player-body{height:120px;background:#0b0b0f}
-.bd-player-body iframe{width:100%;height:100%;border:0;display:block}
+.bd-player-body{height:auto;background:#fff;padding:10px 12px}
+.bd-player-body audio{width:100%;height:100%;border:0;display:block}
 @keyframes bdbounce{0%,100%{transform:translateX(-50%) translateY(0)}50%{transform:translateX(-50%) translateY(-5px)}}
 .check-btn{background:#fff;border:1px solid var(--line-soft);border-radius:14px;cursor:pointer;font-family:inherit;padding:10px 2px 8px;display:flex;flex-direction:column;align-items:center;gap:4px;transition:.2s ease}
 .check-btn .ico{font-size:20px;line-height:1.2}
@@ -577,6 +577,16 @@ input[type=date]::-webkit-calendar-picker-indicator,input[type=month]::-webkit-c
       </div>
 
       <div class="card">
+        <div class="sec-title"><span class="em">🎵</span>生日背景音乐</div>
+        <p class="muted" style="margin:0 2px 10px">生日当天首页会自动播放。默认是内置的《生日快乐》，你也可以上传自己喜欢的版本（比如你那首 DJ 版），仅保存在本机、不上传。</p>
+        <button class="btn btn-soft" id="btnBdSong">上传我的生日歌（音频文件）</button>
+        <input type="file" id="bdSongFile" accept="audio/*" style="display:none">
+        <div style="height:8px"></div>
+        <button class="btn btn-line" id="btnBdReset" style="color:#E04E8C">恢复默认音乐</button>
+        <p class="muted" id="bdSongTip" style="margin:10px 2px 0"></p>
+      </div>
+
+      <div class="card">
         <div class="sec-title"><span class="em">🎀</span>关于</div>
         <div class="about">
           <span id="aboutIcon"></span>
@@ -900,22 +910,21 @@ function saveEvent(){
   saveDB();renderEvents();checkBirthday();closeEventModal();toast('已添加 ⏳');
 }
 
-/* 生日背景音乐：QQ音乐官方嵌入播放器（AKirac《生日快乐 (海底捞专用DJ)》） */
-var BD_SONG_ID='004aloj61edJZC';
+/* 生日背景音乐：自带音频文件(公共版权《生日快乐》)，可选本地上传替换 */
 var bdCardOpen=false;
-function bdPlayerUrl(){
-  return 'https://i.y.qq.com/n2/m/core/player/player.html?songid='+BD_SONG_ID+'&autoplay=1';
+function bdAudioSrc(){
+  return (DB&&typeof DB.birthdaySong==='string'&&DB.birthdaySong)?DB.birthdaySong:'birthday.wav';
 }
 function openBdPlayer(){
   var card=$('#bdPlayer');
   if(!card)return;
   var body=card.querySelector('.bd-player-body');
-  if(body&&!body.querySelector('iframe')){
-    var f=document.createElement('iframe');
-    f.src=bdPlayerUrl();
-    f.setAttribute('allow','autoplay; encrypted-media; fullscreen');
-    f.frameBorder='0';f.scrolling='no';f.style.border='0';f.style.display='block';
-    body.appendChild(f);
+  if(body&&!body.querySelector('audio')){
+    var a=document.createElement('audio');
+    a.src=bdAudioSrc();a.loop=true;a.controls=true;a.autoplay=true;
+    a.style.width='100%';a.style.display='block';a.style.outline='none';
+    body.appendChild(a);
+    var p=a.play();if(p&&p.catch)p.catch(function(){});
   }
   card.classList.add('show');bdCardOpen=true;
 }
@@ -923,8 +932,8 @@ function closeBdPlayer(){
   var card=$('#bdPlayer');
   if(!card)return;
   card.classList.remove('show');bdCardOpen=false;
-  var f=card.querySelector('iframe');
-  if(f&&f.parentNode)f.parentNode.removeChild(f);
+  var a=card.querySelector('audio');
+  if(a){try{a.pause();}catch(e){} if(a.parentNode)a.parentNode.removeChild(a);}
 }
 function toggleBirthday(){
   if(bdCardOpen)closeBdPlayer();else openBdPlayer();
@@ -1611,6 +1620,7 @@ function renderSettings(){
     return d&&((d.gain&&d.gain.trim())||(d.improve&&d.improve.trim())||(d.affirm&&d.affirm.trim())||(d.photos&&d.photos.length));
   }).length;
   $('#stCheck').textContent=checkCount()+' / 5';
+  $('#bdSongTip').textContent=(DB.birthdaySong)?'当前：你上传的自定义生日歌':'当前：默认《生日快乐》';
 }
 function exportData(){
   var blob=new Blob([JSON.stringify(DB,null,2)],{type:'application/json'});
@@ -1648,6 +1658,25 @@ function bind(){
   $('#eventModal').addEventListener('click',function(e){if(e.target===this)closeEventModal();});
   $('#bdBanner').addEventListener('click',toggleBirthday);
   $('#bdClose').addEventListener('click',closeBdPlayer);
+  $('#btnBdSong').addEventListener('click',function(){ $('#bdSongFile').click(); });
+  $('#bdSongFile').addEventListener('change',function(e){
+    var file=e.target.files&&e.target.files[0];if(!file)return;
+    if(file.size>8*1024*1024){toast('文件过大（请小于 8MB）');e.target.value='';return;}
+    var r=new FileReader();
+    r.onload=function(){
+      DB.birthdaySong=r.result;saveDB();
+      $('#bdSongTip').textContent='已使用你上传的：'+file.name+'（'+Math.round(file.size/1024)+' KB）';
+      toast('🎵 生日歌已更新');
+    };
+    r.onerror=function(){toast('读取失败，请重试');};
+    r.readAsDataURL(file);
+    e.target.value='';
+  });
+  $('#btnBdReset').addEventListener('click',function(){
+    delete DB.birthdaySong;saveDB();
+    $('#bdSongTip').textContent='已恢复默认《生日快乐》';
+    toast('已恢复默认');
+  });
 
   $('#todoAdd').addEventListener('click',addTodo);
   $('#todoInput').addEventListener('keydown',function(e){if(e.key==='Enter')addTodo();});
