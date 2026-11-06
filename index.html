@@ -135,6 +135,12 @@ input[type=date]::-webkit-calendar-picker-indicator,input[type=month]::-webkit-c
 #bdBanner{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(20px + env(safe-area-inset-bottom));z-index:70;display:none;align-items:center;gap:8px;max-width:90%;padding:12px 18px;border-radius:30px;background:linear-gradient(135deg,#FFC7DB,#F06FA6);color:#fff;font-size:13px;font-weight:700;box-shadow:0 8px 22px rgba(240,110,160,.45);cursor:pointer;animation:bdbounce 1.3s ease-in-out infinite}
 #bdBanner.show{display:flex}
 #bdBanner .bd-note{font-size:18px}
+.bd-player{position:fixed;left:50%;transform:translateX(-50%) translateY(16px);bottom:calc(74px + env(safe-area-inset-bottom));z-index:75;display:none;width:min(340px,92%);background:#fff;border-radius:18px;box-shadow:0 12px 34px rgba(240,110,160,.42);overflow:hidden;opacity:0;transition:opacity .25s,transform .25s}
+.bd-player.show{display:block;opacity:1;transform:translateX(-50%) translateY(0)}
+.bd-player-head{display:flex;justify-content:space-between;align-items:center;padding:9px 14px;font-size:13px;font-weight:700;color:#F06FA6;background:linear-gradient(135deg,#FFE7F0,#FBD0E0)}
+.bd-close{font-size:15px;color:#F06FA6;cursor:pointer;padding:0 4px;line-height:1}
+.bd-player-body{height:120px;background:#0b0b0f}
+.bd-player-body iframe{width:100%;height:100%;border:0;display:block}
 @keyframes bdbounce{0%,100%{transform:translateX(-50%) translateY(0)}50%{transform:translateX(-50%) translateY(-5px)}}
 .check-btn{background:#fff;border:1px solid var(--line-soft);border-radius:14px;cursor:pointer;font-family:inherit;padding:10px 2px 8px;display:flex;flex-direction:column;align-items:center;gap:4px;transition:.2s ease}
 .check-btn .ico{font-size:20px;line-height:1.2}
@@ -626,6 +632,10 @@ input[type=date]::-webkit-calendar-picker-indicator,input[type=month]::-webkit-c
 </div>
 
 <div id="bdBanner"><span class="bd-note">🎂</span><span id="bdBannerText">生日快乐！</span></div>
+<div id="bdPlayer" class="bd-player">
+  <div class="bd-player-head"><span>🎂 生日快乐歌</span><span class="bd-close" id="bdClose">✕</span></div>
+  <div class="bd-player-body"></div>
+</div>
 
 <script>
 (function(){
@@ -757,7 +767,7 @@ function buildNav(){
 }
 function go(page){
   if(!NAV.some(function(n){return n.id===page;}))page='home';
-  if(page!=='home')stopHappyBirthday();
+  if(page!=='home')closeBdPlayer();
   currentPage=page;
   $$('.page').forEach(function(p){p.classList.remove('active');});
   var el=$('#page-'+page);if(el)el.classList.add('active');
@@ -890,65 +900,42 @@ function saveEvent(){
   saveDB();renderEvents();checkBirthday();closeEventModal();toast('已添加 ⏳');
 }
 
-/* 生日歌：Web Audio 合成，循环播放 */
-var bdCtx=null,bdTimer=null,bdPlaying=false,bdStopped=false,bdAutoTried=false,bdGestureBound=false;
-function bdNote(ctx,freq,start,dur){
-  var o=ctx.createOscillator(),g=ctx.createGain();
-  o.type='triangle';o.frequency.value=freq;o.connect(g);g.connect(ctx.destination);
-  g.gain.setValueAtTime(0.0001,start);
-  g.gain.linearRampToValueAtTime(0.3,start+0.02);
-  g.gain.exponentialRampToValueAtTime(0.0001,start+dur);
-  o.start(start);o.stop(start+dur+0.05);
+/* 生日背景音乐：QQ音乐官方嵌入播放器（AKirac《生日快乐 (海底捞专用DJ)》） */
+var BD_SONG_ID='004aloj61edJZC';
+var bdCardOpen=false;
+function bdPlayerUrl(){
+  return 'https://i.y.qq.com/n2/m/core/player/player.html?songid='+BD_SONG_ID+'&autoplay=1';
 }
-function bdSchedule(){
-  if(!bdCtx)return 0;
-  var G4=391.99,A4=440.00,B4=493.88,C5=523.25,D5=587.33,E5=659.25,F5=698.46,G5=783.99;
-  var notes=[[G4,0.75],[G4,0.25],[A4,1],[G4,1],[C5,1],[B4,2],
-            [G4,0.75],[G4,0.25],[A4,1],[G4,1],[D5,1],[C5,2],
-            [G4,0.75],[G4,0.25],[G5,1],[E5,1],[C5,1],[B4,1],[A4,2],
-            [F5,0.75],[F5,0.25],[E5,1],[C5,1],[D5,1],[C5,2]];
-  var beat=0.45,t=bdCtx.currentTime+0.08,total=0;
-  notes.forEach(function(n){var d=n[1]*beat;bdNote(bdCtx,n[0],t,d*0.95);t+=d;total+=d;});
-  return total*1000;
+function openBdPlayer(){
+  var card=$('#bdPlayer');
+  if(!card)return;
+  var body=card.querySelector('.bd-player-body');
+  if(body&&!body.querySelector('iframe')){
+    var f=document.createElement('iframe');
+    f.src=bdPlayerUrl();
+    f.setAttribute('allow','autoplay; encrypted-media; fullscreen');
+    f.frameBorder='0';f.scrolling='no';f.style.border='0';f.style.display='block';
+    body.appendChild(f);
+  }
+  card.classList.add('show');bdCardOpen=true;
 }
-function loopBirthday(){if(!bdPlaying)return;var ms=bdSchedule();bdTimer=setTimeout(loopBirthday,ms+40);}
-function startBd(){
-  try{
-    if(!bdCtx)bdCtx=new (window.AudioContext||window.webkitAudioContext)();
-    if(bdCtx.state==='suspended')bdCtx.resume();
-    if(!bdPlaying){bdPlaying=true;loopBirthday();}
-    $('#bdBanner').classList.add('show');
-  }catch(e){}
+function closeBdPlayer(){
+  var card=$('#bdPlayer');
+  if(!card)return;
+  card.classList.remove('show');bdCardOpen=false;
+  var f=card.querySelector('iframe');
+  if(f&&f.parentNode)f.parentNode.removeChild(f);
 }
-function stopBd(){
-  bdPlaying=false;
-  if(bdTimer){clearTimeout(bdTimer);bdTimer=null;}
-  $('#bdBanner').classList.remove('show');
-}
-function stopHappyBirthday(){stopBd();}
 function toggleBirthday(){
-  if(bdPlaying){stopBd();bdStopped=true;}
-  else {startBd();bdStopped=false;}
+  if(bdCardOpen)closeBdPlayer();else openBdPlayer();
 }
 function checkBirthday(){
   if(!DB.events)return;
   var bd=DB.events.filter(function(e){return e.kind==='birthday'&&eventInfo(e).isToday;});
-  if(!bd.length){stopBd();bdStopped=false;return;}
-  $('#bdBannerText').textContent='今天是 '+bd.map(function(e){return e.name;}).join('、')+' 的生日！';
-  if(bdStopped)return;
+  if(!bd.length){$('#bdBanner').classList.remove('show');closeBdPlayer();return;}
+  $('#bdBannerText').textContent='🎂 今天是 '+bd.map(function(e){return e.name;}).join('、')+' 的生日！点我放歌';
   $('#bdBanner').classList.add('show');
-  if(bdAutoTried)return;
-  bdAutoTried=true;
-  startBd();
-  if(!bdGestureBound){
-    bdGestureBound=true;
-    var g=function(){
-      bdGestureBound=false;
-      if(currentPage!=='home'||bdStopped)return;
-      if(!bdCtx||bdCtx.state==='suspended'){bdPlaying=false;clearTimeout(bdTimer);startBd();}
-    };
-    document.addEventListener('pointerdown',g,{once:true});
-  }
+  toast('🎂 生日快乐！点横幅播放背景音乐');
 }
 
 /* ===== 待办 ===== */
@@ -1660,6 +1647,7 @@ function bind(){
   $('#evCancel').addEventListener('click',closeEventModal);
   $('#eventModal').addEventListener('click',function(e){if(e.target===this)closeEventModal();});
   $('#bdBanner').addEventListener('click',toggleBirthday);
+  $('#bdClose').addEventListener('click',closeBdPlayer);
 
   $('#todoAdd').addEventListener('click',addTodo);
   $('#todoInput').addEventListener('keydown',function(e){if(e.key==='Enter')addTodo();});
