@@ -100,6 +100,42 @@ input[type=date]::-webkit-calendar-picker-indicator,input[type=month]::-webkit-c
 .quote-bar{width:28px;height:3px;border-radius:2px;background:linear-gradient(90deg,#F78FB3,#FBD3E2);margin-top:11px}
 
 .check-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:7px}
+
+/* 生日倒计时 */
+.event-row{display:flex;align-items:center;gap:10px;padding:10px 2px;border-bottom:1px dashed var(--line-soft)}
+.event-row:last-child{border-bottom:0}
+.event-emoji{font-size:20px;width:26px;text-align:center;flex:0 0 auto}
+.event-main{flex:1;min-width:0}
+.event-name{font-size:13.5px;font-weight:700;color:var(--ink);line-height:1.3}
+.event-sub{font-size:11px;color:var(--ink3);margin-top:2px}
+.event-right{display:flex;align-items:center;gap:8px;flex:0 0 auto}
+.event-days{font-size:13px;font-weight:700;padding:3px 9px;border-radius:10px;white-space:nowrap}
+.ev-future{color:var(--green);background:var(--green-bg)}
+.ev-today{color:#E0457B;background:#FFE3EE}
+.ev-past{color:#E08A2A;background:#FFF0DD}
+.event-row .todo-del{border:0;background:transparent;font-size:15px;cursor:pointer;opacity:.5;padding:2px 4px}
+.event-row .todo-del:active{opacity:.9}
+.empty-card{display:flex;flex-direction:column;align-items:center;gap:7px;padding:22px 10px;color:var(--ink3);font-size:12px;text-align:center}
+.empty-card .bow{font-size:22px}
+
+/* 弹窗（添加倒计时） */
+.modal{position:fixed;inset:0;z-index:60;display:none;align-items:center;justify-content:center;padding:20px;background:rgba(90,64,72,.42)}
+.modal.show{display:flex;animation:pageIn .2s ease}
+.modal-card{width:100%;max-width:340px;background:#fff;border-radius:20px;padding:18px 16px;box-shadow:0 14px 40px rgba(120,60,90,.28)}
+.modal-card h3{margin:0 0 14px;font-size:15px;color:var(--ink);text-align:center}
+.modal-field{margin-bottom:11px}
+.modal-field label{display:block;font-size:11px;color:var(--ink3);margin-bottom:5px;font-weight:600}
+.modal-emoji-row{display:flex;gap:7px;flex-wrap:wrap}
+.echip{width:38px;height:38px;border-radius:11px;border:1px solid var(--line);background:#fff;font-size:18px;cursor:pointer;display:grid;place-items:center;padding:0}
+.echip.on{border-color:var(--pink);box-shadow:0 0 0 2px var(--pink-3)}
+.modal-actions{display:flex;gap:10px;margin-top:6px}
+.modal-actions .btn{height:42px}
+
+/* 生日横幅（循环播放生日歌） */
+#bdBanner{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(20px + env(safe-area-inset-bottom));z-index:70;display:none;align-items:center;gap:8px;max-width:90%;padding:12px 18px;border-radius:30px;background:linear-gradient(135deg,#FFC7DB,#F06FA6);color:#fff;font-size:13px;font-weight:700;box-shadow:0 8px 22px rgba(240,110,160,.45);cursor:pointer;animation:bdbounce 1.3s ease-in-out infinite}
+#bdBanner.show{display:flex}
+#bdBanner .bd-note{font-size:18px}
+@keyframes bdbounce{0%,100%{transform:translateX(-50%) translateY(0)}50%{transform:translateX(-50%) translateY(-5px)}}
 .check-btn{background:#fff;border:1px solid var(--line-soft);border-radius:14px;cursor:pointer;font-family:inherit;padding:10px 2px 8px;display:flex;flex-direction:column;align-items:center;gap:4px;transition:.2s ease}
 .check-btn .ico{font-size:20px;line-height:1.2}
 .check-btn b{font-size:10.5px;font-weight:500;color:var(--ink2)}
@@ -293,6 +329,11 @@ input[type=date]::-webkit-calendar-picker-indicator,input[type=month]::-webkit-c
       <div class="card">
         <div class="sec-title"><span class="em">✨</span>每日打卡</div>
         <div class="check-grid" id="checkGrid"></div>
+      </div>
+
+      <div class="card">
+        <div class="sec-title"><span class="em">⏳</span>生日倒计时<button type="button" class="mini-btn" id="addEventBtn" style="margin-left:auto">＋ 添加</button></div>
+        <div id="eventList"></div>
       </div>
 
       <div class="overview">
@@ -547,6 +588,45 @@ input[type=date]::-webkit-calendar-picker-indicator,input[type=month]::-webkit-c
 <div id="toast"></div>
 <div id="ptr">↓ 下拉刷新内容</div>
 
+<div class="modal" id="eventModal">
+  <div class="modal-card">
+    <h3>⏳ 添加倒计时</h3>
+    <div class="modal-field">
+      <label>图标（点选）</label>
+      <div class="modal-emoji-row" id="evEmojiRow">
+        <button type="button" class="echip on" data-emoji="🎀">🎀</button>
+        <button type="button" class="echip" data-emoji="🧸">🧸</button>
+        <button type="button" class="echip" data-emoji="💙">💙</button>
+        <button type="button" class="echip" data-emoji="🎂">🎂</button>
+        <button type="button" class="echip" data-emoji="🌟">🌟</button>
+        <button type="button" class="echip" data-emoji="💐">💐</button>
+      </div>
+      <input type="hidden" id="evEmoji" value="🎀">
+    </div>
+    <div class="modal-field">
+      <label>名称</label>
+      <input id="evName" class="inp" placeholder="如：婷婷 / 旅行 / 考试" maxlength="20" autocomplete="off">
+    </div>
+    <div class="modal-field">
+      <label>类型</label>
+      <select id="evKind" class="sel">
+        <option value="birthday">生日（每年循环 · 当天播放生日歌）</option>
+        <option value="event">普通倒计时（固定日期）</option>
+      </select>
+    </div>
+    <div class="modal-field">
+      <label>日期</label>
+      <input id="evDate" class="inp" type="date">
+    </div>
+    <div class="modal-actions">
+      <button type="button" class="btn btn-line" id="evCancel">取消</button>
+      <button type="button" class="btn btn-pink" id="evSave">保存</button>
+    </div>
+  </div>
+</div>
+
+<div id="bdBanner"><span class="bd-note">🎂</span><span id="bdBannerText">生日快乐！</span></div>
+
 <script>
 (function(){
 'use strict';
@@ -615,7 +695,7 @@ function applyLeopardBg(){
 
 /* ===== 存储 ===== */
 var DEFAULT_CATS=['餐饮','公交','购物','其他'];
-var DEFAULT_DB={todos:[],meals:[],ledger:[],diaries:{},checks:{},cats:DEFAULT_CATS.slice(),newsFav:[],engFav:[],ui:{page:'home'}};
+var DEFAULT_DB={todos:[],meals:[],ledger:[],diaries:{},checks:{},cats:DEFAULT_CATS.slice(),newsFav:[],engFav:[],events:[],ui:{page:'home'}};
 var DB=JSON.parse(JSON.stringify(DEFAULT_DB));
 function loadDB(){
   try{
@@ -677,6 +757,7 @@ function buildNav(){
 }
 function go(page){
   if(!NAV.some(function(n){return n.id===page;}))page='home';
+  if(page!=='home')stopHappyBirthday();
   currentPage=page;
   $$('.page').forEach(function(p){p.classList.remove('active');});
   var el=$('#page-'+page);if(el)el.classList.add('active');
@@ -752,6 +833,122 @@ function renderHome(){
   $('#ovCheck').textContent=checkCount()+'/5';
   $('#ovMeal').textContent=meals;
   $('#ovPay').textContent=pay?('¥'+Math.round(pay*10)/10):'0';
+  renderEvents();checkBirthday();
+}
+
+/* ===== 生日倒计时 ===== */
+function daysBetween(a,b){return Math.round((new Date(b+'T00:00:00')-new Date(a+'T00:00:00'))/86400000);}
+function eventTarget(e){
+  if(e.kind!=='birthday')return e.date;
+  var md=e.date.slice(5);var y=new Date().getFullYear();var cand=y+'-'+md;
+  if(cand<todayStr())cand=(y+1)+'-'+md;return cand;
+}
+function eventInfo(e){var t=eventTarget(e);var d=daysBetween(todayStr(),t);return {target:t,diff:d,isToday:d===0};}
+function eventSub(e){
+  if(e.kind!=='birthday')return (+e.date.slice(5,7))+'月'+(+e.date.slice(8,10))+'日 · '+e.date;
+  var p=e.date.split('-');var l=lunarDate(+p[0],+p[1],+p[2]);
+  var lt=l?['正','二','三','四','五','六','七','八','九','十','冬','腊'][l.month-1]+'月'+lunarDayName(l.day):'';
+  return (lt?lt+' · ':'')+e.date;
+}
+function renderEvents(){
+  var box=$('#eventList');
+  if(!DB.events||!DB.events.length){box.innerHTML='<div class="empty-card"><span class="bow">⏳</span>还没有倒计时，点右上角「＋ 添加」</div>';return;}
+  var sorted=DB.events.slice().sort(function(a,b){return eventInfo(a).diff-eventInfo(b).diff;});
+  box.innerHTML=sorted.map(eventHTML).join('');
+}
+function eventHTML(e){
+  var info=eventInfo(e);
+  var label=(e.kind==='birthday'?'距离 '+esc(e.name)+'生日':'距离 '+esc(e.name));
+  var dt,dcls;
+  if(info.isToday){dt='今天🎉';dcls='ev-today';}
+  else if(info.diff>0){dt=info.diff+'天';dcls='ev-future';}
+  else {dt='已过'+(-info.diff)+'天';dcls='ev-past';}
+  return '<div class="event-row" data-id="'+e.id+'">'
+    +'<span class="event-emoji">'+(e.emoji||'🎀')+'</span>'
+    +'<div class="event-main"><div class="event-name">'+label+'</div><div class="event-sub">'+esc(eventSub(e))+'</div></div>'
+    +'<div class="event-right"><span class="event-days '+dcls+'">'+dt+'</span><button type="button" class="todo-del" data-act="del-event" aria-label="删除">🗑</button></div>'
+    +'</div>';
+}
+function delEvent(id){
+  if(!confirm('删除这个倒计时？'))return;
+  DB.events=DB.events.filter(function(e){return e.id!==id;});
+  saveDB();renderEvents();checkBirthday();toast('已删除');
+}
+function openEventModal(){
+  $('#evEmoji').value='🎀';$('#evName').value='';$('#evKind').value='birthday';$('#evDate').value='';
+  $$('#evEmojiRow .echip').forEach(function(c){c.classList.toggle('on',c.getAttribute('data-emoji')==='🎀');});
+  $('#eventModal').classList.add('show');
+  setTimeout(function(){$('#evName').focus();},60);
+}
+function closeEventModal(){$('#eventModal').classList.remove('show');}
+function saveEvent(){
+  var name=$('#evName').value.trim();
+  if(!name){toast('给倒计时起个名字吧');$('#evName').focus();return;}
+  var date=$('#evDate').value;
+  if(!date){toast('请选择日期');$('#evDate').focus();return;}
+  DB.events.push({id:uid(),emoji:$('#evEmoji').value.trim()||'🎀',name:name,kind:$('#evKind').value,date:date});
+  saveDB();renderEvents();checkBirthday();closeEventModal();toast('已添加 ⏳');
+}
+
+/* 生日歌：Web Audio 合成，循环播放 */
+var bdCtx=null,bdTimer=null,bdPlaying=false,bdStopped=false,bdAutoTried=false,bdGestureBound=false;
+function bdNote(ctx,freq,start,dur){
+  var o=ctx.createOscillator(),g=ctx.createGain();
+  o.type='triangle';o.frequency.value=freq;o.connect(g);g.connect(ctx.destination);
+  g.gain.setValueAtTime(0.0001,start);
+  g.gain.linearRampToValueAtTime(0.3,start+0.02);
+  g.gain.exponentialRampToValueAtTime(0.0001,start+dur);
+  o.start(start);o.stop(start+dur+0.05);
+}
+function bdSchedule(){
+  if(!bdCtx)return 0;
+  var G4=391.99,A4=440.00,B4=493.88,C5=523.25,D5=587.33,E5=659.25,F5=698.46,G5=783.99;
+  var notes=[[G4,0.75],[G4,0.25],[A4,1],[G4,1],[C5,1],[B4,2],
+            [G4,0.75],[G4,0.25],[A4,1],[G4,1],[D5,1],[C5,2],
+            [G4,0.75],[G4,0.25],[G5,1],[E5,1],[C5,1],[B4,1],[A4,2],
+            [F5,0.75],[F5,0.25],[E5,1],[C5,1],[D5,1],[C5,2]];
+  var beat=0.45,t=bdCtx.currentTime+0.08,total=0;
+  notes.forEach(function(n){var d=n[1]*beat;bdNote(bdCtx,n[0],t,d*0.95);t+=d;total+=d;});
+  return total*1000;
+}
+function loopBirthday(){if(!bdPlaying)return;var ms=bdSchedule();bdTimer=setTimeout(loopBirthday,ms+40);}
+function startBd(){
+  try{
+    if(!bdCtx)bdCtx=new (window.AudioContext||window.webkitAudioContext)();
+    if(bdCtx.state==='suspended')bdCtx.resume();
+    if(!bdPlaying){bdPlaying=true;loopBirthday();}
+    $('#bdBanner').classList.add('show');
+  }catch(e){}
+}
+function stopBd(){
+  bdPlaying=false;
+  if(bdTimer){clearTimeout(bdTimer);bdTimer=null;}
+  $('#bdBanner').classList.remove('show');
+}
+function stopHappyBirthday(){stopBd();}
+function toggleBirthday(){
+  if(bdPlaying){stopBd();bdStopped=true;}
+  else {startBd();bdStopped=false;}
+}
+function checkBirthday(){
+  if(!DB.events)return;
+  var bd=DB.events.filter(function(e){return e.kind==='birthday'&&eventInfo(e).isToday;});
+  if(!bd.length){stopBd();bdStopped=false;return;}
+  $('#bdBannerText').textContent='今天是 '+bd.map(function(e){return e.name;}).join('、')+' 的生日！';
+  if(bdStopped)return;
+  $('#bdBanner').classList.add('show');
+  if(bdAutoTried)return;
+  bdAutoTried=true;
+  startBd();
+  if(!bdGestureBound){
+    bdGestureBound=true;
+    var g=function(){
+      bdGestureBound=false;
+      if(currentPage!=='home'||bdStopped)return;
+      if(!bdCtx||bdCtx.state==='suspended'){bdPlaying=false;clearTimeout(bdTimer);startBd();}
+    };
+    document.addEventListener('pointerdown',g,{once:true});
+  }
 }
 
 /* ===== 待办 ===== */
@@ -1449,6 +1646,21 @@ function bind(){
     if(DB.checks[t][k])toast(k+' 打卡成功 ✿');
   });
 
+  $('#addEventBtn').addEventListener('click',openEventModal);
+  $('#eventList').addEventListener('click',function(e){
+    var b=e.target.closest('[data-act="del-event"]');if(!b)return;
+    var row=b.closest('.event-row');if(row)delEvent(row.getAttribute('data-id'));
+  });
+  $('#evEmojiRow').addEventListener('click',function(e){
+    var b=e.target.closest('.echip');if(!b)return;
+    $$('#evEmojiRow .echip').forEach(function(c){c.classList.remove('on');});
+    b.classList.add('on');$('#evEmoji').value=b.getAttribute('data-emoji');
+  });
+  $('#evSave').addEventListener('click',saveEvent);
+  $('#evCancel').addEventListener('click',closeEventModal);
+  $('#eventModal').addEventListener('click',function(e){if(e.target===this)closeEventModal();});
+  $('#bdBanner').addEventListener('click',toggleBirthday);
+
   $('#todoAdd').addEventListener('click',addTodo);
   $('#todoInput').addEventListener('keydown',function(e){if(e.key==='Enter')addTodo();});
   function onTodoAction(e){
@@ -1575,7 +1787,7 @@ function bind(){
         var data=JSON.parse(fr.result);
         if(!data||typeof data!=='object')throw new Error('bad');
         DB=Object.assign({},DEFAULT_DB,data);
-        ['todos','meals','ledger','cats','newsFav','engFav'].forEach(function(k){if(!Array.isArray(DB[k]))DB[k]=(k==='cats'?DEFAULT_CATS.slice():[]);});
+        ['todos','meals','ledger','cats','newsFav','engFav','events'].forEach(function(k){if(!Array.isArray(DB[k]))DB[k]=[];});
         if(!DB.cats.length)DB.cats=DEFAULT_CATS.slice();
         if(!DB.diaries)DB.diaries={};if(!DB.checks)DB.checks={};if(!DB.ui)DB.ui={page:'home'};
         saveDB();initAll();go('home');toast('备份已导入');
