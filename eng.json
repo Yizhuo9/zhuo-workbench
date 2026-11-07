@@ -1,86 +1,176 @@
 [
  {
   "id": "e1",
-  "title": "KOSPI triggers circuit breaker as chip stocks crash",
-  "src": "Reuters · 财经",
-  "en": "South Korea's KOSPI plunged more than 8% in early trading on Friday, triggering a 20-minute circuit breaker for the first time in about nine months. The benchmark later recovered part of the loss to close down 6.02% at 5,059.69, its lowest close since March, bringing the weekly decline to 11.7%. Memory-chip heavyweights led the rout, with SK Hynix tumbling 10.44% and Samsung Electronics falling 6.35%, as fears over AI spending spread from Wall Street to Asia. Foreign investors sold about 2.77 trillion won of shares. Finance Minister Lee Hyoung-il convened an emergency meeting, and regulators relaxed margin-loan collateral requirements for three months to prevent forced selling.",
-  "zh": "周五早间，韩国综合股价指数（KOSPI）暴跌逾8%，触发约九个月来首次熔断，全市场暂停交易20分钟。该基准指数随后收窄部分跌幅，收跌6.02%报5059.69点，创3月以来最低收盘点位，本周累计下跌11.7%。存储芯片权重股领跌，SK海力士大跌10.44%，三星电子下跌6.35%，对AI支出的担忧从华尔街蔓延至亚洲。外资抛售了约2.77万亿韩元的股票。韩国财长李炯一召开紧急会议，监管机构放松融资抵押品要求三个月，以防止强制平仓。",
+  "title": "Two tankers hit mines in Strait of Hormuz as US tightens blockade",
+  "src": "Xinhua · World",
+  "en": "Two oil tankers caught fire in the Strait of Hormuz after striking naval mines, Iran's Islamic Revolution Guard Corps said early Sunday, as Washington pressed ahead with its campaign against Iranian shipping. The IRGC navy said both vessels had switched off their navigation and GPS systems and were trying to use what it called an \"unauthorized\" route through the waterway. It warned that any ship cooperating with the American military and ignoring Iranian rules would \"definitely\" hit mines. Separately, US Central Command said an American aircraft fired precision munitions at the stern of the St Kitts-flagged cargo vessel M/V Huda in the Gulf of Oman, disabling it after the crew ignored repeated warnings. It was the 11th ship disabled since the blockade began in July.",
+  "zh": "伊朗伊斯兰革命卫队8日凌晨表示，两艘油轮在霍尔木兹海峡触雷起火，华盛顿则继续推进针对伊朗航运的行动。革命卫队海军称，两船均关闭了导航和GPS系统，试图经由其所说的“未经授权”航道通过该水域，并警告任何配合美军、无视伊朗规定的船只“必将”触雷。另外，美国中央司令部称，一架美军飞机向阿曼湾的圣基茨籍货船“M/V Huda”船尾发射精确弹药，在船员多次无视警告后使该船失去航行能力。这是7月封锁开始以来被瘫痪的第11艘船只。",
   "vocab": [
-   ["circuit breaker", "n. 熔断机制（股市暂停交易措施）"],
-   ["benchmark", "n. 基准（指数）"],
-   ["rout", "n. 溃败；（股市）暴跌"],
-   ["tumble", "v. 暴跌；骤降"],
-   ["margin loan", "n. 融资贷款（保证金贷款）"]
+   [
+    "waterway",
+    "n. 航道、水路"
+   ],
+   [
+    "mine",
+    "n. 水雷"
+   ],
+   [
+    "stern",
+    "n. 船尾"
+   ],
+   [
+    "precision munitions",
+    "精确制导弹药"
+   ],
+   [
+    "blockade",
+    "n./v. 封锁"
+   ]
   ]
  },
  {
   "id": "e2",
-  "title": "Hot US jobs report lifts December rate-hike odds",
-  "src": "CNBC · 财经",
-  "en": "The US economy added 165,000 jobs in October, the Labor Department reported on Friday, far above the 59,000 economists had expected and the biggest gain since March. The unemployment rate slipped to 4.1% from 4.2%, while average hourly earnings rose 0.4% month over month and 3.1% from a year earlier, both beating forecasts. Hiring was led by professional and business services, which added 70,000 jobs, followed by health care with 42,000. Following the release, futures markets priced in a roughly 77% chance of a quarter-point rate hike at the Federal Reserve's December 9 meeting, with the policy rate currently at 3.75% to 4.00%.",
-  "zh": "美国劳工部周五公布，10月非农就业新增16.5万人，远超经济学家预期的5.9万人，创3月以来最大增幅。失业率从4.2%降至4.1%，平均时薪环比上涨0.4%、同比上涨3.1%，均好于预期。专业和商业服务业新增7万个岗位居首，医疗保健新增4.2万个紧随其后。数据公布后，期货市场定价美联储12月9日会议加息25个基点的概率约为77%，当前联邦基金利率为3.75%至4.00%。",
+  "title": "US sets up Task Force Iron Gate to cut Iran land supply lines",
+  "src": "Reuters / CENTCOM · Security",
+  "en": "After months of a naval blockade, the US military is creating a task force to tighten its squeeze on Iran's weapons supply lines. Task Force Iron Gate, a team of about 20 civilian and military personnel based in Tampa, Florida, will work with other US agencies to stop advanced weapons, dual-use technology and sanctioned goods moving across Iran's land borders and the Caspian Sea. Admiral Brad Cooper, who leads Central Command, said closer interagency coordination would \"further constrain Iran's ability to finance terrorism, rebuild weapons factories, and replenish their military\". CENTCOM estimates the blockade has already prevented Iran from exporting more than $25 billion of crude. Meanwhile, Vice-President JD Vance has personally joined indirect talks with Tehran, raising the level of negotiations, people familiar with the matter said.",
+  "zh": "在实施数月海上封锁之后，美国军方正组建一支特遣队，进一步收紧对伊朗武器供应链的围堵。这支名为“铁门”的特遣队由约20名文职和军事人员组成，驻扎在佛罗里达州坦帕市，将与美国其他机构合作，阻止先进武器、军民两用技术和受制裁物资经伊朗陆地边境及里海流动。中央司令部司令布拉德·库珀海军上将表示，加强跨部门协作将“进一步限制伊朗资助恐怖主义、重建武器工厂和补充军备的能力”。中央司令部估计，封锁已阻止伊朗出口价值超过250亿美元的原油。与此同时，知情人士称，副总统万斯已亲自介入与德黑兰的间接谈判，使磋商级别提升。",
   "vocab": [
-   ["nonfarm payrolls", "n. 非农就业人数"],
-   ["slip", "v. 下降；滑落"],
-   ["average hourly earnings", "n. 平均时薪"],
-   ["price in", "phr. （市场）计入定价"],
-   ["quarter-point", "adj. 25个基点的"]
+   [
+    "dual-use",
+    "adj. 军民两用的"
+   ],
+   [
+    "Caspian Sea",
+    "里海"
+   ],
+   [
+    "replenish",
+    "v. 补充、重新补足"
+   ],
+   [
+    "crude",
+    "n. 原油"
+   ],
+   [
+    "interagency",
+    "adj. 跨部门的"
+   ]
   ]
  },
  {
   "id": "e3",
-  "title": "China delivers second homegrown large cruise ship",
-  "src": "CGTN · 科技",
-  "en": "China's second domestically built large cruise ship, Adora Flora City, was officially delivered in Shanghai on Friday, marking a key leap from a single-ship breakthrough to serial construction. The vessel is 341 meters long, about 17.4 meters longer than the first ship, and its gross tonnage has increased by 6,400 tonnes to 141,900 tonnes. It offers 2,130 guest cabins and can carry up to 5,232 passengers at full capacity, with construction efficiency improving by 20 percent compared with the first ship. Adora Flora City will sail from Shanghai on November 9, arrive at the Nansha International Cruise Home Port in Guangzhou on November 12, and launch its inaugural season on November 22, focusing on southern China and Southeast Asian routes.",
-  "zh": "中国第二艘国产大型邮轮\"爱达·花城号\"周五在上海正式交付，标志着中国大型邮轮从单船突破迈向系列化建造的关键跨越。该轮总长341米，比首艘船长约17.4米，总吨位增加6400吨至14.19万吨；拥有客房2130间，满载可搭载5232名乘客，建造效率较首艘提升20%。\"爱达·花城号\"将于11月9日从上海启航，11月12日抵达广州南沙国际邮轮母港，11月22日开启首个航季，聚焦华南与东南亚航线。",
+  "title": "Berkshire operating profit slips 5.8% as cash pile hits record $377.4bn",
+  "src": "Berkshire filing / Reuters · Finance",
+  "en": "Berkshire Hathaway reported third-quarter operating profit of $12.71 billion, down 5.8% from a year earlier, as underwriting income at its insurance arm weakened. Net income attributable to shareholders fell 28% to $22.11 billion, dragged down by investment gains of $9.41 billion, far below the $17.31 billion booked a year earlier. The conglomerate bought back $9.6 billion of its own stock in the quarter, its largest repurchase this year, while cash and short-term Treasuries climbed to a record $377.4 billion. It was the first quarterly report fully led by Greg Abel, who became chief executive on 1 January after Warren Buffett stepped down as chairman in September. Berkshire shares rose about 5% this week, outpacing the S&P 500's 2.68% decline.",
+  "zh": "伯克希尔·哈撒韦公布，第三季度营业利润为127.1亿美元，同比下降5.8%，原因是其保险板块承保收入走弱。归属股东净利润下降28%至221.12亿美元，主要受投资收益拖累——当季投资收益为94.07亿美元，远低于上年同期的173.11亿美元。该集团当季回购自家股票96亿美元，为今年最大规模回购；现金及短期美国国债升至创纪录的3774亿美元。这是格雷格·阿贝尔自1月1日接任首席执行官、沃伦·巴菲特9月卸任董事长后，首份完全由其主导的季报。伯克希尔股价本周上涨约5%，跑赢同期下跌2.68%的标普500指数。",
   "vocab": [
-   ["domestically built", "adj. 国产建造的"],
-   ["gross tonnage", "n. 总吨位"],
-   ["cabin", "n. 客舱；船舱"],
-   ["full capacity", "n. 满载；最大容量"],
-   ["inaugural", "adj. 首航的；就职的"]
+   [
+    "operating profit",
+    "营业利润"
+   ],
+   [
+    "underwriting",
+    "n. 承保"
+   ],
+   [
+    "buy back",
+    "phr. 回购"
+   ],
+   [
+    "conglomerate",
+    "n. 企业集团"
+   ],
+   [
+    "outpace",
+    "v. 超过、跑赢"
+   ]
   ]
  },
  {
   "id": "e4",
-  "title": "TSMC eyes 3D DRAM production at Nvidia's request",
-  "src": "Bloomberg · 科技",
-  "en": "TSMC, the world's largest contract chipmaker, has begun drafting plans to produce 3D DRAM, a new type of advanced memory chip, at the request of Nvidia, its biggest customer, according to people familiar with the matter. The initiative is led by the vice president in charge of advanced packaging, and the company is weighing whether to build new factories or convert an existing plant. 3D DRAM stacks memory cells vertically to pack in more capacity, and the move would put TSMC in direct competition with memory giants Samsung, SK Hynix and Micron. Memory prices have been soaring as AI data centers absorb supply, and Micron expects the shortage to last into 2028.",
-  "zh": "据知情人士透露，全球最大芯片代工厂台积电应最大客户英伟达的要求，已开始制定生产3D DRAM——一种新型先进存储芯片——的计划。该项目由负责先进封装业务的副总裁牵头，公司正在权衡新建工厂或改造现有工厂两种方案。3D DRAM通过垂直堆叠存储单元来提升容量，此举将使台积电与三星、SK海力士、美光等存储巨头正面竞争。随着AI数据中心吞噬供给，存储芯片价格持续飙升，美光预计短缺将持续到2028年。",
+  "title": "Apple unveils HALO, a robot brain that carries simulated skills into real rooms",
+  "src": "Apple Research / arXiv · Technology",
+  "en": "Apple researchers have unveiled HALO, an autonomous control system that lets a humanoid robot carry skills learned in simulation into unfamiliar real rooms. In a paper posted to arXiv, the team said it tested the system on Unitree's G1 robot across 360 single-task trials in six environments that had not been scanned or mapped in advance, achieving an average success rate of 91%. On three combined tasks the average fell to 70%, and one sequence — ducking under an obstacle, walking to a target and pushing a box — succeeded only half the time. HALO uses a three-layer architecture: a vision-language model plans tasks locally on a Mac mini, a smaller model generates about five seconds of whole-body motion, and a reinforcement-learned tracker runs at 50 hertz.",
+  "zh": "苹果研究人员公布了一套名为HALO的自主控制系统，可让人形机器人把在仿真环境中学到的技能带到陌生的真实房间中执行。团队在提交至arXiv的论文中称，该系统在宇树科技G1机器人上进行了验证：在6个未预先扫描或建图的真实环境中开展360次单项任务测试，平均成功率为91%。在三项组合任务上，平均成功率降至70%，其中“俯身通过障碍—走向目标—推箱子”这一串动作只有一半成功。HALO采用三层架构：一个视觉语言模型在机器人搭载的Mac mini上本地规划任务，一个较小的模型生成约5秒的全身动作，一个经强化学习训练的动作跟踪器以50赫兹频率运行。",
   "vocab": [
-   ["contract chipmaker", "n. 芯片代工厂"],
-   ["draft", "v. 起草；制定"],
-   ["weigh", "v. 权衡；斟酌"],
-   ["stack", "v. 堆叠"],
-   ["soar", "v. 飙升；猛涨"]
+   [
+    "humanoid",
+    "adj./n. 人形的（机器人）"
+   ],
+   [
+    "simulation",
+    "n. 仿真、模拟"
+   ],
+   [
+    "success rate",
+    "成功率"
+   ],
+   [
+    "architecture",
+    "n. 架构"
+   ],
+   [
+    "reinforcement learning",
+    "强化学习"
+   ]
   ]
  },
  {
   "id": "e5",
-  "title": "Russia-US-Ukraine talks set for Abu Dhabi",
-  "src": "Reuters · 国际",
-  "en": "Russian President Vladimir Putin confirmed on Friday that three-way talks between Russia, the United States and Ukraine on the war will be held in Abu Dhabi on November 10. Ukraine's foreign minister said Kyiv has listed its priorities for the meeting: security guarantees, de-escalation in the Black Sea, an energy ceasefire, the return of Ukrainian children and prisoner exchanges, though he does not expect a breakthrough. He also urged Europe to be fully involved in any peace process. Meanwhile, President Zelensky said Ukraine would continue striking Russian oil refineries in response to Russian attacks on Ukraine's energy infrastructure, which have left multiple regions without power.",
-  "zh": "俄罗斯总统普京周五确认，俄美乌三方乌克兰问题会谈将于11月10日在阿布扎比举行。乌克兰外长表示，乌方为此次会谈列出的优先议题包括：安全保障、黑海局势降级、能源停火、遣返乌克兰儿童和交换战俘，但他不指望会谈取得突破。他还呼吁欧洲全面参与任何和平进程。与此同时，泽连斯基表示，作为对俄军打击乌克兰能源基础设施的回应，乌方将继续打击俄罗斯炼油厂，多地已因空袭陷入停电。",
+  "title": "China FX reserves edge up to $3.405trn as gold buying extends to 24th month",
+  "src": "Xinhua / SAFE · Economy",
+  "en": "China's foreign exchange reserves rose to $3.4052 trillion at the end of October, up $4.9 billion, or 0.14%, from a month earlier, the State Administration of Foreign Exchange said. The regulator attributed the increase to a stronger dollar, mixed moves in global asset prices and the effect of currency translation, and said the economy's steady performance continued to underpin the stockpile. Gold reserves reached 78.3 million ounces after purchases of 830,000 ounces, the 24th consecutive monthly increase, central bank data showed. The World Gold Council said central banks and other official institutions added a net 321 tonnes in the third quarter, up 42% year on year, the strongest quarter since late 2024, with diversification and risk management remaining the main drivers.",
+  "zh": "国家外汇管理局表示，截至10月末，中国外汇储备规模升至3.4052万亿美元，较上月增加49亿美元，升幅0.14%。该局将上升归因于美元走强、全球资产价格涨跌互现以及汇率折算效应，并表示经济平稳运行继续为储备规模提供支撑。央行数据显示，黄金储备在增持83万盎司后达到7830万盎司，为连续第24个月增加。世界黄金协会称，三季度各国央行及其他官方机构净增黄金储备321吨，同比增长42%，为2024年末以来最强单季，储备多元化与风险管理仍是主要驱动因素。",
   "vocab": [
-   ["three-way", "adj. 三方的"],
-   ["de-escalation", "n. 降级；缓和"],
-   ["ceasefire", "n. 停火"],
-   ["prisoner exchange", "n. 交换战俘"],
-   ["infrastructure", "n. 基础设施"]
+   [
+    "reserves",
+    "n. 储备"
+   ],
+   [
+    "currency translation",
+    "汇率折算"
+   ],
+   [
+    "ounce",
+    "n. 盎司"
+   ],
+   [
+    "consecutive",
+    "adj. 连续的"
+   ],
+   [
+    "diversification",
+    "n. 多元化"
+   ]
   ]
  },
  {
   "id": "e6",
-  "title": "AI giants' valuations squeezed as market swings",
-  "src": "Sina Finance · 财经",
-  "en": "The historic AI trading rout is squeezing Wall Street's most anticipated listings and funding rounds. OpenAI has completed an $11 billion funding round at a valuation of $1.25 trillion, down from earlier plans that valued the company at as much as $1.5 trillion, with initial capital commitments received on Friday. Anthropic, which plans to launch its IPO roadshow next week aiming to list before Thanksgiving, now faces investor valuation expectations of $1.2 trillion to $1.3 trillion, some 35% to 40% below earlier hopes of up to $2 trillion. OpenAI's chief financial officer said the company will keep investing in AI data centers regardless of election results.",
-  "zh": "史无前例的AI交易巨震正在挤压华尔街最受瞩目的上市与融资计划。OpenAI已按1.25万亿美元的估值完成110亿美元新一轮融资，低于此前最高1.5万亿美元的计划，初始资金承诺已于周五到账。计划下周启动IPO路演、争取在感恩节前上市的Anthropic，目前面临的投资者估值预期为1.2万亿至1.3万亿美元，较此前最高2万亿美元的预期低约35%至40%。OpenAI首席财务官表示，无论选举结果如何，公司都将继续投资AI数据中心。",
+  "title": "Europe week of bomb hoaxes and hacked fridges puts infrastructure in focus",
+  "src": "The Independent · Europe",
+  "en": "Europe spent the week grappling with a wave of bomb hoaxes and cyber attacks that disrupted flights, newsrooms and supermarket supply chains. At least 18 flights to and from Bulgaria, Cyprus, the Czech Republic, France, Hungary, Italy, Portugal, Romania and Britain were affected on Friday alone, with aircraft diverted or searched; no devices were found. Sky and Ireland's RTE both reported security threats. Days earlier, hackers raised freezer temperatures at stores in at least eleven countries, forcing retailers including Carrefour and IKEA to discard food, while a cyber attack damaged cold-storage systems at French blood banks. Italian Prime Minister Giorgia Meloni said civilian infrastructure was clearly the target and argued the incidents showed why defence and security spending matters.",
+  "zh": "欧洲本周忙于应对一连串虚假炸弹威胁和网络攻击，航班、新闻编辑部和超市供应链均受到干扰。仅周五一天，至少18个往返保加利亚、塞浦路斯、捷克、法国、匈牙利、意大利、葡萄牙、罗马尼亚和英国的航班受到影响，飞机被迫改道或接受搜查，但未发现爆炸装置。英国天空电视台和爱尔兰RTE均报告遭到安全威胁。此前数日，黑客调高了至少11个国家门店的冷柜温度，迫使家乐福、宜家等零售商丢弃食品；一次网络攻击还破坏了法国血库的冷藏系统。意大利总理梅洛尼表示，民用基础设施显然已成为目标，这些事件说明国防与安全支出为何重要。",
   "vocab": [
-   ["rout", "n.（股市）暴跌；溃败"],
-   ["squeeze", "v. 挤压；压缩"],
-   ["valuation", "n. 估值"],
-   ["roadshow", "n. 路演"],
-   ["commitment", "n. 承诺；投入的资金"]
+   [
+    "hoax",
+    "n. 恶作剧、虚假威胁"
+   ],
+   [
+    "divert",
+    "v. 改道、备降"
+   ],
+   [
+    "cold storage",
+    "冷藏、冷链仓储"
+   ],
+   [
+    "civilian infrastructure",
+    "民用基础设施"
+   ],
+   [
+    "hybrid warfare",
+    "混合战"
+   ]
   ]
  }
 ]
