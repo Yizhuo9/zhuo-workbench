@@ -1,175 +1,175 @@
 [
  {
   "id": "e1",
-  "title": "Two tankers hit mines in Strait of Hormuz as US tightens blockade",
-  "src": "Xinhua · World",
-  "en": "Two oil tankers caught fire in the Strait of Hormuz after striking naval mines, Iran's Islamic Revolution Guard Corps said early Sunday, as Washington pressed ahead with its campaign against Iranian shipping. The IRGC navy said both vessels had switched off their navigation and GPS systems and were trying to use what it called an \"unauthorized\" route through the waterway. It warned that any ship cooperating with the American military and ignoring Iranian rules would \"definitely\" hit mines. Separately, US Central Command said an American aircraft fired precision munitions at the stern of the St Kitts-flagged cargo vessel M/V Huda in the Gulf of Oman, disabling it after the crew ignored repeated warnings. It was the 11th ship disabled since the blockade began in July.",
-  "zh": "伊朗伊斯兰革命卫队8日凌晨表示，两艘油轮在霍尔木兹海峡触雷起火，华盛顿则继续推进针对伊朗航运的行动。革命卫队海军称，两船均关闭了导航和GPS系统，试图经由其所说的“未经授权”航道通过该水域，并警告任何配合美军、无视伊朗规定的船只“必将”触雷。另外，美国中央司令部称，一架美军飞机向阿曼湾的圣基茨籍货船“M/V Huda”船尾发射精确弹药，在船员多次无视警告后使该船失去航行能力。这是7月封锁开始以来被瘫痪的第11艘船只。",
+  "title": "Two trains collide in Egypt, killing seven",
+  "src": "The Guardian · 国际",
+  "en": "Seven people were killed and more than 100 injured when two trains collided south of Cairo on Sunday, officials said. The crash occurred in al-Ayyat district in Giza province, about 30 miles south of the capital, when a train travelling to Fayoum crashed into the rear of a train heading to Aswan that had been stationary on the same track. President Abdel Fattah al-Sisi ordered a prompt investigation, and the health ministry said 45 of the injured had been discharged from hospital. Train accidents are common in Egypt, where the railway system has long suffered from mismanagement and poor maintenance. The country's deadliest crash, in 2002, killed more than 300 people.",
+  "zh": "埃及官员称，周日两列火车在开罗以南相撞，造成7人死亡、100多人受伤。事故发生在吉萨省阿亚特地区，位于首都以南约30英里处，一列开往法尤姆的列车撞上了停在同一条轨道上、开往阿斯旺方向列车的尾部。总统塞西下令迅速调查，卫生部称45名伤者已出院。埃及铁路系统长期存在管理不善和维护不足的问题，列车事故频发。2002年该国最严重的列车事故造成300多人死亡。",
   "vocab": [
    [
-    "waterway",
-    "n. 航道、水路"
+    "derail",
+    "v. （火车）脱轨"
+   ],
+   [
+    "stationary",
+    "adj. 静止不动的"
+   ],
+   [
+    "prompt",
+    "adj. 迅速的；立刻的"
+   ],
+   [
+    "mismanagement",
+    "n. 管理不善"
+   ],
+   [
+    "discharge",
+    "v. 允许…出院"
+   ]
+  ]
+ },
+ {
+  "id": "e2",
+  "title": "Nasdaq to launch 23-hour trading on December 6",
+  "src": "Nasdaq / 证券时报 · 财经",
+  "en": "Nasdaq is about to enter the age of near-round-the-clock trading. The exchange will implement its 23/5 schedule on December 6, opening for 23 hours a day, five days a week, from 9 pm on Sunday to 8 pm on Friday. The only daily pause is a one-hour maintenance window from 8 to 9 pm Eastern time, reserved for system upkeep, stress testing and corporate actions such as dividend payments and stock splits. The plan, already approved by the US Securities and Exchange Commission, is the biggest change to Nasdaq's trading system since its founding in 1971. The new overnight session covers daytime hours in Asia, so investors there no longer have to wait for New York to open.",
+  "zh": "纳斯达克即将进入近全天候交易时代。该交易所将于12月6日实施23/5交易制度，每周5天、每天23小时运行，从周日21时持续至周五20时。每日仅保留美东时间20时至21时一小时维护窗口，用于系统维护、压力测试以及股息支付、股票拆分等公司行为处理。该方案已获美国证监会批准，是纳斯达克1971年成立以来交易制度层面的最大变革。新增隔夜时段恰好覆盖亚洲白天时间，亚洲投资者无需再等到纽约开盘。",
+  "vocab": [
+   [
+    "implement",
+    "v. 实施；推行"
+   ],
+   [
+    "maintenance",
+    "n. 维护；保养"
+   ],
+   [
+    "corporate action",
+    "n. 公司行为（股息、拆股等）"
+   ],
+   [
+    "dividend",
+    "n. 股息；红利"
+   ],
+   [
+    "split",
+    "n. 拆股"
+   ]
+  ]
+ },
+ {
+  "id": "e3",
+  "title": "Trump: fresh strikes on Iran 'highly unlikely' if talks progress",
+  "src": "Arab News / AP · 国际",
+  "en": "US President Donald Trump said on Sunday he was highly unlikely to order fresh attacks on Iran as long as talks to end the conflict make progress. It depends on whether or not they sign a very strong agreement, Trump told CNN in a phone interview, adding that if strikes resumed, the US had identified infrastructure targets, including 38 bridges that we can knock down in literally one hour. He said three aircraft carriers were deployed in the region and fully ready. His remarks came as Iran's Revolutionary Guards said three oil tankers caught fire after hitting mines while passing through an unauthorised route in the Strait of Hormuz. Qatar, which is mediating between Washington and Tehran, said efforts to reach a deal were continuing.",
+  "zh": "美国总统特朗普周日表示，只要结束冲突的谈判取得进展，他再次下令打击伊朗的可能性就极低。特朗普在CNN电话采访中说，这取决于他们是否签署一项非常有力的协议，并称若恢复打击，美方已确定包括38座桥梁在内、一小时内就能摧毁的基础设施目标。他表示，三艘航空母舰已部署在该地区并完全就绪。同日，伊朗革命卫队称三艘油轮在霍尔木兹海峡未经授权航线触雷起火。正在美伊之间斡旋的卡塔尔表示，达成协议的努力仍在继续。",
+  "vocab": [
+   [
+    "fresh",
+    "adj. 再度的；新的"
+   ],
+   [
+    "infrastructure",
+    "n. 基础设施"
+   ],
+   [
+    "carrier",
+    "n. 航空母舰"
    ],
    [
     "mine",
     "n. 水雷"
    ],
    [
-    "stern",
-    "n. 船尾"
-   ],
-   [
-    "precision munitions",
-    "精确制导弹药"
-   ],
-   [
-    "blockade",
-    "n./v. 封锁"
-   ]
-  ]
- },
- {
-  "id": "e2",
-  "title": "US sets up Task Force Iron Gate to cut Iran land supply lines",
-  "src": "Reuters / CENTCOM · Security",
-  "en": "After months of a naval blockade, the US military is creating a task force to tighten its squeeze on Iran's weapons supply lines. Task Force Iron Gate, a team of about 20 civilian and military personnel based in Tampa, Florida, will work with other US agencies to stop advanced weapons, dual-use technology and sanctioned goods moving across Iran's land borders and the Caspian Sea. Admiral Brad Cooper, who leads Central Command, said closer interagency coordination would \"further constrain Iran's ability to finance terrorism, rebuild weapons factories, and replenish their military\". CENTCOM estimates the blockade has already prevented Iran from exporting more than $25 billion of crude. Meanwhile, Vice-President JD Vance has personally joined indirect talks with Tehran, raising the level of negotiations, people familiar with the matter said.",
-  "zh": "在实施数月海上封锁之后，美国军方正组建一支特遣队，进一步收紧对伊朗武器供应链的围堵。这支名为“铁门”的特遣队由约20名文职和军事人员组成，驻扎在佛罗里达州坦帕市，将与美国其他机构合作，阻止先进武器、军民两用技术和受制裁物资经伊朗陆地边境及里海流动。中央司令部司令布拉德·库珀海军上将表示，加强跨部门协作将“进一步限制伊朗资助恐怖主义、重建武器工厂和补充军备的能力”。中央司令部估计，封锁已阻止伊朗出口价值超过250亿美元的原油。与此同时，知情人士称，副总统万斯已亲自介入与德黑兰的间接谈判，使磋商级别提升。",
-  "vocab": [
-   [
-    "dual-use",
-    "adj. 军民两用的"
-   ],
-   [
-    "Caspian Sea",
-    "里海"
-   ],
-   [
-    "replenish",
-    "v. 补充、重新补足"
-   ],
-   [
-    "crude",
-    "n. 原油"
-   ],
-   [
-    "interagency",
-    "adj. 跨部门的"
-   ]
-  ]
- },
- {
-  "id": "e3",
-  "title": "Berkshire operating profit slips 5.8% as cash pile hits record $377.4bn",
-  "src": "Berkshire filing / Reuters · Finance",
-  "en": "Berkshire Hathaway reported third-quarter operating profit of $12.71 billion, down 5.8% from a year earlier, as underwriting income at its insurance arm weakened. Net income attributable to shareholders fell 28% to $22.11 billion, dragged down by investment gains of $9.41 billion, far below the $17.31 billion booked a year earlier. The conglomerate bought back $9.6 billion of its own stock in the quarter, its largest repurchase this year, while cash and short-term Treasuries climbed to a record $377.4 billion. It was the first quarterly report fully led by Greg Abel, who became chief executive on 1 January after Warren Buffett stepped down as chairman in September. Berkshire shares rose about 5% this week, outpacing the S&P 500's 2.68% decline.",
-  "zh": "伯克希尔·哈撒韦公布，第三季度营业利润为127.1亿美元，同比下降5.8%，原因是其保险板块承保收入走弱。归属股东净利润下降28%至221.12亿美元，主要受投资收益拖累——当季投资收益为94.07亿美元，远低于上年同期的173.11亿美元。该集团当季回购自家股票96亿美元，为今年最大规模回购；现金及短期美国国债升至创纪录的3774亿美元。这是格雷格·阿贝尔自1月1日接任首席执行官、沃伦·巴菲特9月卸任董事长后，首份完全由其主导的季报。伯克希尔股价本周上涨约5%，跑赢同期下跌2.68%的标普500指数。",
-  "vocab": [
-   [
-    "operating profit",
-    "营业利润"
-   ],
-   [
-    "underwriting",
-    "n. 承保"
-   ],
-   [
-    "buy back",
-    "phr. 回购"
-   ],
-   [
-    "conglomerate",
-    "n. 企业集团"
-   ],
-   [
-    "outpace",
-    "v. 超过、跑赢"
+    "mediate",
+    "v. 调解；斡旋"
    ]
   ]
  },
  {
   "id": "e4",
-  "title": "Apple unveils HALO, a robot brain that carries simulated skills into real rooms",
-  "src": "Apple Research / arXiv · Technology",
-  "en": "Apple researchers have unveiled HALO, an autonomous control system that lets a humanoid robot carry skills learned in simulation into unfamiliar real rooms. In a paper posted to arXiv, the team said it tested the system on Unitree's G1 robot across 360 single-task trials in six environments that had not been scanned or mapped in advance, achieving an average success rate of 91%. On three combined tasks the average fell to 70%, and one sequence — ducking under an obstacle, walking to a target and pushing a box — succeeded only half the time. HALO uses a three-layer architecture: a vision-language model plans tasks locally on a Mac mini, a smaller model generates about five seconds of whole-body motion, and a reinforcement-learned tracker runs at 50 hertz.",
-  "zh": "苹果研究人员公布了一套名为HALO的自主控制系统，可让人形机器人把在仿真环境中学到的技能带到陌生的真实房间中执行。团队在提交至arXiv的论文中称，该系统在宇树科技G1机器人上进行了验证：在6个未预先扫描或建图的真实环境中开展360次单项任务测试，平均成功率为91%。在三项组合任务上，平均成功率降至70%，其中“俯身通过障碍—走向目标—推箱子”这一串动作只有一半成功。HALO采用三层架构：一个视觉语言模型在机器人搭载的Mac mini上本地规划任务，一个较小的模型生成约5秒的全身动作，一个经强化学习训练的动作跟踪器以50赫兹频率运行。",
+  "title": "Chinese AI models take 89% of global open-source spending",
+  "src": "Menlo Ventures · 科技",
+  "en": "Chinese AI models now dominate the global open-source market. According to Menlo Ventures' 2026 Corporate AI Status report, Chinese models captured 89 percent of corporate spending on open-source AI: Moonshot AI's Kimi led with 61 percent, followed by DeepSeek with 15 percent and Z.ai's GLM with 11 percent, while Meta's Llama, the leading Western model, took just 7 percent. Businesses favour Chinese models for repetitive, cost-sensitive tasks, and even US companies have begun building on them. But monetisation remains hard: token processing volume for open-source models surged 22.5 times in a year, yet their share of total corporate AI spending fell from 6 percent to 4 percent, while Anthropic and OpenAI together claimed 86 percent of the paid market.",
+  "zh": "中国AI模型如今主导全球开源市场。Menlo Ventures《2026企业AI现状》报告显示，中国企业模型占全球企业开源AI模型支出的89%：月之暗面Kimi以61%居首，DeepSeek占15%，智谱GLM占11%；份额最高的西方模型Meta Llama仅占7%。企业倾向用中国模型处理重复性、成本敏感的任务，甚至美国公司也开始基于其构建产品。但变现依然困难：开源模型token处理量一年激增22.5倍，占企业AI总支出的份额却从6%降至4%，而付费市场86%由Anthropic与OpenAI瓜分。",
   "vocab": [
    [
-    "humanoid",
-    "adj./n. 人形的（机器人）"
+    "dominate",
+    "v. 主导；支配"
    ],
    [
-    "simulation",
-    "n. 仿真、模拟"
+    "open-source",
+    "adj. 开源的"
    ],
    [
-    "success rate",
-    "成功率"
+    "repetitive",
+    "adj. 重复性的"
    ],
    [
-    "architecture",
-    "n. 架构"
+    "monetisation",
+    "n. 变现；商业化"
    ],
    [
-    "reinforcement learning",
-    "强化学习"
+    "claim",
+    "v. 赢得；占据"
    ]
   ]
  },
  {
   "id": "e5",
-  "title": "China FX reserves edge up to $3.405trn as gold buying extends to 24th month",
-  "src": "Xinhua / SAFE · Economy",
-  "en": "China's foreign exchange reserves rose to $3.4052 trillion at the end of October, up $4.9 billion, or 0.14%, from a month earlier, the State Administration of Foreign Exchange said. The regulator attributed the increase to a stronger dollar, mixed moves in global asset prices and the effect of currency translation, and said the economy's steady performance continued to underpin the stockpile. Gold reserves reached 78.3 million ounces after purchases of 830,000 ounces, the 24th consecutive monthly increase, central bank data showed. The World Gold Council said central banks and other official institutions added a net 321 tonnes in the third quarter, up 42% year on year, the strongest quarter since late 2024, with diversification and risk management remaining the main drivers.",
-  "zh": "国家外汇管理局表示，截至10月末，中国外汇储备规模升至3.4052万亿美元，较上月增加49亿美元，升幅0.14%。该局将上升归因于美元走强、全球资产价格涨跌互现以及汇率折算效应，并表示经济平稳运行继续为储备规模提供支撑。央行数据显示，黄金储备在增持83万盎司后达到7830万盎司，为连续第24个月增加。世界黄金协会称，三季度各国央行及其他官方机构净增黄金储备321吨，同比增长42%，为2024年末以来最强单季，储备多元化与风险管理仍是主要驱动因素。",
+  "title": "SpaceX targets November 13 for Starship's first full recovery",
+  "src": "SpaceX / 界面新闻 · 科技",
+  "en": "SpaceX said its Starship rocket system will make its 15th test flight as early as November 13, pending regulatory approval. The 75-minute launch window will open at 4:45 pm Central Time. The mission will mark the first attempt to catch both the Starship spacecraft and its Super Heavy V3 booster back at the launch site using the tower's mechanical arms. If successful, this will mark the first full recovery of an orbital launch system and a breakthrough moment in making Starship a reliable, rapidly reusable rocket, the company said. The flight will also deploy 26 Starlink V3 satellites and complete about 14 orbits of Earth during a mission lasting more than 22 hours.",
+  "zh": "SpaceX宣布，星舰火箭系统最早将于11月13日进行第15次试飞，尚待监管部门批准。75分钟发射窗口将于中部时间16时45分开启。此次任务将首次尝试让星舰飞船与超重型V3助推器一同返回发射场，由发射塔机械臂捕获。SpaceX表示，若成功，这将是轨道级发射系统的首次整体回收，也是星舰成为可靠、可快速复用火箭的突破性时刻。飞船还将部署26颗星链V3卫星，并在超过22小时的任务中绕地球飞行约14圈。",
   "vocab": [
    [
-    "reserves",
-    "n. 储备"
+    "pending",
+    "prep. 在等待…期间"
    ],
    [
-    "currency translation",
-    "汇率折算"
+    "regulatory",
+    "adj. 监管的"
    ],
    [
-    "ounce",
-    "n. 盎司"
+    "booster",
+    "n. 助推器"
    ],
    [
-    "consecutive",
-    "adj. 连续的"
+    "deploy",
+    "v. 部署；投放"
    ],
    [
-    "diversification",
-    "n. 多元化"
+    "orbit",
+    "n. 轨道；环绕一圈"
    ]
   ]
  },
  {
   "id": "e6",
-  "title": "Europe week of bomb hoaxes and hacked fridges puts infrastructure in focus",
-  "src": "The Independent · Europe",
-  "en": "Europe spent the week grappling with a wave of bomb hoaxes and cyber attacks that disrupted flights, newsrooms and supermarket supply chains. At least 18 flights to and from Bulgaria, Cyprus, the Czech Republic, France, Hungary, Italy, Portugal, Romania and Britain were affected on Friday alone, with aircraft diverted or searched; no devices were found. Sky and Ireland's RTE both reported security threats. Days earlier, hackers raised freezer temperatures at stores in at least eleven countries, forcing retailers including Carrefour and IKEA to discard food, while a cyber attack damaged cold-storage systems at French blood banks. Italian Prime Minister Giorgia Meloni said civilian infrastructure was clearly the target and argued the incidents showed why defence and security spending matters.",
-  "zh": "欧洲本周忙于应对一连串虚假炸弹威胁和网络攻击，航班、新闻编辑部和超市供应链均受到干扰。仅周五一天，至少18个往返保加利亚、塞浦路斯、捷克、法国、匈牙利、意大利、葡萄牙、罗马尼亚和英国的航班受到影响，飞机被迫改道或接受搜查，但未发现爆炸装置。英国天空电视台和爱尔兰RTE均报告遭到安全威胁。此前数日，黑客调高了至少11个国家门店的冷柜温度，迫使家乐福、宜家等零售商丢弃食品；一次网络攻击还破坏了法国血库的冷藏系统。意大利总理梅洛尼表示，民用基础设施显然已成为目标，这些事件说明国防与安全支出为何重要。",
+  "title": "NASA unveils nuclear-powered lunar rover Endurance",
+  "src": "Xinhua · 科技",
+  "en": "NASA has selected eight companies for a new 10-year round of its lunar delivery services programme as it pushes ahead with plans for a crewed moon base. Announcing the framework at an aerospace expo in Florida, the agency said its nuclear-powered rover Endurance is planned to launch by the end of 2028 on an 18-month mission to the lunar south pole. The six-wheeled rover will drill about one metre below the surface to study water ice and other resources, providing data for choosing future landing sites and building infrastructure. NASA said a nuclear-powered rover can operate through the two-week lunar night and in permanently shadowed regions, which is critical for long-term human presence. Blue Origin will deliver the rover using its Mark 1 vehicle.",
+  "zh": "美国航天局选定8家公司参与为期10年的新一轮月球商业运载服务计划，推进载人月球基地建设。该局在佛罗里达州一场航空航天展会上发布合同框架，并表示核动力月球车承诺号计划于2028年底发射，执行为期18个月的任务，在月球南极着陆。这辆六轮月球车将向月表以下约1米处钻探，研究水冰等资源，为未来着陆点选择和基础设施建设提供数据。NASA称，核动力月球车可在长达两周的月夜和永久阴影区运行，对人类长期驻留月球至关重要。蓝色起源公司将用其马克一号飞船运送该车。",
   "vocab": [
    [
-    "hoax",
-    "n. 恶作剧、虚假威胁"
+    "push ahead with",
+    "phr. 推进；加紧进行"
    ],
    [
-    "divert",
-    "v. 改道、备降"
+    "lunar",
+    "adj. 月球的"
    ],
    [
-    "cold storage",
-    "冷藏、冷链仓储"
+    "drill",
+    "v. 钻探"
    ],
    [
-    "civilian infrastructure",
-    "民用基础设施"
+    "permanently shadowed",
+    "adj. 永久阴影区的"
    ],
    [
-    "hybrid warfare",
-    "混合战"
+    "presence",
+    "n. 存在；驻留"
    ]
   ]
  }
