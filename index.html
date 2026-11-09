@@ -272,6 +272,55 @@ input[type=date]::-webkit-calendar-picker-indicator,input[type=month]::-webkit-c
 .mo-line:last-child{border-bottom:0}
 .mo-line i{font-style:normal;color:var(--pink-3);flex:0 0 auto;font-size:10px}
 
+/* ===== 精致雕刻 · 运动打卡 ===== */
+.cv-nav-item{position:relative}
+.cv-badge{position:absolute;right:1px;bottom:12px;width:18px;height:18px;border-radius:50%;background:#fff;box-shadow:0 1px 5px rgba(240,110,160,.34);display:grid;place-items:center;z-index:2}
+@media (max-height:700px){.cv-badge{right:0;bottom:9px;width:16px;height:16px}}
+.cv-gem{display:block;flex:0 0 auto}
+.cv-search-row{display:flex;gap:8px;align-items:center;margin-bottom:10px}
+.cv-search-row .inp{flex:1;min-width:0;height:40px}
+.cv-search-row .mini-btn{flex:0 0 auto;height:40px;border-radius:13px;padding:0 13px;font-size:11px}
+.cv-month{display:flex;align-items:center;justify-content:space-between;gap:6px;background:var(--pink-soft);border-radius:14px;padding:8px;margin-bottom:10px}
+.cv-nav{flex:0 0 auto;border:1px solid var(--line);background:#fff;color:#D6759E;border-radius:11px;padding:8px 9px;font-family:inherit;font-size:10.5px;font-weight:700;cursor:pointer;white-space:nowrap;transition:transform .15s}
+.cv-nav:active{transform:scale(.94)}
+.cv-month-label{flex:1;min-width:0;text-align:center;font-size:11.5px;font-weight:700;color:var(--ink);font-variant-numeric:tabular-nums;line-height:1.4}
+.cv-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.cv-actions .btn{height:40px;font-size:11.5px;border-radius:12px}
+.cv-actions .sel{height:40px;font-size:11px;border-radius:12px}
+.cv-actions .cv-filebtn{background:#fff;border:1px solid var(--line);color:var(--ink2)}
+.cv-res{margin-top:12px;border-top:1px dashed var(--line-soft);padding-top:10px}
+.cv-res-title{font-size:11.5px;font-weight:700;color:#D6759E;margin-bottom:7px}
+.cv-rec{display:flex;align-items:center;gap:7px;padding:9px 0;border-bottom:1px dashed #FBE7EF}
+.cv-rec:last-child{border-bottom:0}
+.cv-rec-date{flex:0 0 auto;font-size:10px;font-weight:700;color:#D6759E;background:var(--pink-soft);border-radius:8px;padding:4px 6px;font-variant-numeric:tabular-nums}
+.cv-rec-main{flex:1;min-width:0;font-size:11.5px;color:var(--ink);line-height:1.55;word-break:break-word}
+.cv-rec-main em{font-style:normal;color:var(--ink3);font-size:10px;margin-left:5px}
+.cv-rec-ops{display:flex;gap:5px;flex:0 0 auto}
+.cv-rec-ops button{border:1px solid var(--line);background:#fff;color:#C98CA6;border-radius:9px;padding:5px 7px;font-size:10px;font-family:inherit;cursor:pointer}
+.cv-rec-ops button:active{transform:scale(.93)}
+.cv-scroll{overflow-x:auto;border:1px solid var(--line-soft);border-radius:14px;background:#fff;-webkit-overflow-scrolling:touch;scrollbar-width:thin}
+.cv-table{border-collapse:separate;border-spacing:0;width:max-content;min-width:100%;font-size:11px}
+.cv-table th,.cv-table td{border-right:1px solid #FBE7EF;border-bottom:1px solid #FBE7EF;padding:0;text-align:center;vertical-align:middle}
+.cv-table tr th:last-child,.cv-table tr td:last-child{border-right:0}
+.cv-table tbody tr:last-child th,.cv-table tbody tr:last-child td{border-bottom:0}
+.cv-table thead th{height:34px;background:#FFF1F6;font-size:10.5px;color:#C4677F;font-weight:700;padding:0 4px}
+.cv-rowhead{position:sticky;left:0;z-index:2;min-width:84px;width:84px;background:#FFF8FB!important;font-size:10.5px;color:var(--ink2);font-weight:700;padding:0 8px!important;white-space:nowrap;text-align:left!important;box-shadow:1px 0 0 #FBE7EF}
+.cv-table thead .cv-rowhead{z-index:3;background:#FFF1F6!important}
+.cv-day{min-width:38px;width:38px}
+.cv-day.has{color:#E0457B;background:#FFE7F0}
+.cv-day.hit{background:#FBD3E2}
+.cv-cell{min-width:38px;width:38px;height:48px;cursor:pointer;color:var(--ink);font-size:10.5px;line-height:1.35;padding:3px 2px!important;word-break:break-all;background:#fff;transition:background .15s}
+.cv-cell.filled{background:#FFF9FC;color:#B4517F;font-weight:600}
+.cv-cell.hit{background:#FFE7F0;box-shadow:inset 0 0 0 1.5px var(--pink-3)}
+.cv-cell:active{background:var(--pink-soft)}
+.cv-plus{color:#E7C9D5;font-size:12px}
+.cv-legend{display:flex;gap:12px;flex-wrap:wrap;margin-top:9px}
+.cv-legend span{font-size:10px;color:var(--ink3)}
+.cv-quick{display:grid;grid-template-columns:repeat(4,1fr);gap:7px}
+.cv-quick .btn{height:40px;font-size:11px;border-radius:12px;padding:0 2px}
+.cv-modal-del{width:100%;margin-top:9px;border:0;background:transparent;color:#D98AA8;font-size:11px;font-family:inherit;cursor:pointer;padding:6px}
+.cv-modal-del:active{opacity:.6}
+
 /* ===== 精读 ===== */
 .chip-row{display:flex;gap:6px;margin-bottom:10px;flex-wrap:wrap}
 .chip2{font-size:9.5px;background:var(--pink-soft);color:#D6759E;border-radius:8px;padding:4px 8px}
@@ -569,6 +618,57 @@ input[type=date]::-webkit-calendar-picker-indicator,input[type=month]::-webkit-c
       </div>
     </section>
 
+    <!-- 精致雕刻 -->
+    <section class="page" id="page-carve">
+      <div class="card">
+        <div class="sec-title"><span class="em" id="cvTitleGem"></span>精致雕刻 · 运动打卡<span style="font-size:9.5px;color:var(--ink3);font-weight:400">一笔一划，慢慢雕刻</span></div>
+        <div class="cv-search-row">
+          <input id="cvSearch" class="inp" placeholder="🔍 搜索项目 / 时长 / 完成情况 / 日期" autocomplete="off">
+          <button type="button" class="mini-btn" id="cvNew">＋ 新增记录</button>
+        </div>
+        <div class="cv-month">
+          <button type="button" class="cv-nav" id="cvPrev">◀ 上月</button>
+          <div class="cv-month-label" id="cvMonthLabel"></div>
+          <button type="button" class="cv-nav" id="cvNext">下月 ▶</button>
+        </div>
+        <div class="cv-actions">
+          <button type="button" class="btn btn-pink" id="cvExportMonth">导出本月Excel</button>
+          <button type="button" class="btn btn-soft" id="cvExportAll">导出全部台账</button>
+          <button type="button" class="btn btn-line cv-filebtn" id="cvImport">导入Excel（合并）</button>
+          <select id="cvFmt" class="sel" title="导出格式">
+            <option value="csv">格式：CSV</option>
+            <option value="xls">格式：Excel(.xls)</option>
+          </select>
+        </div>
+        <input type="file" id="cvFile" accept=".csv,.xls,.xlsx,.txt,text/csv,application/vnd.ms-excel,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" style="display:none">
+        <div id="cvRes" class="cv-res" style="display:none"></div>
+      </div>
+
+      <div class="card">
+        <div class="sec-title"><span class="em">📅</span>月度打卡表<span style="font-size:9.5px;color:var(--ink3);font-weight:400">点击单元格即可录入 / 修改</span></div>
+        <div class="cv-scroll"><table class="cv-table" id="cvTable"></table></div>
+        <div class="cv-legend"><span>横向：当月 1 ~ 31 日</span><span>纵向：3 项打卡内容</span><span>← 左右滑动查看整月</span></div>
+        <p class="muted cv-tip">数据仅保存在本机浏览器（localStorage · DB.carve），按「年-月」分表，每月自动生成空白表。</p>
+      </div>
+
+      <div class="card">
+        <div class="sec-title"><span class="em">📋</span>记录清单<span style="font-size:9.5px;color:var(--ink3);font-weight:400" id="cvListTip"></span></div>
+        <div id="cvList"></div>
+      </div>
+
+      <div class="card">
+        <div class="sec-title"><span class="em">⚡</span>快捷操作<span style="font-size:9.5px;color:var(--ink3);font-weight:400">只作用于「精致雕刻」</span></div>
+        <div class="cv-quick">
+          <button type="button" class="btn btn-soft" id="cvQuickExport">导出Excel</button>
+          <button type="button" class="btn btn-soft" id="cvQuickImport">导入Excel</button>
+          <button type="button" class="btn btn-line" id="cvQuickBackup">备份</button>
+          <button type="button" class="btn btn-line" id="cvQuickRestore">恢复</button>
+        </div>
+        <input type="file" id="cvRestoreFile" accept="application/json,.json" style="display:none">
+        <p class="muted cv-tip">备份 / 恢复只读写本板块的打卡数据，不会影响待办、饮食、账目和日记。</p>
+      </div>
+    </section>
+
     <!-- 日记 -->
     <section class="page" id="page-diary">
       <div class="card">
@@ -701,6 +801,20 @@ input[type=date]::-webkit-calendar-picker-indicator,input[type=month]::-webkit-c
     <div class="modal-actions"><button type="button" class="btn btn-line" id="budCancel">取消</button><button type="button" class="btn btn-pink" id="budSave">保存</button></div>
   </div>
 </div>
+<div class="modal" id="cvModal">
+  <div class="modal-card" style="max-width:360px">
+    <h3>💎 运动打卡记录</h3>
+    <div class="modal-field"><label>日期</label><input id="cvEditDate" class="inp" type="date"></div>
+    <div class="modal-field"><label>运动项目</label><input id="cvEditSport" class="inp" placeholder="如：跑步 / 瑜伽 / 力量训练" maxlength="40" autocomplete="off"></div>
+    <div class="modal-field"><label>时长(分钟)</label><input id="cvEditMinutes" class="inp" inputmode="numeric" placeholder="如：30" maxlength="20" autocomplete="off"></div>
+    <div class="modal-field"><label>完成情况</label><input id="cvEditDone" class="inp" placeholder="如：已完成 / 休息 / 未达标" maxlength="40" autocomplete="off"></div>
+    <div class="modal-actions">
+      <button type="button" class="btn btn-line" id="cvEditCancel">取消</button>
+      <button type="button" class="btn btn-pink" id="cvEditSave">保存</button>
+    </div>
+    <button type="button" class="cv-modal-del" id="cvEditDel">删除这条记录</button>
+  </div>
+</div>
 <div id="bdBanner"><span class="bd-note">🎂</span><span id="bdBannerText">生日快乐！</span></div>
 <div id="bdPlayer" class="bd-player">
   <div class="bd-player-head"><span>🎂 生日快乐歌</span><span class="bd-close" id="bdClose">✕</span></div>
@@ -777,7 +891,7 @@ function applyLeopardBg(){
 var DEFAULT_CATS=['餐饮','交通','购物','娱乐','生活','通讯','医疗'];
 var DEFAULT_BUDGET={total:3000};
 var DEFAULT_CAT_BUDGET={'餐饮':800,'购物':600,'交通':400,'生活':400,'娱乐':300,'通讯':200,'医疗':300};
-var DEFAULT_DB={todos:[],meals:[],ledger:[],diaries:{},checks:{},cats:DEFAULT_CATS.slice(),budget:JSON.parse(JSON.stringify(DEFAULT_BUDGET)),catBudget:JSON.parse(JSON.stringify(DEFAULT_CAT_BUDGET)),newsFav:[],engFav:[],events:[],ui:{page:'home'}};
+var DEFAULT_DB={todos:[],meals:[],ledger:[],diaries:{},checks:{},carve:{},cats:DEFAULT_CATS.slice(),budget:JSON.parse(JSON.stringify(DEFAULT_BUDGET)),catBudget:JSON.parse(JSON.stringify(DEFAULT_CAT_BUDGET)),newsFav:[],engFav:[],events:[],ui:{page:'home'}};
 var DB=JSON.parse(JSON.stringify(DEFAULT_DB));
 function loadDB(){
   try{
@@ -789,6 +903,7 @@ function loadDB(){
       if(!DB.cats.length)DB.cats=DEFAULT_CATS.slice();
       if(!DB.diaries||typeof DB.diaries!=='object')DB.diaries={};
       if(!DB.checks||typeof DB.checks!=='object')DB.checks={};
+      if(!DB.carve||typeof DB.carve!=='object'||Array.isArray(DB.carve))DB.carve={};
       if(!DB.ui||typeof DB.ui!=='object')DB.ui={page:'home'};
       // 分类迁移：旧版 公交/其他 → 新版 7 类
       if(DB.cats.indexOf('公交')>=0||DB.cats.indexOf('其他')>=0){
@@ -826,6 +941,18 @@ function kitty(bow){
     +'</g></svg>';
 }
 
+/* 精致雕刻：钻石 / 雕刻刀风格小图标（仅用于新板块标识） */
+function carveIcon(size){
+  var s=size||18;
+  return '<svg class="cv-gem" viewBox="0 0 32 32" width="'+s+'" height="'+s+'" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">'
+    +'<path d="M6.5 12 L11 5.5 H21 L25.5 12 L16 27.5 Z" fill="#F9A8C4" stroke="#E06A9C" stroke-width="1.2" stroke-linejoin="round"/>'
+    +'<path d="M6.5 12 L11 5.5 L13.5 12 L16 27.5 Z" fill="#FDE3EE"/>'
+    +'<path d="M25.5 12 L21 5.5 L18.5 12 L16 27.5 Z" fill="#F06FA6" opacity=".72"/>'
+    +'<path d="M6.5 12 H25.5 M11 5.5 L13.5 12 H18.5 L21 5.5 M13.5 12 L16 27.5 L18.5 12" fill="none" stroke="#fff" stroke-width="1.05" stroke-linejoin="round" opacity=".95"/>'
+    +'<path d="M27 1.5 L28 4 L30.5 5 L28 6 L27 8.5 L26 6 L23.5 5 L26 4 Z" fill="#F06FA6"/>'
+    +'</svg>';
+}
+
 /* ===== 导航 ===== */
 var NAV=[
   {id:'home',   label:'桌面',   color:'#F06FA6', bg:'#FDE3EE'},
@@ -835,14 +962,16 @@ var NAV=[
   {id:'read',   label:'每日精读', color:'#7FA8E8', bg:'#E3EDFB'},
   {id:'english',label:'英语热点阅读', color:'#4FA3C7', bg:'#DFF0F8'},
   {id:'meal',   label:'饮食',   color:'#F2A65A', bg:'#FDEBD7'},
+  {id:'carve',  label:'精致雕刻', color:'#E88BC0', bg:'#FBE0F0', gem:true},
   {id:'diary',  label:'日记',   color:'#A88BE8', bg:'#EAE3FB'},
   {id:'setting',label:'设置',   color:'#63BDB2', bg:'#DFF4F1'}
 ];
 var currentPage='home';
 function buildNav(){
   $('#nav').innerHTML=NAV.map(function(n){
-    return '<button class="nav-item" data-page="'+n.id+'" type="button" title="'+n.label+'">'
+    return '<button class="nav-item'+(n.gem?' cv-nav-item':'')+'" data-page="'+n.id+'" type="button" title="'+n.label+'">'
       +'<span class="circle" style="--nbg:'+n.bg+'">'+kitty(n.color)+'</span>'
+      +(n.gem?'<span class="cv-badge">'+carveIcon(14)+'</span>':'')
       +'<span>'+n.label+'</span></button>';
   }).join('');
   $$('.nav-item').forEach(function(btn){
@@ -864,6 +993,7 @@ function go(page){
   if(page==='news')renderNews();
   if(page==='english')renderEnglish();
   if(page==='meal')renderMeals();
+  if(page==='carve')renderCarve();
   if(page==='diary')renderDiary();
   if(page==='read')renderRead();
   if(page==='setting')renderSettings();
@@ -1784,8 +1914,480 @@ function exportData(){
   toast('备份已导出');
 }
 
+/* ===== 精致雕刻 · 运动打卡（月度网格台账） ===== */
+var CARVE_FIELDS=[
+  {k:'sport',   label:'运动项目'},
+  {k:'minutes', label:'时长(分钟)'},
+  {k:'done',    label:'完成情况'}
+];
+var carveYM=todayStr().slice(0,7);
+var carveQuery='';
+var carveEdit={ym:'',day:0,isNew:false};
+
+function carveYMDays(ym){
+  var p=String(ym).split('-');
+  return new Date(Number(p[0]),Number(p[1]),0).getDate();
+}
+function carveShift(ym,delta){
+  var p=String(ym).split('-');
+  var d=new Date(Number(p[0]),Number(p[1])-1+delta,1);
+  return d.getFullYear()+'-'+pad(d.getMonth()+1);
+}
+function carveEnsure(ym){
+  if(!DB.carve||typeof DB.carve!=='object'||Array.isArray(DB.carve))DB.carve={};
+  if(!DB.carve[ym]||typeof DB.carve[ym]!=='object'||Array.isArray(DB.carve[ym]))DB.carve[ym]={};
+  return DB.carve[ym];
+}
+function carveGet(ym,day){
+  var m=DB.carve&&DB.carve[ym];
+  var r=m&&m[String(day)];
+  return (r&&typeof r==='object')?r:null;
+}
+function carveHas(ym,day){
+  var r=carveGet(ym,day);
+  return !!(r&&CARVE_FIELDS.some(function(f){return String(r[f.k]==null?'':r[f.k]).trim()!=='';}));
+}
+function carveCellCount(ym){
+  var n=0,d=carveYMDays(ym);
+  for(var i=1;i<=d;i++){
+    var r=carveGet(ym,i);if(!r)continue;
+    CARVE_FIELDS.forEach(function(f){if(String(r[f.k]==null?'':r[f.k]).trim()!=='')n++;});
+  }
+  return n;
+}
+function carveAllRecords(){
+  var out=[];
+  Object.keys(DB.carve||{}).sort().forEach(function(ym){
+    var m=DB.carve[ym];if(!m||typeof m!=='object')return;
+    Object.keys(m).forEach(function(d){
+      var day=Number(d);if(!day||day>carveYMDays(ym))return;
+      var r=m[d];if(!r||typeof r!=='object')return;
+      var rec={ym:ym,day:day,date:ym+'-'+pad(day)};
+      CARVE_FIELDS.forEach(function(f){rec[f.k]=String(r[f.k]==null?'':r[f.k]).trim();});
+      if(CARVE_FIELDS.some(function(f){return rec[f.k]!=='';}))out.push(rec);
+    });
+  });
+  out.sort(function(a,b){return a.date<b.date?-1:(a.date>b.date?1:0);});
+  return out;
+}
+
+/* ---------- 渲染 ---------- */
+function carveDayHit(ym,day,q){
+  var r=carveGet(ym,day);if(!r)return false;
+  return (ym+'-'+pad(day)+' '+CARVE_FIELDS.map(function(f){return r[f.k]||'';}).join(' ')).toLowerCase().indexOf(q)>=0;
+}
+function renderCarve(){
+  if(!DB.carve||typeof DB.carve!=='object')DB.carve={};
+  carveEnsure(carveYM);                       // 每月自动生成空白表
+  var days=carveYMDays(carveYM),p=carveYM.split('-'),q=carveQuery.trim().toLowerCase();
+  $('#cvTitleGem').innerHTML=carveIcon(18);
+  $('#cvMonthLabel').textContent=Number(p[0])+'年'+Number(p[1])+'月 · 共'+days+'天 · 已填'+carveCellCount(carveYM)+'项';
+
+  var h='<thead><tr><th class="cv-rowhead">项目 / 日期</th>',d,i;
+  for(d=1;d<=days;d++){
+    h+='<th class="cv-day'+(carveHas(carveYM,d)?' has':'')+(q&&carveDayHit(carveYM,d,q)?' hit':'')+'">'+d+'</th>';
+  }
+  h+='</tr></thead><tbody>';
+  CARVE_FIELDS.forEach(function(f){
+    h+='<tr><th class="cv-rowhead">'+f.label+'</th>';
+    for(d=1;d<=days;d++){
+      var r=carveGet(carveYM,d)||{};
+      var v=String(r[f.k]==null?'':r[f.k]).trim();
+      var hit=q&&v.toLowerCase().indexOf(q)>=0;
+      h+='<td class="cv-cell'+(v?' filled':'')+(hit?' hit':'')+'" data-day="'+d+'" data-field="'+f.k+'" title="'+esc(carveYM+'-'+pad(d)+' · '+f.label+(v?'：'+v:'（点击填写）'))+'">'
+        +(v?esc(v):'<span class="cv-plus">＋</span>')+'</td>';
+    }
+    h+='</tr>';
+  });
+  h+='</tbody>';
+  $('#cvTable').innerHTML=h;
+
+  var all=carveAllRecords();
+  var list=q?all.filter(function(r){
+    return (r.date+' '+r.sport+' '+r.minutes+' '+r.done).toLowerCase().indexOf(q)>=0;
+  }):all.filter(function(r){return r.ym===carveYM;});
+  var res=$('#cvRes');
+  if(q){
+    res.style.display='';
+    res.innerHTML='<div class="cv-res-title">🔍 搜索「'+esc(carveQuery.trim())+'」· 全台账命中 '+list.length+' 条</div>'
+      +'<p class="muted" style="margin:0">表格中命中的单元格已高亮，下方清单可直接修改 / 删除记录。</p>';
+  }else{res.style.display='none';res.innerHTML='';}
+
+  $('#cvListTip').textContent=q?'全台账搜索结果':(Number(p[1])+'月 · '+list.length+' 条');
+  $('#cvList').innerHTML=list.length?list.map(function(r){
+    return '<div class="cv-rec" data-ym="'+r.ym+'" data-day="'+r.day+'">'
+      +'<span class="cv-rec-date">'+esc(r.date.slice(5))+'</span>'
+      +'<div class="cv-rec-main">'+esc(r.sport||'—')
+      +(r.minutes?'<em>'+esc(r.minutes)+' 分钟</em>':'')
+      +(r.done?'<em>'+esc(r.done)+'</em>':'')
+      +(q?'<em>'+esc(r.ym)+'</em>':'')
+      +'</div>'
+      +'<div class="cv-rec-ops"><button type="button" data-cv-act="edit">编辑</button><button type="button" data-cv-act="del">删除</button></div>'
+      +'</div>';
+  }).join(''):'<div class="pie-empty" style="text-align:center;padding:16px 0">'
+      +(q?'没有找到相关记录，换个关键词试试':'这个月还没有打卡，点表格里的格子开始吧')+'</div>';
+}
+
+/* ---------- 录入 / 修改 / 删除 ---------- */
+function openCarveModal(ym,day,field,isNew){
+  carveEdit={ym:ym,day:day,isNew:!!isNew};
+  var r=carveGet(ym,day)||{};
+  $('#cvEditDate').value=isNew?todayStr():(ym+'-'+pad(day));
+  $('#cvEditSport').value=r.sport||'';
+  $('#cvEditMinutes').value=r.minutes||'';
+  $('#cvEditDone').value=r.done||'';
+  $('#cvEditDel').style.display=isNew?'none':'';
+  $('#cvModal').classList.add('show');
+  var fid=field==='minutes'?'cvEditMinutes':(field==='done'?'cvEditDone':'cvEditSport');
+  setTimeout(function(){try{$('#'+fid).focus();}catch(e){}},60);
+}
+function closeCarveModal(){$('#cvModal').classList.remove('show');}
+function saveCarveModal(){
+  var date=$('#cvEditDate').value;
+  if(!/^\d{4}-\d{2}-\d{2}$/.test(date)){toast('请先选择日期');return;}
+  var ym=date.slice(0,7),day=Number(date.slice(8,10));
+  if(day<1||day>carveYMDays(ym)){toast('日期不在有效范围内');return;}
+  var obj={sport:$('#cvEditSport').value.trim(),minutes:$('#cvEditMinutes').value.trim(),done:$('#cvEditDone').value.trim()};
+  if(!carveEdit.isNew&&(carveEdit.ym!==ym||carveEdit.day!==day)){
+    var om=DB.carve[carveEdit.ym];
+    if(om){delete om[String(carveEdit.day)];if(!Object.keys(om).length)delete DB.carve[carveEdit.ym];}
+  }
+  var m=carveEnsure(ym),key=String(day);
+  if(obj.sport||obj.minutes||obj.done)m[key]=obj;
+  else{delete m[key];if(!Object.keys(m).length)delete DB.carve[ym];}
+  carveYM=ym;
+  saveDB();closeCarveModal();renderCarve();toast('打卡已保存 ✿');
+}
+function delCarveRecord(ym,day){
+  if(!confirm('确定删除 '+ym+'-'+pad(day)+' 的这条打卡记录吗？'))return;
+  var m=DB.carve&&DB.carve[ym];if(!m)return;
+  delete m[String(day)];
+  if(!Object.keys(m).length)delete DB.carve[ym];
+  saveDB();renderCarve();toast('已删除这条记录');
+}
+
+/* ---------- 导出（CSV / Excel xls） ---------- */
+function carveDownload(content,name,mime){
+  var blob=new Blob([content],{type:mime});
+  var url=URL.createObjectURL(blob);
+  var a=document.createElement('a');a.href=url;a.download=name;
+  document.body.appendChild(a);a.click();document.body.removeChild(a);
+  setTimeout(function(){URL.revokeObjectURL(url);},1500);
+}
+function carveRows(ymOnly){
+  var rows=[['日期','运动项目','时长(分钟)','完成情况']],i;
+  if(ymOnly){
+    var n=carveYMDays(ymOnly);
+    for(i=1;i<=n;i++){
+      var r=carveGet(ymOnly,i)||{};
+      rows.push([ymOnly+'-'+pad(i),r.sport||'',r.minutes||'',r.done||'']);
+    }
+  }else{
+    carveAllRecords().forEach(function(r){rows.push([r.date,r.sport,r.minutes,r.done]);});
+  }
+  return rows;
+}
+function carveCsv(rows){
+  return '\ufeff'+rows.map(function(r){
+    return r.map(function(c){return '"'+String(c==null?'':c).replace(/"/g,'""')+'"';}).join(',');
+  }).join('\r\n');
+}
+function carveXls(rows){
+  var body=rows.map(function(r){
+    return '<tr>'+r.map(function(c){
+      return '<td>'+String(c==null?'':c).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')+'</td>';
+    }).join('')+'</tr>';
+  }).join('');
+  return '\ufeff<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel">'
+    +'<head><meta charset="utf-8"><title>运动打卡</title></head><body><table border="1" cellspacing="0">'+body+'</table><\/body><\/html>';
+}
+function carveExport(ymOnly){
+  var rows=carveRows(ymOnly),fmt=$('#cvFmt').value==='xls'?'xls':'csv';
+  var name=ymOnly?('运动打卡-'+ymOnly):'运动打卡-全部台账';
+  if(fmt==='xls')carveDownload(carveXls(rows),name+'.xls','application/vnd.ms-excel;charset=utf-8');
+  else carveDownload(carveCsv(rows),name+'.csv','text/csv;charset=utf-8');
+  toast((ymOnly?ymOnly:'全部台账')+' 已导出 '+(fmt==='xls'?'Excel':'CSV'));
+}
+
+/* ---------- 导入（CSV / xls / xlsx，批量合并） ---------- */
+function carveParseCsv(text){
+  text=String(text).replace(/^\ufeff/,'');
+  var rows=[],row=[],cur='',q=false,i,ch;
+  for(i=0;i<text.length;i++){
+    ch=text.charAt(i);
+    if(q){
+      if(ch==='"'){if(text.charAt(i+1)==='"'){cur+='"';i++;}else q=false;}
+      else cur+=ch;
+    }else if(ch==='"')q=true;
+    else if(ch===','||ch==='\t'){row.push(cur);cur='';}
+    else if(ch==='\n'){row.push(cur);rows.push(row);row=[];cur='';}
+    else if(ch!=='\r')cur+=ch;
+  }
+  row.push(cur);rows.push(row);
+  return rows.filter(function(r){return r.some(function(c){return String(c).trim()!=='';});});
+}
+function carveParseHtml(text){
+  var doc=new DOMParser().parseFromString(text,'text/html');
+  var t=doc.querySelector('table');if(!t)return [];
+  return Array.prototype.slice.call(t.querySelectorAll('tr')).map(function(tr){
+    return Array.prototype.slice.call(tr.querySelectorAll('th,td')).map(function(td){
+      return (td.textContent||'').replace(/\u00a0/g,' ').trim();
+    });
+  });
+}
+/* 极简 ZIP 读取（原生解析 .xlsx，不依赖任何外部库） */
+function carveUnzip(buf){
+  var u8=new Uint8Array(buf),dv=new DataView(buf),pos=-1,i;
+  for(i=u8.length-22;i>=Math.max(0,u8.length-65558);i--){if(dv.getUint32(i,true)===0x06054b50){pos=i;break;}}
+  if(pos<0)throw new Error('不是有效的 xlsx 文件');
+  var count=dv.getUint16(pos+10,true),off=dv.getUint32(pos+16,true),files={},n;
+  for(n=0;n<count;n++){
+    if(dv.getUint32(off,true)!==0x02014b50)break;
+    var method=dv.getUint16(off+10,true),csize=dv.getUint32(off+20,true);
+    var nl=dv.getUint16(off+28,true),el=dv.getUint16(off+30,true),cl=dv.getUint16(off+32,true);
+    var lo=dv.getUint32(off+42,true);
+    var name=new TextDecoder('utf-8').decode(u8.subarray(off+46,off+46+nl));
+    var start=lo+30+dv.getUint16(lo+26,true)+dv.getUint16(lo+28,true);
+    files[name]={method:method,data:u8.subarray(start,start+csize)};
+    off+=46+nl+el+cl;
+  }
+  return files;
+}
+function carveInflate(entry){
+  var u8=entry.data;
+  if(entry.method===0)return Promise.resolve(new TextDecoder('utf-8').decode(u8));
+  if(typeof DecompressionStream==='undefined')return Promise.reject(new Error('当前浏览器不支持解析 xlsx，请另存为 CSV 后导入'));
+  var ds=new DecompressionStream('deflate-raw');
+  return new Response(new Blob([u8]).stream().pipeThrough(ds)).arrayBuffer()
+    .then(function(b){return new TextDecoder('utf-8').decode(new Uint8Array(b));});
+}
+function carveXlsxRows(file){
+  return new Promise(function(resolve,reject){
+    var fr=new FileReader();
+    fr.onerror=function(){reject(new Error('文件读取失败'));};
+    fr.onload=function(){
+      try{
+        var files=carveUnzip(fr.result),shared=[],ss=files['xl/sharedStrings.xml'];
+        var p=ss?carveInflate(ss).then(function(txt){
+          var doc=new DOMParser().parseFromString(txt,'application/xml');
+          Array.prototype.forEach.call(doc.getElementsByTagName('si'),function(si){
+            var ts=si.getElementsByTagName('t'),s='',j;
+            for(j=0;j<ts.length;j++)s+=ts[j].textContent||'';
+            shared.push(s);
+          });
+        }):Promise.resolve();
+        p.then(function(){
+          var names=Object.keys(files).filter(function(x){return /^xl\/worksheets\/sheet\d+\.xml$/.test(x);}).sort();
+          if(!names.length)throw new Error('xlsx 中没有工作表');
+          return carveInflate(files[names[0]]);
+        }).then(function(txt){
+          var doc=new DOMParser().parseFromString(txt,'application/xml'),rows=[];
+          Array.prototype.forEach.call(doc.getElementsByTagName('row'),function(row){
+            var arr=[];
+            Array.prototype.forEach.call(row.getElementsByTagName('c'),function(c){
+              var ref=c.getAttribute('r')||'',letters=(ref.match(/^[A-Z]+/)||['A'])[0],idx=0,k;
+              for(k=0;k<letters.length;k++)idx=idx*26+(letters.charCodeAt(k)-64);
+              idx=Math.max(0,idx-1);
+              var t=c.getAttribute('t'),v='';
+              if(t==='inlineStr'){
+                var is=c.getElementsByTagName('t');
+                for(k=0;k<is.length;k++)v+=is[k].textContent||'';
+              }else{
+                var vs=c.getElementsByTagName('v');if(vs.length)v=vs[0].textContent||'';
+                if(t==='s')v=shared[Number(v)]||'';
+              }
+              arr[idx]=v;
+            });
+            for(var k3=0;k3<arr.length;k3++)if(arr[k3]==null)arr[k3]='';
+            rows.push(arr);
+          });
+          resolve(rows.filter(function(r){return r.some(function(c){return String(c).trim()!=='';});}));
+        }).catch(reject);
+      }catch(e){reject(e);}
+    };
+    fr.readAsArrayBuffer(file);
+  });
+}
+function carveNormDate(s,hintYM){
+  s=String(s==null?'':s).trim();
+  var m=s.match(/^(\d{4})[-\/.年](\d{1,2})[-\/.月](\d{1,2})/);
+  if(m){
+    var mon=Number(m[2]),dd=Number(m[3]);
+    if(mon<1||mon>12||dd<1||dd>31)return null;
+    var mo=pad(mon);
+    return {ym:m[1]+'-'+mo,day:dd};
+  }
+  m=s.match(/^(\d{1,2})[-\/.月](\d{1,2})日?$/);
+  if(m&&hintYM)return {ym:hintYM,day:Number(m[2])};
+  if(/^\d{5}(\.\d+)?$/.test(s)){
+    var d=new Date(Date.UTC(1899,11,30)+Number(s)*86400000);
+    return {ym:d.getUTCFullYear()+'-'+pad(d.getUTCMonth()+1),day:d.getUTCDate()};
+  }
+  m=s.match(/^(\d{1,2})日?$/);
+  if(m&&hintYM)return {ym:hintYM,day:Number(m[1])};
+  return null;
+}
+function carveMergeRows(rows){
+  if(!rows||!rows.length)throw new Error('文件里没有可读取的表格');
+  var hintYM=carveYM,i,j,c,mm;
+  for(i=0;i<Math.min(rows.length,5);i++){
+    for(j=0;j<rows[i].length;j++){
+      c=String(rows[i][j]||'').trim();
+      mm=c.match(/^(\d{4})-(\d{1,2})$/);
+      if(mm){hintYM=mm[1]+'-'+pad(Number(mm[2]));break;}
+    }
+  }
+  /* 先判断「横向日期 / 纵向项目」的网格表，再判断「一行一条」的流水台账 */
+  var headIdx=-1,mode='flat';
+  for(i=0;i<Math.min(rows.length,8);i++){
+    var line=rows[i].map(function(x){return String(x||'').trim();}).join('|');
+    if(/项目|日期|打卡/.test(String(rows[i][0]||''))&&/^\d{1,2}$/.test(String(rows[i][1]||'').trim())){headIdx=i;mode='grid';break;}
+    if(/日期|date/i.test(line)&&/运动|项目|时长|完成|sport|minutes|status/i.test(line)){headIdx=i;mode='flat';break;}
+  }
+  if(headIdx<0){headIdx=0;mode='flat';}
+  var recs=[];
+  if(mode==='flat'){
+    var head=rows[headIdx].map(function(x){return String(x||'').trim();});
+    function col(keys){
+      for(var k=0;k<head.length;k++){
+        for(var t=0;t<keys.length;t++)if(head[k].toLowerCase().indexOf(keys[t].toLowerCase())>=0)return k;
+      }
+      return -1;
+    }
+    var cDate=col(['日期','date']),cSport=col(['运动项目','项目','运动','sport']),
+        cMin=col(['时长','分钟','minutes','duration']),cDone=col(['完成情况','完成','状态','status','done']);
+    if(cDate<0)cDate=0;
+    if(cSport<0&&cMin<0&&cDone<0)throw new Error('识别不出表头，请用「导出本月Excel」的文件格式');
+    for(i=headIdx+1;i<rows.length;i++){
+      var r=rows[i],dt=carveNormDate(r[cDate],hintYM);
+      if(!dt)continue;
+      recs.push({ym:dt.ym,day:dt.day,
+        sport:cSport>=0?String(r[cSport]||'').trim():'',
+        minutes:cMin>=0?String(r[cMin]||'').trim():'',
+        done:cDone>=0?String(r[cDone]||'').trim():''});
+    }
+  }else{
+    var hdr=rows[headIdx],map={};
+    for(i=headIdx+1;i<rows.length;i++){
+      var label=String(rows[i][0]||'').trim(),fk='';
+      if(/运动|项目|sport/i.test(label))fk='sport';
+      else if(/时长|分钟|minutes/i.test(label))fk='minutes';
+      else if(/完成|情况|状态|status/i.test(label))fk='done';
+      if(!fk)continue;
+      for(j=1;j<hdr.length;j++){
+        var dd=carveNormDate(hdr[j],hintYM);if(!dd)continue;
+        var key=dd.ym+'-'+pad(dd.day);
+        if(!map[key])map[key]={ym:dd.ym,day:dd.day,sport:'',minutes:'',done:''};
+        map[key][fk]=String(rows[i][j]||'').trim();
+      }
+    }
+    Object.keys(map).forEach(function(k){recs.push(map[k]);});
+  }
+  var added=0,updated=0;
+  recs.forEach(function(rec){
+    if(!rec||rec.day<1||rec.day>carveYMDays(rec.ym))return;
+    if(!CARVE_FIELDS.some(function(f){return rec[f.k]&&rec[f.k]!=='';}))return;
+    var m=carveEnsure(rec.ym),key2=String(rec.day),
+        old=(m[key2]&&typeof m[key2]==='object')?m[key2]:null,
+        next={sport:old?(old.sport||''):'',minutes:old?(old.minutes||''):'',done:old?(old.done||''):''};
+    CARVE_FIELDS.forEach(function(f){if(rec[f.k]&&rec[f.k]!=='')next[f.k]=rec[f.k];});
+    m[key2]=next;
+    if(old)updated++;else added++;
+  });
+  saveDB();renderCarve();
+  return {added:added,updated:updated};
+}
+function carveImportFile(file,restore){
+  if(!file)return;
+  var name=(file.name||'').toLowerCase();
+  if(restore){
+    var fr0=new FileReader();
+    fr0.onerror=function(){toast('文件读取失败');};
+    fr0.onload=function(){
+      try{
+        var o=JSON.parse(fr0.result),data=(o&&o.data&&typeof o.data==='object')?o.data:o;
+        if(!data||typeof data!=='object'||Array.isArray(data))throw new Error('bad');
+        if(!confirm('将用备份文件替换「精致雕刻」的全部打卡数据，其他板块不受影响。确定继续吗？'))return;
+        var clean={};
+        Object.keys(data).forEach(function(ym){
+          if(!/^\d{4}-\d{2}$/.test(ym))return;
+          var m=data[ym];if(!m||typeof m!=='object')return;
+          var mm2={};
+          Object.keys(m).forEach(function(d){
+            var r=m[d];if(!r||typeof r!=='object')return;
+            var o2={};
+            CARVE_FIELDS.forEach(function(f){o2[f.k]=String(r[f.k]==null?'':r[f.k]).trim();});
+            if(CARVE_FIELDS.some(function(f){return o2[f.k]!=='';}))mm2[String(Number(d))]=o2;
+          });
+          if(Object.keys(mm2).length)clean[ym]=mm2;
+        });
+        DB.carve=clean;saveDB();renderCarve();toast('本板块数据已恢复 ✓');
+      }catch(e){toast('这个文件不是「精致雕刻」的备份');}
+    };
+    fr0.readAsText(file);
+    return;
+  }
+  function done(rows){
+    try{var res=carveMergeRows(rows);toast('导入完成：新增 '+res.added+' 条，更新 '+res.updated+' 条');}
+    catch(e){toast(e.message||'导入失败，请检查文件格式');}
+  }
+  function fail(e){toast(e&&e.message?e.message:'导入失败，请检查文件格式');}
+  if(/\.xlsx$/.test(name)){carveXlsxRows(file).then(done,fail);return;}
+  var fr=new FileReader();
+  fr.onerror=function(){fail(new Error('文件读取失败'));};
+  fr.onload=function(){
+    var txt=String(fr.result||'');
+    if(/\u0000/.test(txt.slice(0,2000))){fail(new Error('旧版二进制 .xls 暂不支持，请另存为 .xlsx 或 CSV'));return;}
+    done(/<table[\s>]/i.test(txt)?carveParseHtml(txt):carveParseCsv(txt));
+  };
+  fr.readAsText(file);
+}
+function carveBackup(){
+  carveDownload(JSON.stringify({app:'卓的工作台',part:'carve',version:1,exportedAt:new Date().toISOString(),data:DB.carve||{}},null,2),
+    '精致雕刻-备份-'+todayStr().replace(/-/g,'')+'.json','application/json;charset=utf-8');
+  toast('本板块备份已导出');
+}
+
+/* ---------- 事件绑定 ---------- */
+function bindCarve(){
+  $('#cvPrev').addEventListener('click',function(){carveYM=carveShift(carveYM,-1);carveEnsure(carveYM);renderCarve();});
+  $('#cvNext').addEventListener('click',function(){carveYM=carveShift(carveYM,1);carveEnsure(carveYM);renderCarve();});
+  $('#cvSearch').addEventListener('input',function(){carveQuery=this.value||'';renderCarve();});
+  $('#cvNew').addEventListener('click',function(){
+    openCarveModal(todayStr().slice(0,7),Number(todayStr().slice(8,10)),'sport',true);
+  });
+  $('#cvTable').addEventListener('click',function(e){
+    var td=e.target.closest('td.cv-cell');if(!td)return;
+    openCarveModal(carveYM,Number(td.getAttribute('data-day')),td.getAttribute('data-field'),false);
+  });
+  $('#cvList').addEventListener('click',function(e){
+    var btn=e.target.closest('[data-cv-act]');if(!btn)return;
+    var row=btn.closest('.cv-rec');if(!row)return;
+    var ym=row.getAttribute('data-ym'),day=Number(row.getAttribute('data-day'));
+    if(btn.getAttribute('data-cv-act')==='del')delCarveRecord(ym,day);
+    else{carveYM=ym;openCarveModal(ym,day,'sport',false);}
+  });
+  $('#cvExportMonth').addEventListener('click',function(){carveExport(carveYM);});
+  $('#cvExportAll').addEventListener('click',function(){carveExport(null);});
+  $('#cvImport').addEventListener('click',function(){$('#cvFile').click();});
+  $('#cvFile').addEventListener('change',function(){var f=this.files&&this.files[0];carveImportFile(f,false);this.value='';});
+  $('#cvQuickExport').addEventListener('click',function(){carveExport(carveYM);});
+  $('#cvQuickImport').addEventListener('click',function(){$('#cvFile').click();});
+  $('#cvQuickBackup').addEventListener('click',carveBackup);
+  $('#cvQuickRestore').addEventListener('click',function(){$('#cvRestoreFile').click();});
+  $('#cvRestoreFile').addEventListener('change',function(){var f=this.files&&this.files[0];carveImportFile(f,true);this.value='';});
+  $('#cvEditCancel').addEventListener('click',closeCarveModal);
+  $('#cvEditSave').addEventListener('click',saveCarveModal);
+  $('#cvEditDel').addEventListener('click',function(){closeCarveModal();delCarveRecord(carveEdit.ym,carveEdit.day);});
+  $('#cvModal').addEventListener('click',function(e){if(e.target===this)closeCarveModal();});
+  ['cvEditSport','cvEditMinutes','cvEditDone'].forEach(function(id){
+    $('#'+id).addEventListener('keydown',function(e){if(e.key==='Enter')saveCarveModal();});
+  });
+}
+
 /* ===== 事件绑定 ===== */
 function bind(){
+  bindCarve();
   $('#checkGrid').addEventListener('click',function(e){
     var btn=e.target.closest('.check-btn');if(!btn)return;
     var k=btn.getAttribute('data-k'),t=todayStr();
@@ -1963,6 +2565,7 @@ function bind(){
         ['todos','meals','ledger','cats','newsFav','engFav','events'].forEach(function(k){if(!Array.isArray(DB[k]))DB[k]=[];});
         if(!DB.cats.length)DB.cats=DEFAULT_CATS.slice();
         if(!DB.diaries)DB.diaries={};if(!DB.checks)DB.checks={};if(!DB.ui)DB.ui={page:'home'};
+        if(!DB.carve||typeof DB.carve!=='object'||Array.isArray(DB.carve))DB.carve={};
         saveDB();initAll();go('home');toast('备份已导入');
       }catch(e){toast('这个文件好像不是备份');}
     };
@@ -1985,7 +2588,7 @@ function initAll(){
   if(!$('#mealDate').value)$('#mealDate').value=todayStr();
   if(!$('#dyMonth').value)$('#dyMonth').value=todayStr().slice(0,7);
   renderCatOptions();
-  renderHome();renderTodos();renderLedger();renderNews();renderEnglish();renderMeals();renderDiary();renderRead();renderSettings();
+  renderHome();renderTodos();renderLedger();renderNews();renderEnglish();renderMeals();renderCarve();renderDiary();renderRead();renderSettings();
 }
 function boot(){
   loadDB();buildNav();bind();
