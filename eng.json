@@ -1,175 +1,175 @@
 [
  {
   "id": "e1",
-  "title": "Oil prices plunge as Trump says renewed strikes on Iran unlikely",
-  "src": "新华网英文 · 财经",
-  "en": "Crude oil futures fell sharply on Monday as geopolitical concerns in the Middle East eased. The West Texas Intermediate for December delivery lost 3.98 dollars to settle at 86.85 dollars a barrel, down 4.38 percent, while Brent crude for January delivery dropped 5.85 percent to 92.57 dollars. In an interview with CNN, U.S. President Donald Trump said renewed military strikes on Iran were highly unlikely as long as negotiations made progress, though he did not rule out further action. JPMorgan estimates the global oil market recorded a surplus of 1.4 million barrels per day in October, driven by recovering Middle Eastern flows and weak demand.",
-  "zh": "随着中东地缘政治担忧缓解，国际原油期货价格周一大幅下跌。12月交货的西得克萨斯中质原油期货下跌3.98美元，收于每桶86.85美元，跌幅4.38%；1月交货的布伦特原油期货下跌5.85%，收于每桶92.57美元。特朗普总统在接受CNN采访时表示，只要谈判取得进展，对伊朗再度实施军事打击就“极不可能”，但他并未排除进一步行动的可能。摩根大通估算，受中东原油出口恢复和需求疲软影响，10月全球石油市场供应过剩约140万桶/日。",
+  "title": "Wall St retreats as hot inflation data fuels rate worries",
+  "src": "Reuters · 财经",
+  "en": "US stocks fell on Tuesday as a hotter-than-expected inflation reading cemented expectations for a rate hike from the Federal Reserve next month. The Labor Department said the Consumer Price Index increased 0.4% in October, above the 0.3% estimate, after advancing 0.6% in September. Core CPI rose 0.3%, also topping forecasts. The Dow closed down 0.30%, the S&P 500 fell 0.38%, and the Nasdaq lost 0.74%. Markets are now fully pricing in a rate hike of at least 25 basis points in December, and the two-year Treasury yield surged as bonds were sold off.",
+  "zh": "美国股市周二下跌，因高于预期的通胀数据巩固了市场对美联储下月加息的预期。劳工部称，10月消费者价格指数（CPI）环比上涨0.4%，高于0.3%的预期，此前9月为上涨0.6%；核心CPI环比上涨0.3%，同样超出预期。道指收跌0.30%，标普500跌0.38%，纳指跌0.74%。市场目前已完全计入12月至少加息25个基点的预期，美债遭抛售，两年期国债收益率大幅飙升。",
   "vocab": [
    [
-    "plunge",
-    "v. 暴跌"
+    "retreat",
+    "v. 后退，回落"
    ],
    [
-    "settle",
-    "v. （期货）结算"
+    "cement",
+    "v. 巩固，使牢固"
    ],
    [
-    "rule out",
-    "phr. 排除"
+    "reading",
+    "n. （数据）读数，解读"
    ],
    [
-    "surplus",
-    "n. 过剩，剩余"
+    "price in",
+    "phr. 计入价格，消化（预期）"
    ],
    [
-    "geopolitical",
-    "adj. 地缘政治的"
+    "yield",
+    "n. 收益率"
    ]
   ]
  },
  {
   "id": "e2",
-  "title": "Wall Street roars back as chip stocks rebound, Nvidia falls",
-  "src": "路透社 · 财经",
-  "en": "U.S. stocks staged a broad rebound on Monday as a slide in oil prices eased inflation worries. The Dow Jones Industrial Average jumped 2.15 percent to 52,389.75 points, the Nasdaq rose 2.74 percent and the S&P 500 gained 2.35 percent, recovering much of last week's AI-driven losses. Semiconductor shares led the rally, with the Philadelphia Semiconductor Index soaring 6.85 percent and AMD surging more than 13 percent. Nvidia, however, dropped 4.22 percent to a near seven-month low as its board investigates reports involving its chief executive. Gold also climbed, with spot prices rising 1.4 percent to about 4,137 dollars an ounce.",
-  "zh": "受油价下跌缓解通胀担忧提振，美股周一全面反弹。道琼斯工业平均指数上涨2.15%，收于52389.75点；纳斯达克指数上涨2.74%，标普500指数上涨2.35%，收复了上周AI抛售造成的大部分损失。半导体股领涨，费城半导体指数飙升6.85%，AMD大涨超过13%。不过英伟达下跌4.22%，创近七个月收盘新低，其董事会正在调查涉及首席执行官的相关报道。黄金同样走高，现货价格上涨1.4%，至每盎司约4137美元。",
+  "title": "Russia, Ukraine, U.S. conclude first day of trilateral talks in Abu Dhabi",
+  "src": "Xinhua · 国际",
+  "en": "Russia, Ukraine and the United States concluded the first day of trilateral talks in Abu Dhabi after nearly four hours of discussions, with the talks set to continue on Wednesday. It was the first such meeting among the three countries since February. The Russian delegation was headed by presidential aide Vladimir Medinsky, while US special envoys Steve Witkoff and Jared Kushner led the American team. Ukrainian President Volodymyr Zelensky described the talks as constructive and substantive, focusing on prisoner release, humanitarian steps and long-term security guarantees for Ukraine. US Secretary of State Marco Rubio called the discussions very productive.",
+  "zh": "俄罗斯、乌克兰与美国在阿布扎比结束了首日三方会谈，磋商持续近4个小时，会谈将于周三继续。这是三方自今年2月以来首次举行此类会谈。俄方代表团由总统助理梅金斯基率领，美方特使威特科夫与库什纳率团参加。乌克兰总统泽连斯基称会谈富有建设性和实质意义，重点涉及释放被俘人员、人道主义举措以及乌克兰的长期安全保障。美国国务卿鲁比奥称会谈非常有成效。",
   "vocab": [
    [
-    "rebound",
-    "n./v. 反弹"
-   ],
-   [
-    "rally",
-    "n. （股价）回升"
-   ],
-   [
-    "soar",
-    "v. 飙升"
-   ],
-   [
-    "ease",
-    "v. 缓解，减轻"
-   ],
-   [
-    "spot price",
-    "phr. 现货价格"
-   ]
-  ]
- },
- {
-  "id": "e3",
-  "title": "State of the climate 2026 gives new meaning to 'off the charts'",
-  "src": "世界气象组织 · 环境",
-  "en": "The world is on track for one of its warmest years on record, the World Meteorological Organization said. Its State of the Climate report, released on the first day of the COP31 summit in Antalya, Türkiye, shows the global average surface temperature for January to September 2026 was about 1.47 degrees Celsius above pre-industrial levels. The past 12 years were individually the warmest on record, with the past four years the top four. A strengthening El Nino, expected to peak in December, could push temperatures higher. Sea level and ocean heat content have both hit record highs, and the ocean absorbs about 90 percent of the excess heat trapped by greenhouse gases.",
-  "zh": "世界气象组织表示，全球正走向有记录以来最暖年份之一。在土耳其安塔利亚举行的COP31气候大会首日发布的《气候状况报告》显示，2026年1月至9月全球平均地表温度比工业化前水平高出约1.47摄氏度。过去12年是有记录以来各自最暖的12年，其中过去四年位居前四。预计12月达到峰值的增强型厄尔尼诺可能进一步推高气温。海平面和海洋热含量均创历史新高，海洋吸收了温室气体所截留多余热量的约90%。",
-  "vocab": [
-   [
-    "on track",
-    "phr. 走向既定轨道"
-   ],
-   [
-    "pre-industrial",
-    "adj. 工业化前的"
-   ],
-   [
-    "peak",
-    "v. 达到峰值"
-   ],
-   [
-    "excess",
-    "adj. 过量的，多余的"
-   ],
-   [
-    "trap",
-    "v. 截留，困住"
-   ]
-  ]
- },
- {
-  "id": "e4",
-  "title": "Russia, U.S. and Ukraine resume talks in Abu Dhabi",
-  "src": "新华社 · 国际",
-  "en": "Russia, the United States and Ukraine will hold talks in Abu Dhabi on November 10 and 11, resuming face-to-face negotiations for the first time in nine months. The discussions are expected to focus on post-war security arrangements, de-escalation and humanitarian steps such as prisoner exchanges. The U.S. delegation is led by special envoy Steve Witkoff, Ukraine's team is headed by intelligence chief Umerov, and Russia's by presidential aide Medinsky. France says it will also take part, seeking a voice for Europe. Officials caution that a breakthrough is unlikely, but all sides see the revival of direct talks as a chance to reduce civilian suffering.",
-  "zh": "俄罗斯、美国和乌克兰将于11月10日至11日在阿布扎比举行会谈，这是三方时隔9个月首次重启面对面谈判。会谈预计聚焦战后安全安排、局势降级以及战俘交换等人道主义议题。美方代表团由特使威特科夫牵头，乌克兰代表团团长为对外情报局局长乌梅罗夫，俄方代表团则由总统助理梅金斯基率领。法国表示也将参与，为欧洲争取话语权。官员们谨慎表示会谈不太可能取得突破，但各方都认为重启直接对话是减少平民苦难的一次机会。",
-  "vocab": [
-   [
-    "resume",
-    "v. 重启，恢复"
-   ],
-   [
-    "de-escalation",
-    "n. （局势）降级，缓和"
-   ],
-   [
-    "envoy",
-    "n. 特使"
+    "trilateral",
+    "adj. 三方的"
    ],
    [
     "delegation",
     "n. 代表团"
    ],
    [
-    "breakthrough",
-    "n. 突破性进展"
+    "envoy",
+    "n. 特使，使节"
+   ],
+   [
+    "substantive",
+    "adj. 实质性的"
+   ],
+   [
+    "security guarantee",
+    "phr. 安全保障"
+   ]
+  ]
+ },
+ {
+  "id": "e3",
+  "title": "Super El Nino to peak in December, WMO says",
+  "src": "China Daily · 国际",
+  "en": "The World Meteorological Organization said 2026 could finish among the hottest years on record, as an exceptionally strong El Nino adds to human-caused global warming. The global average surface temperature from January to September was about 1.47 degrees Celsius above the pre-industrial average. The current El Nino has intensified since August and is forecast to peak in December, possibly reaching nearly four times the threshold for declaring such an event. Ocean heat is heading for a tenth consecutive annual record, and the global mean sea level has reached a new high. The report was released at the COP31 climate conference in Antalya, Turkiye.",
+  "zh": "世界气象组织表示，在异常强劲的厄尔尼诺叠加人为全球变暖的背景下，2026年可能成为有记录以来最热的年份之一。今年1至9月，全球平均地表温度比工业化前平均水平高出约1.47摄氏度。本轮厄尔尼诺自8月以来持续增强，预计12月达到峰值，强度可能接近认定阈值的四倍。海洋热含量将连续第十年创下纪录，全球平均海平面也达到新高。该报告在土耳其安塔利亚举行的COP31气候大会期间发布。",
+  "vocab": [
+   [
+    "exceptionally",
+    "adv. 异常地，特别"
+   ],
+   [
+    "pre-industrial",
+    "adj. 工业化前的"
+   ],
+   [
+    "intensify",
+    "v. 增强，加剧"
+   ],
+   [
+    "consecutive",
+    "adj. 连续的"
+   ],
+   [
+    "threshold",
+    "n. 阈值，门槛"
+   ]
+  ]
+ },
+ {
+  "id": "e4",
+  "title": "Anthropic IPO expected to raise as much as $64.4 billion",
+  "src": "Reuters · 科技",
+  "en": "Anthropic said its initial public offering is expected to raise as much as $64.4 billion, giving the AI company a fully diluted valuation of up to $1.4 trillion. The firm plans to sell 825 million shares at 70 to 78 dollars each, with pricing expected on November 18 and trading to begin on the Nasdaq the following day. Anthropic also disclosed plans for a private placement of up to $26 billion involving strategic partners including Google, Microsoft, Nvidia and TSMC. The listing comes amid growing investor caution toward AI stocks, and analysts say it could force other AI heavyweights to compete harder for investor dollars.",
+  "zh": "Anthropic表示，其首次公开募股预计最高融资644亿美元，这家AI公司的完全稀释估值最高可达1.4万亿美元。公司计划以每股70至78美元发行8.25亿股，预计11月18日定价、次日登陆纳斯达克。Anthropic还披露了规模最高260亿美元的私募配售计划，参与方包括谷歌、微软、英伟达和台积电等战略伙伴。此次上市正值投资者对AI股票日趋谨慎之际，分析师称这将迫使其他AI巨头更激烈地争夺投资人的资金。",
+  "vocab": [
+   [
+    "diluted valuation",
+    "phr. 稀释估值"
+   ],
+   [
+    "placement",
+    "n. 配售，安排"
+   ],
+   [
+    "strategic",
+    "adj. 战略性的"
+   ],
+   [
+    "caution",
+    "n. 谨慎，小心"
+   ],
+   [
+    "heavyweight",
+    "n. 重量级选手，巨头"
    ]
   ]
  },
  {
   "id": "e5",
-  "title": "Nvidia announces new investments in Korean AI startups",
-  "src": "NVIDIA 官方 · 科技",
-  "en": "Nvidia said it would invest in four South Korean artificial intelligence startups, deepening its ties with the country's AI ecosystem. The chipmaker announced an investment in Point2 Technology, which builds radio frequency-based interconnects that move data between chips and racks in AI factories, with further investments planned in Motif Technologies, RLWRLD and Upstage. The announcements came at a forum co-hosted with Korea's Ministry of Science and ICT, where Nvidia leaders met more than 20 local startups working on foundation models, physical AI, infrastructure and semiconductors. Nvidia said the deals build on its Inception program, which has more than 1,000 members in Korea.",
-  "zh": "英伟达宣布将投资四家韩国人工智能初创企业，深化与韩国AI生态的联系。这家芯片制造商宣布投资Point2 Technology——该公司研发基于射频的互连技术，在AI工厂中实现芯片与机架之间的数据传输——并计划进一步投资Motif Technologies、RLWRLD和Upstage。相关消息在与韩国科学技术信息通信部共同主办的论坛上公布，英伟达高管在会上会见了20多家从事基础模型、物理AI、基础设施和半导体研发的韩国初创企业。英伟达表示，这些投资建立在已有超过1000个韩国成员的Inception计划基础之上。",
+  "title": "Nvidia tumbles as shareholders sue CEO Jensen Huang",
+  "src": "Reuters · 科技",
+  "en": "Nvidia shares fell more than 5% on Tuesday, bringing their two-day decline to about 10%, as investors weighed a shareholder lawsuit against the company and its chief executive, Jensen Huang. The suit, filed by a US law firm on behalf of investors, alleges that Nvidia and Huang failed to fully disclose his relationship with a Chinese businesswoman and the resulting reputational and business risks, constituting fraud. A report said the relationship facilitated the shipment of at least 7.5 billion dollars worth of Nvidia chips through Chinese firms. Several law firms have opened independent investigations into whether Nvidia misled investors.",
+  "zh": "英伟达股价周二下跌超过5%，两个交易日累计跌幅约10%，投资者正在权衡针对该公司及其首席执行官黄仁勋的股东诉讼。这起由美国一家律所代表投资人提起的诉讼指控称，英伟达与黄仁勋未充分披露其与一名中国女商人之间的关系及由此带来的声誉和经营风险，构成欺诈。有报道称，这层关系促成了至少价值75亿美元的英伟达芯片经中国公司出货。多家律所已就英伟达是否误导投资者展开独立调查。",
   "vocab": [
    [
-    "startup",
-    "n. 初创企业"
+    "tumble",
+    "v. 暴跌，摔倒"
    ],
    [
-    "interconnect",
-    "n. 互连（技术）"
+    "allege",
+    "v. 指控，声称"
    ],
    [
-    "chipmaker",
-    "n. 芯片制造商"
+    "disclose",
+    "v. 披露，揭露"
    ],
    [
-    "ecosystem",
-    "n. 生态系统"
+    "facilitate",
+    "v. 促进，使便利"
    ],
    [
-    "foundation model",
-    "phr. 基础模型"
+    "independent",
+    "adj. 独立的"
    ]
   ]
  },
  {
   "id": "e6",
-  "title": "Anthropic targets Nasdaq debut next week despite tech selloff",
-  "src": "华尔街日报 · 科技",
-  "en": "Anthropic plans to press ahead with its initial public offering despite last week's selloff in artificial intelligence stocks, aiming for its shares to begin trading on the Nasdaq as soon as next Thursday or Friday under the ticker ANT, The Wall Street Journal reported. The maker of the Claude AI models has meetings lined up with key investors this week, and a filing setting out its valuation range is expected soon. A week ago, investors expected the company to aim for around 1.5 trillion dollars, but after the rout some major investors are pushing for less, with some discussing a range of 1.1 to 1.3 trillion dollars. Goldman Sachs and Morgan Stanley are advising on the deal.",
-  "zh": "据《华尔街日报》报道，尽管上周人工智能股票遭遇抛售，Anthropic仍计划推进其首次公开募股（IPO），目标是最早于下周四或周五让股票在纳斯达克开始交易，代码为ANT。这家Claude AI模型的开发商本周已安排与主要投资者会面，说明估值区间的文件预计很快公布。一周前，投资者还预计该公司将瞄准约1.5万亿美元的估值，但在股市暴跌之后，一些主要投资者正争取更低的价格，部分讨论区间为1.1万亿至1.3万亿美元。高盛和摩根士丹利担任此次发行的顾问。",
+  "title": "OpenAI revenue jumps 50% to about $10 billion in Q3",
+  "src": "WSJ · 科技",
+  "en": "OpenAI told investors that its third-quarter revenue grew about 50% from the previous quarter to roughly 10 billion dollars, implying an annualized rate of about 50 billion. Chief Financial Officer Sarah Friar said growth was driven by frontier research and its enterprise business, which doubled quarter over quarter and now accounts for half of total revenue. The company also launched a test version of Businesses in ChatGPT, letting firms claim and manage their profiles, track user interactions and talk to potential customers through AI agents. The move directly challenges Google's dominance in commercial information search.",
+  "zh": "OpenAI向投资者通报，第三季度营收环比增长约50%、达到约100亿美元，对应年化营收约500亿美元。首席财务官萨拉·弗里亚尔表示，增长由前沿研究和企业业务驱动，其中企业业务环比翻倍，目前已占总营收的一半。公司还推出了Businesses in ChatGPT测试版，企业可认领并管理自己的主页、追踪用户互动数据，并通过AI代理与潜在客户对话。此举直接挑战谷歌在商业信息检索领域的主导地位。",
   "vocab": [
    [
-    "press ahead",
-    "phr. 坚持推进"
+    "annualized",
+    "adj. 按年折算的"
    ],
    [
-    "selloff",
-    "n. （证券）抛售"
+    "quarter over quarter",
+    "phr. 环比"
    ],
    [
-    "debut",
-    "n. 首秀，上市首日"
+    "enterprise",
+    "n. 企业，事业"
    ],
    [
-    "valuation",
-    "n. 估值"
+    "track",
+    "v. 追踪，跟踪"
    ],
    [
-    "rout",
-    "n. （股市）暴跌，溃败"
+    "dominance",
+    "n. 主导地位，支配"
    ]
   ]
  }
